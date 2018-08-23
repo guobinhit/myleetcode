@@ -34,15 +34,49 @@ public class _724 {
      */
     public int pivotIndex(int[] nums) {
         int total = 0;
+        // Get sum of all element
         for (int num : nums) {
             total += num;
         }
         int sum = 0;
+        // Iterate all element of nums
         for (int i = 0; i < nums.length; sum += nums[i++]) {
+            /**
+             * If the following conditions are established，
+             * it's mean sum of left of index i is equal sum of right of index i
+             */
             if (sum * 2 == total - nums[i]) {
                 return i;
             }
         }
         return -1;
+    }
+
+    /**
+     * Space: O(n)
+     * Time: O(n)
+     */
+    public int pivotIndex2(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        int[] sums = new int[nums.length];
+        sums[0] = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            sums[i] = sums[i - 1] + nums[i];
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (i == 0 && 0 == sums[nums.length - 1] - sums[i] || (i > 0 && sums[i - 1] == sums[nums.length - 1] - sums[i])) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] testArray = {1, 7, 3, 6, 5, 6};
+        _724 instance = new _724();
+        System.out.println("Space: O(1), Time: O(n): " + instance.pivotIndex(testArray));
+        System.out.println("Space: O(n), Time: O(n): " + instance.pivotIndex2(testArray));
     }
 }

@@ -2,22 +2,25 @@
 My LeetCode Solutions!
 
 
-- [Array and String](#Array and String)
+## INDEX
+
+- [Array and String](#ArrayandString)
 - [Queue & Stack](#Queue&Stack)
 - [Linked List](#LinkedList)
-- []()
-- []()
-
-
-
+- [Hash Table](#HashTable)
+- [Trie](#Trie)
+- [Binary Search](#BinarySearch)
+- [Binary Search Tree](#BinarySearchTree)
+- [N-ary Tree](#N-aryTree)
+- [Binary Tree](#BinaryTree)
 
 
 
 ## Array and String
 
-|  #  |      Title     |   Solutions   | Time          | Space         | Video  | Difficulty  | Tag                   
-|-----|----------------|---------------|---------------|---------------|--------|-------------|-------------
-|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Solution](../master/CODE/../src/main/java/com/fishercoder/solutions/_724.java) | O(n) | O(1) | |Easy | Array
+|  #  |      Title     |   Solutions   | Time          | Space         |  Difficulty  | Tag                   
+|-----|----------------|---------------|---------------|---------------|--------|-------------
+|724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_724.java) | O(n) | O(1) | Easy | Array
 
 
 
