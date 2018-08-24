@@ -14,7 +14,7 @@ public class CommonUtils {
      * @param <T>
      * @return
      */
-    public static <T> String printObjectArray2String(T[] array) {
+    public static <T> String printObjectArray(T[] array) {
         if (array == null) {
             return "[]";
         }
@@ -32,25 +32,40 @@ public class CommonUtils {
     }
 
     /**
-     * Print all element of array as a String
+     * Print array
      *
      * @param nums
      * @return
      */
-    public static String printIntArray2String(int[] nums) {
+    public static void printIntArray(int[] nums) {
         if (nums == null) {
-            return "[]";
+            System.out.println("This Array is null!");
+            return;
         }
-
-        StringBuilder sb = new StringBuilder();
-        sb.append("[");
+        System.out.print("[");
         for (int i = 0; i < nums.length; i++) {
-            sb.append(nums[i]);
-            if (i != nums.length - 1) {
-                sb.append(", ");
+            System.out.print(nums[i]);
+            if (i < nums.length - 1) {
+                System.out.print(", ");
             }
         }
-        sb.append("]");
-        return sb.toString();
+        System.out.println("]");
+    }
+
+    public static void print2DArray(int[][] matrix) {
+        if (matrix == null) {
+            System.out.println("This 2D Array is null!");
+            return;
+        }
+        for (int i = 0; i < matrix.length; i++) {
+            System.out.print("[");
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j]);
+                if (j < matrix[i].length - 1) {
+                    System.out.print(", ");
+                }
+            }
+            System.out.println("]");
+        }
     }
 }

@@ -44,8 +44,8 @@ public class _66 {
         int[] nums = {1, 2, 3};
         int[] nums2 = {4, 3, 2, 1};
         int[] nums3 = {9, 9, 9};
-        System.out.println(CommonUtils.printIntArray2String(_66.plusOne(nums)));
-        System.out.println(CommonUtils.printIntArray2String(_66.plusOne(nums2)));
-        System.out.println(CommonUtils.printIntArray2String(_66.plusOne(nums3)));
+        CommonUtils.printIntArray(_66.plusOne(nums));
+        CommonUtils.printIntArray(_66.plusOne(nums2));
+        CommonUtils.printIntArray(_66.plusOne(nums3));
     }
 }
