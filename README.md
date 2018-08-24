@@ -21,6 +21,7 @@ My LeetCode Solutions!
 |  #  |      Title     |   Solutions   | Time          | Space         |  Difficulty  | Tag                   
 |-----|----------------|---------------|---------------|---------------|--------|-------------
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_724.java) | O(n) | O(1) | Easy | Array
+|747|[Largest Number Greater Than Twice of Others](https://leetcode.com/problems/largest-number-greater-than-twice-of-others/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_747.java) | O(n) | O(1) |Easy| Array
 
 
 
