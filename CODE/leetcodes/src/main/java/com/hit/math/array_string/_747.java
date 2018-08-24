@@ -27,7 +27,7 @@ import java.util.Map;
  * Every nums[i] will be an integer in the range [0, 99].
  */
 public class _747 {
-    public int dominantIndex(int[] nums) {
+    public static int dominantIndex(int[] nums) {
         // If nums is null or nums.length is 0, we can return -1 immediately
         if (nums == null || nums.length == 0) {
             return -1;
@@ -71,7 +71,7 @@ public class _747 {
      * @param nums
      * @return
      */
-    public int dominantIndex2(int[] nums) {
+    public static int dominantIndex2(int[] nums) {
         // If nums is null or nums.length is 0, we can return -1 immediately
         if (nums == null || nums.length == 0) {
             return -1;
@@ -99,9 +99,8 @@ public class _747 {
         int[] nums1 = {3, 6, 1, 0};
         int[] nums2 = {1, 2, 3, 4};
         int[] nums3 = {0, 0, 0, 1};
-        _747 instance = new _747();
-        System.out.println(instance.dominantIndex2(nums1));
-        System.out.println(instance.dominantIndex2(nums2));
-        System.out.println(instance.dominantIndex2(nums3));
+        System.out.println(_747.dominantIndex2(nums1));
+        System.out.println(_747.dominantIndex2(nums2));
+        System.out.println(_747.dominantIndex2(nums3));
     }
 }

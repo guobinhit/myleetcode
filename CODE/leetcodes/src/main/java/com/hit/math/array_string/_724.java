@@ -32,7 +32,7 @@ public class _724 {
      * Space: O(1)
      * Time: O(n)
      */
-    public int pivotIndex(int[] nums) {
+    public static int pivotIndex(int[] nums) {
         int total = 0;
         // Get sum of all element
         for (int num : nums) {
@@ -56,7 +56,7 @@ public class _724 {
      * Space: O(n)
      * Time: O(n)
      */
-    public int pivotIndex2(int[] nums) {
+    public static int pivotIndex2(int[] nums) {
         if (nums == null || nums.length == 0) {
             return -1;
         }
@@ -75,8 +75,7 @@ public class _724 {
 
     public static void main(String[] args) {
         int[] testArray = {1, 7, 3, 6, 5, 6};
-        _724 instance = new _724();
-        System.out.println("Space: O(1), Time: O(n): " + instance.pivotIndex(testArray));
-        System.out.println("Space: O(n), Time: O(n): " + instance.pivotIndex2(testArray));
+        System.out.println("Space: O(1), Time: O(n): " + _724.pivotIndex(testArray));
+        System.out.println("Space: O(n), Time: O(n): " + _724.pivotIndex2(testArray));
     }
 }
