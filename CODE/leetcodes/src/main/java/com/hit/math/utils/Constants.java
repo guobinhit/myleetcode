@@ -1,10 +1,10 @@
 package com.hit.math.utils;
 
 /**
- * @author bin.guo
- * @Copyright 易宝支付(YeePay)
- * @date 8/24/18,10:28 AM
- * @description
+ * author:Charies Gavin
+ * date:2018/8/25,17:15
+ * https:github.com/guobinhit
+ * description: Common Constants
  */
 public class Constants {
 }

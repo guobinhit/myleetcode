@@ -8,13 +8,12 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author bin.guo
- * @Copyright 易宝支付(YeePay)
- * @date 8/24/18,1:44 PM
- * @description
+ * author:Charies Gavin
+ * date:2018/8/25,17:00
+ * https:github.com/guobinhit
+ * description: Test Case Class
  */
 public class TestCase {
-
 
 
 }

@@ -3,10 +3,10 @@ package com.hit.math.utils;
 import java.util.*;
 
 /**
- * @author bin.guo
- * @Copyright 易宝支付(YeePay)
- * @date 8/24/18,10:29 AM
- * @description
+ * author:Charies Gavin
+ * date:2018/8/25,17:30
+ * https:github.com/guobinhit
+ * description: Common Util Methods
  */
 public class CommonUtils {
     /**
