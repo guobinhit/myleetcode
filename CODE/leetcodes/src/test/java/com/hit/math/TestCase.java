@@ -1,6 +1,10 @@
-package com.hit.math.array_string;
+package com.hit.math;
 
 import com.hit.math.utils.CommonUtils;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * @author bin.guo
@@ -9,5 +13,6 @@ import com.hit.math.utils.CommonUtils;
  * @description
  */
 public class TestCase {
+
 
 }

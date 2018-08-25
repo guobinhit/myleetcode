@@ -46,19 +46,43 @@ public class _498 {
              */
             if ((row + col) % 2 == 0) { // moving up
                 if (col == n - 1) {
+                    /**
+                     * If col == n - 1, it's mean this position is last column,
+                     * so, only row index must be increased
+                     */
                     row++;
                 } else if (row == 0) {
+                    /**
+                     * If row == 0, it's mean this position is first row,
+                     * so, only column index can be increased
+                     */
                     col++;
                 } else {
+                    /**
+                     * In this condition, in order to moving down,
+                     * column index must be increased and row index must be decreased
+                     */
                     row--;
                     col++;
                 }
             } else { // moving down
                 if (row == m - 1) {
+                    /**
+                     * If row == m - 1, it's mean this position is last row,
+                     * so, only column index must be increased
+                     */
                     col++;
                 } else if (col == 0) {
+                    /**
+                     * If col == 0, it's mean this position is first column,
+                     * so, only row index can be increased
+                     */
                     row++;
                 } else {
+                    /**
+                     * In this condition, in order to moving down,
+                     * row index must be increased and column index must be decreased
+                     */
                     row++;
                     col--;
                 }

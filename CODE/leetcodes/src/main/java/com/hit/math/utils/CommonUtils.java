@@ -1,5 +1,7 @@
 package com.hit.math.utils;
 
+import java.util.*;
+
 /**
  * @author bin.guo
  * @Copyright 易宝支付(YeePay)
@@ -8,31 +10,29 @@ package com.hit.math.utils;
  */
 public class CommonUtils {
     /**
-     * Print all element of array as a String
+     * Print Object Array
      *
      * @param array
      * @param <T>
      * @return
      */
-    public static <T> String printObjectArray(T[] array) {
+    public static <T> void printObjectArray(T[] array) {
         if (array == null) {
-            return "[]";
+            System.out.println("This Array is null!");
+            return;
         }
-
-        StringBuilder sb = new StringBuilder();
-        sb.append("[");
+        System.out.print("[");
         for (int i = 0; i < array.length; i++) {
-            sb.append(array[i]);
-            if (i != array.length - 1) {
-                sb.append(", ");
+            System.out.print(array[i]);
+            if (i < array.length - 1) {
+                System.out.print(", ");
             }
         }
-        sb.append("]");
-        return sb.toString();
+        System.out.println("]");
     }
 
     /**
-     * Print array
+     * Print int Array
      *
      * @param nums
      * @return
@@ -52,6 +52,11 @@ public class CommonUtils {
         System.out.println("]");
     }
 
+    /**
+     * Print 2D Array
+     *
+     * @param matrix
+     */
     public static void print2DArray(int[][] matrix) {
         if (matrix == null) {
             System.out.println("This 2D Array is null!");
@@ -66,6 +71,17 @@ public class CommonUtils {
                 }
             }
             System.out.println("]");
+        }
+    }
+
+    public static void printCollection(Collection<?> param) {
+        if (param == null) {
+            System.out.println("This param is null!");
+            return;
+        }
+        Iterator it = param.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
         }
     }
 }
