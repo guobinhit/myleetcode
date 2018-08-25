@@ -2,6 +2,7 @@ package com.hit.math;
 
 import com.hit.math.utils.CommonUtils;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -13,6 +14,7 @@ import java.util.List;
  * @description
  */
 public class TestCase {
+
 
 
 }
