@@ -28,23 +28,34 @@ import java.util.Map;
  */
 public class _747 {
     public static int dominantIndex(int[] nums) {
-        // If nums is null or nums.length is 0, we can return -1 immediately
+        /**
+         * If nums is null or nums.length is 0, we can return -1 immediately
+         */
         if (nums == null || nums.length == 0) {
             return -1;
         }
-        // similarly, if nums.length is 1, we can return 0 immediately
+        /**
+         * similarly, if nums.length is 1, we can return 0 immediately
+         */
         if (nums.length == 1) {
             return 0;
         }
 
-        // Initial variable of max、secondMax and index
+        /**
+         * Initial variable of max、secondMax and index
+         */
         int max = Integer.MIN_VALUE + 1;
         int secondMax = Integer.MIN_VALUE;
         int index = 0;
 
-        // Iterate all element of nums
+        /**
+         * Iterate all element of nums
+         */
         for (int i = 0; i < nums.length; i++) {
-            // If nums[i] > max，exchange max and secondMax value each other, and record index of i
+            /**
+             * If nums[i] > max，exchange max and secondMax value each other,
+             * and record index of i
+             */
             if (nums[i] > max) {
                 secondMax = max;
                 max = nums[i];
@@ -72,11 +83,9 @@ public class _747 {
      * @return
      */
     public static int dominantIndex2(int[] nums) {
-        // If nums is null or nums.length is 0, we can return -1 immediately
         if (nums == null || nums.length == 0) {
             return -1;
         }
-        // similarly, if nums.length is 1, we can return 0 immediately
         if (nums.length == 1) {
             return 0;
         }

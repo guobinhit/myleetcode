@@ -20,6 +20,7 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
 |-----|----------------|---------------|--------|-------------
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_14.java)|Easy| String
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_28.java)|Easy| String
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_54.java)|Medium| 2D Array
 |66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_66.java)|Easy| Array

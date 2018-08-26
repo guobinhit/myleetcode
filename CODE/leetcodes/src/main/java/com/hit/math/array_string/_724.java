@@ -34,12 +34,16 @@ public class _724 {
      */
     public static int pivotIndex(int[] nums) {
         int total = 0;
-        // Get sum of all element
+        /**
+         * Get sum of all element
+         */
         for (int num : nums) {
             total += num;
         }
         int sum = 0;
-        // Iterate all element of nums
+        /**
+         * Iterate all element of nums
+         */
         for (int i = 0; i < nums.length; sum += nums[i++]) {
             /**
              * If the following conditions are established，

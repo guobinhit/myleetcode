@@ -23,12 +23,16 @@ public class _54 {
     public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new ArrayList<Integer>();
 
-        // If matrix.length == 0, return res immediately
+        /**
+         * If matrix.length == 0, return res immediately
+         */
         if (matrix.length == 0) {
             return res;
         }
 
-        // Initial variables
+        /**
+         * Initial variables
+         */
         int rowBegin = 0;
         int rowEnd = matrix.length - 1;
         int colBegin = 0;
@@ -38,7 +42,9 @@ public class _54 {
          * Iterate all element of matrix，condition is rowBegin <= rowEnd && colBegin <= colEnd
          */
         while (rowBegin <= rowEnd && colBegin <= colEnd) {
-            // Traverse Right
+            /**
+             * Traverse Right
+             */
             for (int j = colBegin; j <= colEnd; j++) {
                 res.add(matrix[rowBegin][j]);
             }
@@ -48,7 +54,9 @@ public class _54 {
              */
             rowBegin++;
 
-            // Traverse Down
+            /**
+             * Traverse Down
+             */
             for (int j = rowBegin; j <= rowEnd; j++) {
                 res.add(matrix[j][colEnd]);
             }
@@ -59,7 +67,9 @@ public class _54 {
             colEnd--;
 
             if (rowBegin <= rowEnd) {
-                // Traverse Left
+                /**
+                 * Traverse Left
+                 */
                 for (int j = colEnd; j >= colBegin; j--) {
                     res.add(matrix[rowEnd][j]);
                 }
@@ -71,7 +81,9 @@ public class _54 {
             rowEnd--;
 
             if (colBegin <= colEnd) {
-                // Traver Up
+                /**
+                 * Traver Up
+                 */
                 for (int j = rowEnd; j >= rowBegin; j--) {
                     res.add(matrix[j][colBegin]);
                 }
