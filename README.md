@@ -21,6 +21,7 @@ My LeetCode Solutions!
 |  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
 |-----|----------------|---------------|--------|-------------
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_14.java)|Easy| String
+|27|[Remove Element](https://leetcode.com/problems/implement-strstr/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_27.java)|Easy| Two-Pointer
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_28.java)|Easy| String
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_54.java)|Medium| 2D Array
 |66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_66.java)|Easy| Array
@@ -28,6 +29,7 @@ My LeetCode Solutions!
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_118.java)| Easy| 2D Array
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_167.java)| Easy| Two-Pointer
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_344.java)| Easy| Two-Pointer
+|485|[Max Consecutive Ones](https://leetcode.com/problems/diagonal-traverse/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_485.java) |Easy| Two-Pointer
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_498.java) |Medium| 2D Array
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_561.java) |Easy| Two-Pointer
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/array_string/_724.java) | Easy | Array
