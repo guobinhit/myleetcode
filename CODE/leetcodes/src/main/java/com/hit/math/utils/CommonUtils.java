@@ -81,7 +81,7 @@ public class CommonUtils {
         }
         Iterator it = param.iterator();
         while (it.hasNext()) {
-            System.out.println(it.next());
+            System.out.print(it.next());
         }
     }
 }

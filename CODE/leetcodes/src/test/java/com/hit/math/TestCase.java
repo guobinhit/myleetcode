@@ -3,10 +3,7 @@ package com.hit.math;
 import com.hit.math.utils.CommonUtils;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * author:Charies Gavin
@@ -16,24 +13,26 @@ import java.util.List;
  */
 public class TestCase {
 
-    public static int minSubArrayLen(int s, int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        int i = 0, j = 0, sum = 0, min = Integer.MAX_VALUE;
+    public static void rotate(int[] nums, int k) {
+        k %= nums.length;
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+        CommonUtils.printIntArray(nums);
+    }
 
-        while (j < nums.length) {
-            sum += nums[j++];
-            while (sum >= s) {
-                min = Math.min(min, j - i);
-                sum -= nums[i++];
-            }
+    public static void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
         }
-        return min == Integer.MAX_VALUE ? 0 : min;
     }
 
     public static void main(String[] args) {
-        int[] nums = {2, 3, 1, 2, 4, 3};
-        System.out.println(TestCase.minSubArrayLen(7, nums));
+        int[] nums = {1, 2, 3, 4, 5, 6, 7};
+        TestCase.rotate(nums, 3);
     }
 }
