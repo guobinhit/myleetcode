@@ -44,6 +44,9 @@ My LeetCode Solutions!
 ## Queue & Stack
 
 
+|622|[Design Circular Queue](https://leetcode.com/problems/longest-common-prefix/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/queue_stack/_622.java)|Medium| Queue
+
+
 ## Linked List
 
 
