@@ -12,27 +12,60 @@ import java.util.*;
  * description: Test Case Class
  */
 public class TestCase {
+    private static int gridLenght;
+    private static int gridDepth;
 
-    public static void rotate(int[] nums, int k) {
-        k %= nums.length;
-        reverse(nums, 0, nums.length - 1);
-        reverse(nums, 0, k - 1);
-        reverse(nums, k, nums.length - 1);
-        CommonUtils.printIntArray(nums);
+    public static int numIslands(char[][] grid) {
+        /**
+         * Record island number
+         */
+        int count = 0;
+        gridLenght = grid.length;
+        if (gridLenght == 0) {
+            return 0;
+        }
+        gridDepth = grid[0].length;
+        for (int i = 0; i < gridLenght; i++) {
+            for (int j = 0; j < gridDepth; j++)
+                if (grid[i][j] == '1') {
+                    dfsMark(grid, i, j);
+                    ++count;
+                }
+        }
+        return count;
     }
 
-    public static void reverse(int[] nums, int start, int end) {
-        while (start < end) {
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
+    private static void dfsMark(char[][] grid, int i, int j) {
+        /**
+         * When we are meet 4 edges of grid, return immediately
+         */
+        if (i < 0 || j < 0 || i >= gridLenght || j >= gridDepth || grid[i][j] != '1') {
+            return;
         }
+        grid[i][j] = '0';
+        /**
+         * This 4 iteration is handle current element's 4 edges
+         */
+        dfsMark(grid, i + 1, j);
+        dfsMark(grid, i - 1, j);
+        dfsMark(grid, i, j + 1);
+        dfsMark(grid, i, j - 1);
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4, 5, 6, 7};
-        TestCase.rotate(nums, 3);
+        char[][] test1 = {
+                {'1', '1', '1', '1', '0'},
+                {'1', '1', '0', '1', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '0', '0', '0'}
+        };
+        char[][] test2 = {
+                {'1', '1', '0', '0', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '1', '0', '0'},
+                {'0', '0', '0', '1', '1'}
+        };
+        System.out.println("In this grid, island's number is " + TestCase.numIslands(test1));
+        System.out.println("In this grid, island's number is " + TestCase.numIslands(test2));
     }
 }
