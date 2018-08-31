@@ -45,8 +45,9 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
 |-----|----------------|---------------|--------|-------------
-|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/queue_stack/_200.java)|Medium| Grid
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/queue_stack/_200.java)|Medium| Queue
 |622|[Design Circular Queue](https://leetcode.com/problems/longest-common-prefix/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/queue_stack/_622.java)|Medium| Queue
+|752|[Open the Lock](https://leetcode.com/problems/open-the-lock/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/queue_stack/_752.java)|Medium| Queue
 
 
 ## Linked List
