@@ -60,6 +60,7 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
 |-----|----------------|---------------|--------|-------------
+|141|[Linked List Cycle](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_141.java)|Easy| Two Pointer Technique
 |707|[Design Linked List](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_707.java)|Easy| Singly Linked List
 
 ## Hash Table
