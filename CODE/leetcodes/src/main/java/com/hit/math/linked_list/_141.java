@@ -1,5 +1,7 @@
 package com.hit.math.linked_list;
 
+import com.hit.math.utils.ListNode;
+
 /**
  * 141. Linked List Cycle
  * <p>
@@ -34,15 +36,5 @@ public class _141 {
             }
         }
         return false;
-    }
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
     }
 }
