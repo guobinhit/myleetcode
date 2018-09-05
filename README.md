@@ -60,8 +60,10 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
 |-----|----------------|---------------|--------|-------------
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_19.java)|Medium| Two Pointer Technique
 |141|[Linked List Cycle](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_141.java)|Easy| Two Pointer Technique
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_142.java)|Medium| Two Pointer Technique
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_160.java)|Easy| Two Pointer Technique
 |707|[Design Linked List](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_707.java)|Easy| Singly Linked List
 
 
