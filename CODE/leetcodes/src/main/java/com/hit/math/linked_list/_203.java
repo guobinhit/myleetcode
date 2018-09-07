@@ -1,14 +1,19 @@
-package com.hit.math;
+package com.hit.math.linked_list;
 
 import com.hit.math.utils.ListNode;
 
 /**
- * author:Charies Gavin
- * date:2018/8/25,17:00
- * https:github.com/guobinhit
- * description: Test Case Class
+ * 203. Remove Linked List Elements
+ * <p>
+ * Remove all elements from a linked list of integers that have value val.
+ * <p>
+ * Example:
+ * <p>
+ * Input:  1->2->6->3->4->5->6, val = 6
+ * <p>
+ * Output: 1->2->3->4->5
  */
-public class TestCase {
+public class _203 {
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) {
             return null;

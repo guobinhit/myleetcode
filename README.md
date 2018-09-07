@@ -64,6 +64,8 @@ My LeetCode Solutions!
 |141|[Linked List Cycle](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_141.java)|Easy| Two Pointer Technique
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_142.java)|Medium| Two Pointer Technique
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_160.java)|Easy| Two Pointer Technique
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_203.java)|Easy| TClassic Problems
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_206.java)|Easy| Classic Problems
 |707|[Design Linked List](https://leetcode.com/problems/number-of-islands/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/linked_list/_707.java)|Easy| Singly Linked List
 
 
