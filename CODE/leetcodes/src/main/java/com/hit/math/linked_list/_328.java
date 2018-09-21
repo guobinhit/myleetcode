@@ -29,8 +29,15 @@ import com.hit.math.utils.ListNode;
 public class _328 {
     public ListNode oddEvenList(ListNode head) {
         if (head != null) {
+            /**
+             * initial odd node and even node
+             */
             ListNode odd = head;
             ListNode even = head.next;
+            /**
+             * keep first even node and when while loop over,
+             * linked last odd node and first even node
+             */
             ListNode evenHead = even;
             while (even != null && even.next != null) {
                 odd.next = odd.next.next;
@@ -38,6 +45,9 @@ public class _328 {
                 odd = odd.next;
                 even = even.next;
             }
+            /**
+             * linked last odd node and first even node, keep link list completed
+             */
             odd.next = evenHead;
         }
         return head;
