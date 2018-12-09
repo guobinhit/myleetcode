@@ -9,103 +9,40 @@ import com.hit.math.utils.ListNode;
  * description: Test Case Class
  */
 public class TestCase {
-    class MyLinkedList {
+    public static void main(String[] args) {
+        int[] arr = {-3, -2, -1, 1, 2, 3};
+        int[] arr1 = {1};
+        System.out.println(mySqrt(9));
+    }
 
-        class Node {
-            int value;
-            Node next;
-
-            public Node(int value) {
-                this.value = value;
-            }
+    public static int mySqrt(int x) {
+        if (x == 0) {
+            return 0;
         }
-
-        Node head = null;
-        private int length = 0;
-
-        public MyLinkedList() {
-        }
-
-        ;
-
-        public int length() {
-            return length;
-        }
-
-        private Node findAtIndex(int index) {
-            if (length == 0 || index > length - 1)
-                return null;
-            if (index <= 0)
-                return head;
-
-            Node result = head.next;
-            int idx = 1;
-            while (idx < index) {
-                result = result.next;
-                idx++;
-            }
-            return result;
-        }
-
-        public int get(int index) {
-            Node result = findAtIndex(index);
-            return result != null ? result.value : -1;
-        }
-
-        public void addAtHead(int val) {
-            addAtIndex(0, val);
-        }
-
-        public void addAtTail(int val) {
-            addAtIndex(length, val);
-        }
-
-        public void addAtIndex(int index, int val) {
-            if (index > length)
-                return;
-
-            Node nodeAtIndex = findAtIndex(index - 1);
-            Node node = new Node(val);
-            if (nodeAtIndex == null)
-                head = node;
-            else if (index == 0) {
-                node.next = head;
-                head = node;
+        int left = 1, right = Integer.MAX_VALUE;
+        while (true) {
+            int mid = left + (right - left) / 2;
+            if (mid > x / mid) {
+                right = mid - 1;
             } else {
-                node.next = nodeAtIndex.next;
-                nodeAtIndex.next = node;
+                if (mid + 1 > x / (mid + 1)) {
+                    return mid;
+                } else {
+                    left = mid + 1;
+                }
             }
-            length++;
-        }
-
-        public void deleteAtIndex(int index) {
-            if (length == 0 || index > length - 1 || index < 0)
-                return;
-
-            if (index == 0)
-                head = head.next;
-            else {
-                Node nodeAtIndex = findAtIndex(index - 1);
-                if (nodeAtIndex.next != null)
-                    nodeAtIndex.next = nodeAtIndex.next.next;
-            }
-            length--;
-        }
-
-        public String toString() {
-            String result = "";
-            if (head == null)
-                return result;
-
-            Node node = head;
-            while (node != null) {
-                if (result == "")
-                    result += head.value;
-                else
-                    result += "->" + node.value;
-                node = node.next;
-            }
-            return result;
         }
     }
+
+    private static void printArray(int[] arr) {
+        System.out.print("{");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+            if (i < arr.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println("}");
+    }
+
 }

@@ -82,6 +82,15 @@ My LeetCode Solutions!
 
 ## Binary Search
 
+|  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
+|-----|----------------|---------------|--------|-------------
+|704|[Binary Search](https://leetcode.com/problems/binary-search/description/)|[Solution](https://github.com/guobinhit/myleetcode/blob/master/CODE/leetcodes/src/main/java/com/hit/math/binary_search/_704.java)|Easy| Background
+
+
+
+
+
+
 
 ## Binary Search Tree
 
