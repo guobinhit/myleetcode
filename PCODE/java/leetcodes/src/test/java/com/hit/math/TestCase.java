@@ -12,9 +12,15 @@ public class TestCase {
     public static void main(String[] args) {
         int[] arr = {-3, -2, -1, 1, 2, 3};
         int[] arr1 = {1};
-        System.out.println(mySqrt(9));
+        System.out.println(mySqrt(5));
     }
 
+    /**
+     * Binary Search Solution
+     *
+     * @param x
+     * @return
+     */
     public static int mySqrt(int x) {
         if (x == 0) {
             return 0;
