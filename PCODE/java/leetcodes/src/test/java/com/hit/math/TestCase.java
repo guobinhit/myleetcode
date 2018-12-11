@@ -2,6 +2,8 @@ package com.hit.math;
 
 import com.hit.math.utils.ListNode;
 
+import java.math.BigInteger;
+
 /**
  * author:Charies Gavin
  * date:2018/8/25,17:00
@@ -12,32 +14,19 @@ public class TestCase {
     public static void main(String[] args) {
         int[] arr = {-3, -2, -1, 1, 2, 3};
         int[] arr1 = {1};
-        System.out.println(mySqrt(5));
+        System.out.println(guessNumber(5));
     }
 
     /**
      * Binary Search Solution
      *
-     * @param x
+     * @param n
      * @return
      */
-    public static int mySqrt(int x) {
-        if (x == 0) {
-            return 0;
-        }
-        int left = 1, right = Integer.MAX_VALUE;
-        while (true) {
-            int mid = left + (right - left) / 2;
-            if (mid > x / mid) {
-                right = mid - 1;
-            } else {
-                if (mid + 1 > x / (mid + 1)) {
-                    return mid;
-                } else {
-                    left = mid + 1;
-                }
-            }
-        }
+    public static int guessNumber(int n) {
+        int left = 0, right = n;
+
+        return left;
     }
 
     private static void printArray(int[] arr) {
