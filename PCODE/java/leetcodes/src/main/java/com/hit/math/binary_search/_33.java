@@ -1,22 +1,29 @@
-package com.hit.math;
-
-import com.hit.math.utils.ListNode;
-
-import java.math.BigInteger;
+package com.hit.math.binary_search;
 
 /**
- * author:Charies Gavin
- * date:2018/8/25,17:00
- * https:github.com/guobinhit
- * description: Test Case Class
+ * 33. Search in Rotated Sorted Array
+ * <p>
+ * Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+ * <p>
+ * (i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
+ * <p>
+ * You are given a target value to search. If found in the array return its index, otherwise return -1.
+ * <p>
+ * You may assume no duplicate exists in the array.
+ * <p>
+ * Your algorithm's runtime complexity must be in the order of O(log n).
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: nums = [4,5,6,7,0,1,2], target = 0
+ * Output: 4
+ * <p>
+ * Example 2:
+ * <p>
+ * Input: nums = [4,5,6,7,0,1,2], target = 3
+ * Output: -1
  */
-public class TestCase {
-    public static void main(String[] args) {
-        int[] arr = {4, 5, 6, 7, 0, 1, 2};
-        int[] arr1 = {1};
-        System.out.println(search(arr, 0));
-    }
-
+public class _33 {
     public static int search(int[] nums, int target) {
         int start = 0, end = nums.length - 1;
         while (start <= end) {
@@ -43,5 +50,4 @@ public class TestCase {
         }
         return -1;
     }
-
 }
