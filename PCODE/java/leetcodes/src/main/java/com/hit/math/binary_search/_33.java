@@ -28,6 +28,7 @@ public class _33 {
         int start = 0, end = nums.length - 1;
         while (start <= end) {
             int mid = (start + end) / 2;
+            // If this condition satisfied, we can return immediately
             if (nums[mid] == target) {
                 return mid;
             }

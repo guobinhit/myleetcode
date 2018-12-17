@@ -86,6 +86,7 @@ My LeetCode Solutions!
 |-----|----------------|:---------------:|:--------:|:-------------:
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_33.java) & Python|Medium| Template I
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_69.java) & Python|Easy| Template I
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_278.java) & Python|Easy| Template II
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_374.java) & Python|Easy| Template I
 |704|[Binary Search](https://leetcode.com/problems/binary-search/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_704.java) & Python|Easy| Background
 
