@@ -22,7 +22,6 @@ Note:
 You may assume that all elements in nums are unique.
 n will be in the range [1, 10000].
 The value of each element in nums will be in the range [-9999, 9999].
-
 """
 
 
