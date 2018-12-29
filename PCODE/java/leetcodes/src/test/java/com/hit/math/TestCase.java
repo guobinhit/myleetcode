@@ -1,5 +1,6 @@
 package com.hit.math;
 
+import com.hit.math.utils.CommonUtils;
 import com.hit.math.utils.ListNode;
 
 import java.math.BigInteger;
@@ -14,20 +15,21 @@ public class TestCase {
     public static void main(String[] args) {
         int[] arr = {4, 5, 6, 7, 0, 1, 2};
         int[] arr1 = {1};
-        System.out.println(firstBadVersion(0));
+        CommonUtils.printIntArray(arr);
+        buddleSort(arr);
+        CommonUtils.printIntArray(arr);
     }
 
-    public static int firstBadVersion(int n) {
-        int left = 1, right = n;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (isBadVersion(mid)) {
-                right = mid;
-            } else {
-                left = mid + 1;
+    private static void buddleSort(int[] arr) {
+        for (int i = arr.length -1; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                if (arr[j + 1] < arr[j]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
             }
         }
-        return left;
     }
 
     private static boolean isBadVersion(int n) {
