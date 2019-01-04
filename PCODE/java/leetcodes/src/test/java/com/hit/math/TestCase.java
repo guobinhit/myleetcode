@@ -13,28 +13,37 @@ import java.math.BigInteger;
  */
 public class TestCase {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,1};
+        int[] arr = {1, 2, 3, 1};
 //        int[] arr1 = {1};
 //        CommonUtils.printIntArray(arr);
 //        buddleSort(arr);
 //        CommonUtils.printIntArray(arr);
 
-        System.out.println(findPeakElement(arr));
+//        System.out.println(findPeakElement(arr));
     }
 
-    private static int findPeakElement(int[] nums) {
-        if (nums == null || nums.length < 2) {
-            return 0;
-        }
-
-        for (int i = 1; i < nums.length - 1; i++) {
-            if (nums[i - 1] < nums[i] &&
-                    nums[i + 1] < nums[i]) {
-                return i;
-            }
-        }
-        return -1;
-    }
+//    private static int[] searchRange(int[] nums, int target) {
+//        if (nums == null || nums.length == 0) {
+//            return new int[]{-1, -1};
+//        }
+//
+//        int left = 0, right = nums.length - 1;
+//        while (left + 1 < right) {
+//            int mid = left + (right - left) / 2;
+//            if (nums[mid] == target) {
+//
+//            }
+//            if (nums[mid] > target) {
+//                left = mid + 1;
+//            } else {
+//                right = mid;
+//            }
+//        }
+//        if (nums[left] > nums[right]) {
+//            return nums[right];
+//        }
+//        return nums[left];
+//    }
 
 
     private static void buddleSort(int[] arr) {

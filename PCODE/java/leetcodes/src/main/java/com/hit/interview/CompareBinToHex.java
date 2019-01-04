@@ -24,7 +24,7 @@ public class CompareBinToHex {
     }
 
     /**
-     * transfer string to special base of binary or hex
+     * 转换字符串到指定的 base 进制的数值表示，其中 base 的值仅能为 2 或者 16
      *
      * @param number
      * @param base
@@ -47,7 +47,7 @@ public class CompareBinToHex {
     }
 
     /**
-     * transfer char to int value
+     * 将字符转换为数值
      *
      * @param c
      * @return
