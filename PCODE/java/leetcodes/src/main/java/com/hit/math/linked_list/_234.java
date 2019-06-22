@@ -1,6 +1,6 @@
 package com.hit.math.linked_list;
 
-import com.hit.math.utils.ListNode;
+import com.hit.utils.ListNode;
 
 /**
  * 234. Palindrome Linked List

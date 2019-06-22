@@ -1,7 +1,7 @@
 package com.hit.interview.search_algorithm;
 
 import com.hit.interview.sort_algorithm.BubbleSort;
-import com.hit.math.utils.CommonUtils;
+import com.hit.utils.CommonUtils;
 
 /**
  * author:Charies Gavin

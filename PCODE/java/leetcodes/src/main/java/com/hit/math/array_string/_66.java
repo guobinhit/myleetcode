@@ -1,6 +1,6 @@
 package com.hit.math.array_string;
 
-import com.hit.math.utils.CommonUtils;
+import com.hit.utils.CommonUtils;
 
 /**
  * 66. Plus One

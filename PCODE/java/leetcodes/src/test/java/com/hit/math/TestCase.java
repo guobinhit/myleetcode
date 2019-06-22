@@ -1,7 +1,7 @@
 package com.hit.math;
 
-import com.hit.math.utils.CommonUtils;
-import com.hit.math.utils.ListNode;
+import com.hit.utils.CommonUtils;
+import com.hit.utils.ListNode;
 
 import java.math.BigInteger;
 

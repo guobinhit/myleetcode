@@ -1,4 +1,4 @@
-package com.hit.math.utils;
+package com.hit.utils;
 
 /**
  * author:Charies Gavin

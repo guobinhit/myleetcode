@@ -1,6 +1,6 @@
 package com.hit.interview.sort_algorithm;
 
-import com.hit.math.utils.CommonUtils;
+import com.hit.utils.CommonUtils;
 
 /**
  * author:Charies Gavin

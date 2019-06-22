@@ -1,6 +1,7 @@
-package com.hit.math.utils;
+package com.hit.utils;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.Iterator;
 
 /**
  * author:Charies Gavin
@@ -32,7 +33,7 @@ public class CommonUtils {
     }
 
     /**
-     * Print int Array
+     * 打印 int 类型的一维数组
      *
      * @param nums
      * @return
@@ -82,6 +83,25 @@ public class CommonUtils {
         Iterator it = param.iterator();
         while (it.hasNext()) {
             System.out.print(it.next());
+        }
+    }
+
+    /**
+     * 交换数组中的两个索引对应的值
+     *
+     * @param nums
+     * @param left
+     * @param right
+     */
+    public static void swapElementInArray(int[] nums, int left, int right) {
+        // 参数校验
+        if (nums != null &&
+                nums.length - 1 > left &&
+                nums.length - 1 > right) {
+            // 交换元素
+            int temp = nums[right];
+            nums[right] = nums[left];
+            nums[left] = temp;
         }
     }
 }
