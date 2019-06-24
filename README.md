@@ -1,6 +1,7 @@
-# myleetcode
-My LeetCode Solutions!
+# myleetcode [![Build Status](https://travis-ci.com/guobinhit/myleetcode.svg?branch=master)](https://travis-ci.com/guobinhit/myleetcode) 
 
+
+My LeetCode Solutions!
 
 ## INDEX
 
