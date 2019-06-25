@@ -1,4 +1,4 @@
-# myleetcode [![Build Status](https://travis-ci.com/guobinhit/myleetcode.svg?branch=master)](https://travis-ci.com/guobinhit/myleetcode) 
+# myleetcode [![Build Status](https://travis-ci.org/guobinhit/myleetcode.svg?branch=master)](https://travis-ci.org/guobinhit/myleetcode) 
 
 
 My LeetCode Solutions!
