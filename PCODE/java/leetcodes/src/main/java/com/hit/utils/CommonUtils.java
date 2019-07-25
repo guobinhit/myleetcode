@@ -87,7 +87,7 @@ public class CommonUtils {
     }
 
     /**
-     * 交换数组中的两个索引对应的值
+     * swap two element value of array
      *
      * @param nums
      * @param left

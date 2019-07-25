@@ -14,6 +14,8 @@ My LeetCode Solutions!
 - [Binary Search Tree](https://github.com/guobinhit/myleetcode#binary-search-tree)
 - [N-ary Tree](https://github.com/guobinhit/myleetcode#n-ary-tree)
 - [Binary Tree](https://github.com/guobinhit/myleetcode#binary-tree)
+- [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
+- [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
 - [Interview Practice](https://github.com/guobinhit/myleetcode#interview-practice)
 
 
@@ -108,9 +110,32 @@ My LeetCode Solutions!
 ## Binary Tree
 
 
+## Sort Algorithm
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|Sort Algorithm 1|[Bubble Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)  & Python)|Easy| Sort Algorithm
+|Sort Algorithm 2|[Insert Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)  & Python)|Easy| Sort Algorithm
+|Sort Algorithm 3|[Quick Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)  & Python)|Easy| Sort Algorithm
+|Sort Algorithm 4|[Select Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java)  & Python)|Easy| Sort Algorithm
+
+
+
+## Search Algorithm
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|Search Algorithm 1|[Binary Search](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) & Python)|Easy| Search Algorithm
+|Search Algorithm 2|[Order Search](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) & Python)|Easy| Search Algorithm
+
+
 ## Interview Practice
 
 
-
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|Interview Practice 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) & Python)|Easy| Interview Practice
+|Interview Practice 2|[Compare Bin to Hex](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python)|Easy| Interview Practice
+|Interview Practice 3|[Sieve of Eratosthenes](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python)|Easy| Interview Practice
 
 
