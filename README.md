@@ -134,8 +134,16 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
-|Question 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) & Python|Easy| Interview Practice
-|Question 2|[Compare Bin to Hex](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python|Easy| Interview Practice
-|Question 3|[Sieve of Eratosthenes](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python|Easy| Interview Practice
+|Question 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) & Python|Easy| Fibonacci Sequence
+|Question 2|[Compare Bin to Hex](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python|Easy| Binary Conversion
+|Question 3|[Sieve of Eratosthenes](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python|Easy| Fast Output Prime
+
+
+
+
+
+- [↑↑↑   RETURN THE TOP   ↑↑↑](https://github.com/guobinhit/myleetcode#index)
+
+
 
 
