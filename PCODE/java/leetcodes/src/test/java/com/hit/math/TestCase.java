@@ -13,53 +13,24 @@ import java.math.BigInteger;
  */
 public class TestCase {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 1};
-//        int[] arr1 = {1};
-//        CommonUtils.printIntArray(arr);
-//        buddleSort(arr);
-//        CommonUtils.printIntArray(arr);
-
-//        System.out.println(findPeakElement(arr));
     }
 
-//    private static int[] searchRange(int[] nums, int target) {
-//        if (nums == null || nums.length == 0) {
-//            return new int[]{-1, -1};
-//        }
-//
-//        int left = 0, right = nums.length - 1;
-//        while (left + 1 < right) {
-//            int mid = left + (right - left) / 2;
-//            if (nums[mid] == target) {
-//
-//            }
-//            if (nums[mid] > target) {
-//                left = mid + 1;
-//            } else {
-//                right = mid;
-//            }
-//        }
-//        if (nums[left] > nums[right]) {
-//            return nums[right];
-//        }
-//        return nums[left];
-//    }
 
+    public boolean isPerfectSquare(int num) {
 
-    private static void buddleSort(int[] arr) {
-        for (int i = arr.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (arr[j + 1] < arr[j]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-            }
+        int[] arr = new int[num];
+
+        int temp = 1;
+
+        for (int i = 0; i < num; i++) {
+            arr[0] = temp + i;
         }
+
+        int middle = arr[num / 2];
+
+        return (middle * 2) == num;
     }
 
-    private static boolean isBadVersion(int n) {
-        return false;
-    }
+
 
 }

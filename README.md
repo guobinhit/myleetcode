@@ -13,9 +13,9 @@ My LeetCode Solutions!
 - [Hash Table](https://github.com/guobinhit/myleetcode#hash-table)
 - [Trie](https://github.com/guobinhit/myleetcode#trie)
 - [Binary Search](https://github.com/guobinhit/myleetcode#binary-search)
+- [Binary Tree](https://github.com/guobinhit/myleetcode#binary-tree)
 - [Binary Search Tree](https://github.com/guobinhit/myleetcode#binary-search-tree)
 - [N-ary Tree](https://github.com/guobinhit/myleetcode#n-ary-tree)
-- [Binary Tree](https://github.com/guobinhit/myleetcode#binary-tree)
 - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
 - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
 - [Interview Practice](https://github.com/guobinhit/myleetcode#interview-practice)
@@ -91,18 +91,19 @@ My LeetCode Solutions!
 |-----|----------------|:---------------:|:--------:|:-------------:
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_33.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/PCODE/python/leetcodes/src/main/python/com/hit/math/binary_search/_33.py)|Medium| Template I
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_34.java) & Python |Medium| Template III
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_50.java) & Python |Medium| Conclusion
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_69.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/PCODE/python/leetcodes/src/main/python/com/hit/math/binary_search/_69.py)|Easy| Template I
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_153.java) & Python|Medium| Template II
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_162.java) & Python|Medium| Template II
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_278.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/PCODE/python/leetcodes/src/main/python/com/hit/math/binary_search/_278.py)|Easy| Template II
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_367.java) & Python |Easy| Conclusion
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_374.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/PCODE/python/leetcodes/src/main/python/com/hit/math/binary_search/_374.py)|Easy| Template I
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_658.java) & Python |Medium| Template III
 |704|[Binary Search](https://leetcode.com/problems/binary-search/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_704.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/PCODE/python/leetcodes/src/main/python/com/hit/math/binary_search/_704.py)|Easy| Background
 
 
 
-
-
+## Binary Tree
 
 
 ## Binary Search Tree
@@ -111,7 +112,6 @@ My LeetCode Solutions!
 ## N-ary Tree
 
 
-## Binary Tree
 
 
 ## Sort Algorithm
