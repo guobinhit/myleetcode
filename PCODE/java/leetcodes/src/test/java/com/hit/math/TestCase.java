@@ -13,23 +13,12 @@ import java.math.BigInteger;
  */
 public class TestCase {
     public static void main(String[] args) {
+        int[] ints = {1, 3, 3};
+        int[] ints2 = {1, 1, 3};
+//        System.out.println(findMin(ints));
+//        System.out.println(findMin(ints2));
     }
 
-
-    public boolean isPerfectSquare(int num) {
-
-        int[] arr = new int[num];
-
-        int temp = 1;
-
-        for (int i = 0; i < num; i++) {
-            arr[0] = temp + i;
-        }
-
-        int middle = arr[num / 2];
-
-        return (middle * 2) == num;
-    }
 
 
 
