@@ -2,9 +2,10 @@ package com.hit.math;
 
 import com.hit.utils.CommonUtils;
 import com.hit.utils.ListNode;
+import com.hit.utils.TreeNode;
 
 import java.math.BigInteger;
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * author:Charies Gavin
@@ -20,40 +21,59 @@ public class TestCase {
 //        System.out.println(findMin(ints2));
     }
 
-    public int splitArray(int[] nums, int m) {
-        int max = 0;
-        long sum = 0;
-        for (int num : nums) {
-            max = Math.max(num, max);
-            sum += num;
-        }
-        if (m == 1) return (int) sum;
-        long left = max;
-        long right = sum;
-        while (left <= right) {
-            long mid = (left + right) / 2;
-            if (valid(mid, nums, m)) {
-                right = mid - 1;
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new LinkedList<Integer>();
+        while (root != null) {
+            if (root.left == null) {
+                list.add(root.val);
+                if (root.right == null) {
+                    return list;
+                } else {
+                    root = root.right;
+                    list.add(root.val);
+                }
             } else {
-                left = mid + 1;
+                root = root.left;
+                list.add(root.val);
             }
         }
-        return (int) left;
+        return list;
     }
 
-    public boolean valid(long target, int[] nums, int m) {
-        int count = 1;
-        long total = 0;
-        for (int num : nums) {
-            total += num;
-            if (total > target) {
-                total = num;
-                count++;
-                if (count > m) {
-                    return false;
-                }
+
+    public List<Integer> inorderTraversal2(TreeNode root) {
+        List<Integer> list = new ArrayList<Integer>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+
+        while (root != null || !stack.empty()) {
+            while (root != null) {
+                stack.add(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            list.add(root.val);
+            root = root.right;
+        }
+
+        return list;
+    }
+
+    public List<Integer> postorderTraversal(TreeNode root) {
+        LinkedList<Integer> result = new LinkedList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        while (!stack.isEmpty() || root != null) {
+            if (root != null) {
+                stack.push(root);
+                // Reverse the process of preorder
+                result.addFirst(root.val);
+                // Reverse the process of preorder
+                root = root.right;
+            } else {
+                TreeNode node = stack.pop();
+                // Reverse the process of preorder
+                root = node.left;
             }
         }
-        return true;
+        return result;
     }
 }
