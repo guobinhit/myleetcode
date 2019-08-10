@@ -1,7 +1,5 @@
 package com.hit.math.binary_search;
 
-import java.util.Arrays;
-
 /**
  * 287. Find the Duplicate Number
  * <p>
@@ -25,16 +23,35 @@ import java.util.Arrays;
  * 4. There is only one duplicate number in the array, but it could be repeated more than once.
  */
 public class _287 {
+    /**
+     * Binary Search + Pigeonhole Principle
+     * <p>
+     * https://en.wikipedia.org/wiki/Pigeonhole_principle
+     *
+     * @param nums pending array
+     * @return duplicate number
+     */
     public int findDuplicate(int[] nums) {
-        Arrays.sort(nums);
-        int targetIndex = 0;
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
-                targetIndex = i;
-                break;
+        int left = 0, right = nums.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            int count = numBelow(nums, mid);
+            if (count > mid) {
+                right = mid;
+            } else {
+                left = mid + 1;
             }
         }
+        return left;
+    }
 
-        return nums[targetIndex];
+    private int numBelow(int[] nums, int target) {
+        int result = 0;
+        for (int num : nums) {
+            if (num <= target) {
+                result++;
+            }
+        }
+        return result;
     }
 }

@@ -1,25 +1,33 @@
-package com.hit.math;
-
-import com.hit.utils.CommonUtils;
-import com.hit.utils.ListNode;
-
-import java.math.BigInteger;
-import java.util.Arrays;
+package com.hit.math.binary_search;
 
 /**
- * author:Charies Gavin
- * date:2018/8/25,17:00
- * https:github.com/guobinhit
- * description: Test Case Class
+ * 410. Split Array Largest Sum
+ * <p>
+ * Given an array which consists of non-negative integers and an integer m, you can split the array into m non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these m subarrays.
+ * <p>
+ * Note:
+ * <p>
+ * If n is the length of array, assume the following constraints are satisfied:
+ * <p>
+ * 1 ≤ n ≤ 1000
+ * 1 ≤ m ≤ min(50, n)
+ * <p>
+ * Examples:
+ * <p>
+ * Input:
+ * nums = [7,2,5,10,8]
+ * m = 2
+ * <p>
+ * Output:
+ * 18
+ * <p>
+ * Explanation:
+ * <p>
+ * There are four ways to split nums into two subarrays.
+ * The best way is to split it into [7,2,5] and [10,8],
+ * where the largest sum among the two subarrays is only 18.
  */
-public class TestCase {
-    public static void main(String[] args) {
-        int[] ints = {1, 3, 3};
-        int[] ints2 = {1, 1, 3};
-//        System.out.println(findMin(ints));
-//        System.out.println(findMin(ints2));
-    }
-
+public class _410 {
     public int splitArray(int[] nums, int m) {
         int max = 0;
         long sum = 0;
@@ -41,7 +49,7 @@ public class TestCase {
         return (int) left;
     }
 
-    public boolean valid(long target, int[] nums, int m) {
+    private boolean valid(long target, int[] nums, int m) {
         int count = 1;
         long total = 0;
         for (int num : nums) {
