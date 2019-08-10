@@ -4,6 +4,7 @@ import com.hit.utils.CommonUtils;
 import com.hit.utils.ListNode;
 
 import java.math.BigInteger;
+import java.util.Arrays;
 
 /**
  * author:Charies Gavin
@@ -18,8 +19,4 @@ public class TestCase {
 //        System.out.println(findMin(ints));
 //        System.out.println(findMin(ints2));
     }
-
-
-
-
 }
