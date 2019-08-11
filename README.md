@@ -16,6 +16,7 @@ My LeetCode Solutions!
 - [Binary Tree](https://github.com/guobinhit/myleetcode#binary-tree)
 - [Binary Search Tree](https://github.com/guobinhit/myleetcode#binary-search-tree)
 - [N-ary Tree](https://github.com/guobinhit/myleetcode#n-ary-tree)
+- [Decision Tree](https://github.com/guobinhit/myleetcode#decision-tree)
 - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
 - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
 - [Interview Practice](https://github.com/guobinhit/myleetcode#interview-practice)
@@ -117,8 +118,12 @@ My LeetCode Solutions!
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_94.java) & Python |Medium| Traverse A Tree
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_101.java) & Python |Easy| Solve Tree Problems Recursively
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_102.java) & Python |Medium| Traverse A Tree
+104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_104.java) & Python |Easy| Solve Tree Problems Recursively
+|112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_112.java) & Python |Easy| Solve Tree Problems Recursively
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_144.java) & Python |Medium| Traverse A Tree
-|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_145.java) & Python |Medium| Traverse A Tree
+|145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_145.java) & Python |Hard| Traverse A Tree
 
 
 
@@ -132,6 +137,7 @@ My LeetCode Solutions!
 ## N-ary Tree
 
 
+## Decision Tree
 
 
 ## Sort Algorithm

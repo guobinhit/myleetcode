@@ -3,6 +3,8 @@ package com.hit.interview.search_algorithm;
 import com.hit.interview.sort_algorithm.BubbleSort;
 import com.hit.utils.CommonUtils;
 
+import java.util.Arrays;
+
 /**
  * author:Charies Gavin
  * date:2019/1/7,14:31
@@ -12,9 +14,9 @@ import com.hit.utils.CommonUtils;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] nums = {0, -1, 9, -3, 3, 55, 5, 62, 20};
-        CommonUtils.printIntArray(nums);
+        System.out.println(Arrays.toString(nums));
         BubbleSort.bubbleSort(nums);
-        CommonUtils.printIntArray(nums);
+        System.out.println(Arrays.toString(nums));
         System.out.println(binarySearch(nums, 0));
     }
 

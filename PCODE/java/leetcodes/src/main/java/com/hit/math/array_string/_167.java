@@ -1,6 +1,6 @@
 package com.hit.math.array_string;
 
-import com.hit.utils.CommonUtils;
+import java.util.Arrays;
 
 /**
  * 167. Two Sum II - Input array is sorted
@@ -62,6 +62,6 @@ public class _167 {
     public static void main(String[] args) {
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
-        CommonUtils.printIntArray(_167.twoSum(numbers, target));
+        System.out.println(Arrays.toString(_167.twoSum(numbers, target)));
     }
 }

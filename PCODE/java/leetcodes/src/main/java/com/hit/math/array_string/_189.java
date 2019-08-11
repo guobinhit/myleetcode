@@ -1,6 +1,6 @@
 package com.hit.math.array_string;
 
-import com.hit.utils.CommonUtils;
+import java.util.Arrays;
 
 /**
  * 189. Rotate Array
@@ -68,7 +68,7 @@ public class _189 {
              */
             return;
         }
-        CommonUtils.printIntArray(nums);
+        System.out.println(Arrays.toString(nums));
     }
 
     public static void reverse(int[] nums, int start, int end) {

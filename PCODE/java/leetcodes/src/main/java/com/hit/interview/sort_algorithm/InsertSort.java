@@ -1,6 +1,6 @@
 package com.hit.interview.sort_algorithm;
 
-import com.hit.utils.CommonUtils;
+import java.util.Arrays;
 
 /**
  * author:Charies Gavin
@@ -11,9 +11,9 @@ import com.hit.utils.CommonUtils;
 public class InsertSort {
     public static void main(String[] args) {
         int[] nums = {0, -1, 9, -3, 5, 3, 62, 20};
-        CommonUtils.printIntArray(nums);
+        System.out.println(Arrays.toString(nums));
         insertSort(nums);
-        CommonUtils.printIntArray(nums);
+        System.out.println(Arrays.toString(nums));
     }
 
     /**

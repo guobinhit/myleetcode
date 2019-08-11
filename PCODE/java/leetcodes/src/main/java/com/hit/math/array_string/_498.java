@@ -1,6 +1,6 @@
 package com.hit.math.array_string;
 
-import com.hit.utils.CommonUtils;
+import java.util.Arrays;
 
 /**
  * 498. Diagonal Traverse
@@ -92,9 +92,10 @@ public class _498 {
     }
 
     public static void main(String[] args) {
-        int[][] matrix = {{1, 2, 3,4},
-                {4, 5, 6,7},
-                {7, 8, 9,10}};
-        CommonUtils.printIntArray(_498.findDiagonalOrder(matrix));
+        int[][] matrix = {{1, 2, 3, 4},
+                {4, 5, 6, 7},
+                {7, 8, 9, 10}};
+
+        System.out.println(Arrays.toString(_498.findDiagonalOrder(matrix)));
     }
 }

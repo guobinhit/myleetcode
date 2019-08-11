@@ -1,6 +1,6 @@
 package com.hit.math.array_string;
 
-import com.hit.utils.CommonUtils;
+import java.util.Arrays;
 
 /**
  * 66. Plus One
@@ -44,8 +44,8 @@ public class _66 {
         int[] nums = {1, 2, 3};
         int[] nums2 = {4, 3, 2, 1};
         int[] nums3 = {9, 9, 9};
-        CommonUtils.printIntArray(_66.plusOne(nums));
-        CommonUtils.printIntArray(_66.plusOne(nums2));
-        CommonUtils.printIntArray(_66.plusOne(nums3));
+        System.out.println(Arrays.toString(_66.plusOne(nums)));
+        System.out.println(Arrays.toString(_66.plusOne(nums2)));
+        System.out.println(Arrays.toString(_66.plusOne(nums3)));
     }
 }

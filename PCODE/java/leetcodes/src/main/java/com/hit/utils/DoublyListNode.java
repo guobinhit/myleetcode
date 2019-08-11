@@ -7,9 +7,9 @@ package com.hit.utils;
  * description: Doubly List Node
  */
 public class DoublyListNode {
-    public static int val;
-    public static DoublyListNode next;
-    public static DoublyListNode prev;
+    public int val;
+    public DoublyListNode next;
+    public DoublyListNode prev;
 
     public DoublyListNode(int x) {
         val = x;
