@@ -150,8 +150,14 @@ My LeetCode Solutions!
 
 
 
-
 ## N-ary Tree
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_589.java) & Python |Easy| Traversal
+
+
+
 
 
 ## Decision Tree
