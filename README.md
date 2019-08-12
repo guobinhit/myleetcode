@@ -139,6 +139,9 @@ My LeetCode Solutions!
 |-----|----------------|:---------------:|:--------:|:-------------:
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_98.java) & Python |Medium| Introduction to BST
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_173.java) & Python |Medium| Introduction to BST
+|450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_700.java) & Python |Easy| Introduction to BST
+|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_700.java) & Python |Easy| Introduction to BST
+|701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_701.java) & Python |Medium| Introduction to BST
 
 
 
