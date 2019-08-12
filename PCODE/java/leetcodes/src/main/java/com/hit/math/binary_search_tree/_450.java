@@ -45,6 +45,14 @@ import com.hit.utils.TreeNode;
  * 4   7
  */
 public class _450 {
+
+    /**
+     * Recursion method
+     *
+     * @param root pending root node
+     * @param key  target value
+     * @return tree node
+     */
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {
             return null;

@@ -30,6 +30,14 @@ import com.hit.utils.TreeNode;
  * Note that an empty tree is represented by NULL, therefore you would see the expected output (serialized tree format) as [], not null.
  */
 public class _700 {
+
+    /**
+     * Recursion method
+     *
+     * @param root pending root node
+     * @param val  target value
+     * @return tree node
+     */
     public TreeNode searchBST(TreeNode root, int val) {
         if (root == null) return root;
         if (root.val == val) {
@@ -37,5 +45,19 @@ public class _700 {
         } else {
             return val < root.val ? searchBST(root.left, val) : searchBST(root.right, val);
         }
+    }
+
+    /**
+     * Iteration method
+     *
+     * @param root pending root node
+     * @param val  target value
+     * @return tree node
+     */
+    public TreeNode searchBST2(TreeNode root, int val) {
+        while (root != null && root.val != val) {
+            root = val < root.val ? root.left : root.right;
+        }
+        return root;
     }
 }
