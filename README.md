@@ -154,9 +154,10 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
+|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_429.java) & Python |Easy| Traversal
+|559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_559.java) & Python |Easy| Traversal
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_589.java) & Python |Easy| Traversal
-
-
+|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_590.java) & Python |Easy| Traversal
 
 
 
