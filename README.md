@@ -11,11 +11,11 @@ My LeetCode Solutions!
 - [Queue & Stack](https://github.com/guobinhit/myleetcode#queue--stack)
 - [Linked List](https://github.com/guobinhit/myleetcode#linked-list)
 - [Hash Table](https://github.com/guobinhit/myleetcode#hash-table)
-- [Trie](https://github.com/guobinhit/myleetcode#trie)
 - [Binary Search](https://github.com/guobinhit/myleetcode#binary-search)
 - [Binary Tree](https://github.com/guobinhit/myleetcode#binary-tree)
 - [Binary Search Tree](https://github.com/guobinhit/myleetcode#binary-search-tree)
 - [N-ary Tree](https://github.com/guobinhit/myleetcode#n-ary-tree)
+- [Trie](https://github.com/guobinhit/myleetcode#trie)
 - [Decision Tree](https://github.com/guobinhit/myleetcode#decision-tree)
 - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
 - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
@@ -69,6 +69,7 @@ My LeetCode Solutions!
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_2.java) & Python|Medium| Conclusion
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_19.java) & Python|Medium| Two Pointer Technique
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_21.java) & Python|Easy| Conclusion
+|61|[Rotate List](https://leetcode.com/problems/rotate-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_61.java) & Python|Medium| Conclusion
 |135|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_135.java) & Python|Medium| Conclusion
 |141|[Linked List Cycle](https://leetcode.com/problems/number-of-islands/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_141.java) & Python|Easy| Two Pointer Technique
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_142.java) & Python|Medium| Two Pointer Technique
@@ -86,8 +87,6 @@ My LeetCode Solutions!
 ## Hash Table
 
 
-
-## Trie
 
 
 ## Binary Search
@@ -162,6 +161,23 @@ My LeetCode Solutions!
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_559.java) & Python |Easy| Recursion
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_589.java) & Python |Easy| Traversal
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/n_ary_tree/_590.java) & Python |Easy| Traversal
+
+
+
+## Trie
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/trie/_208.java) & Python |Medium| Basic Operations
+|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/trie/_211.java) & Python |Medium| Practical Application I
+|212|[Word Search II](https://leetcode.com/problems/word-search-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/trie/_212.java) & Python |Hard| Practical Application II
+|336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/trie/_336.java) & Python |Hard| Practical Application II
+|421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/trie/_421.java) & Python |Medium| Practical Application II
+|648|[Replace Words](https://leetcode.com/problems/replace-words/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/trie/_648.java) & Python |Medium| Practical Application I
+|677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/trie/_677.java) & Python |Medium| Practical Application I
+
+
+
 
 
 
