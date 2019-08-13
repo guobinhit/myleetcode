@@ -22,7 +22,7 @@ import java.util.List;
  * Note: the precision of result would remain within 1e^-6.
  */
 public class CalculateEntropy {
-    public static double calculateEntropy(int[] input) {
+    public double calculateEntropy(int[] input) {
         double entropy = 0.0;
         double probability;
 
@@ -48,7 +48,6 @@ public class CalculateEntropy {
 
     public static void main(String[] args) {
         int[] in = {1, 1, 2, 2};
-        System.out.println(calculateEntropy(in));
+        System.out.println((new CalculateEntropy()).calculateEntropy(in));
     }
-
 }

@@ -1,6 +1,6 @@
 package com.hit.math.binary_search_tree;
 
-import com.hit.utils.TreeNode;
+import com.hit.common.TreeNode;
 
 /**
  * 235. Lowest Common Ancestor of a Binary Search Tree

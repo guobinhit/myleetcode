@@ -1,4 +1,4 @@
-package com.hit.utils;
+package com.hit.common;
 
 import java.util.List;
 

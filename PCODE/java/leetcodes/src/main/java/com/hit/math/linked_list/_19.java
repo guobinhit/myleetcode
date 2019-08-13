@@ -1,6 +1,6 @@
 package com.hit.math.linked_list;
 
-import com.hit.utils.ListNode;
+import com.hit.common.ListNode;
 
 /**
  * 19. Remove Nth Node From End of List

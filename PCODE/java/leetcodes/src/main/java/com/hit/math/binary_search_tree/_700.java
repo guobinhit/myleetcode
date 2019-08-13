@@ -1,6 +1,6 @@
 package com.hit.math.binary_search_tree;
 
-import com.hit.utils.TreeNode;
+import com.hit.common.TreeNode;
 
 /**
  * 700. Search in a Binary Search Tree

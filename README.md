@@ -66,7 +66,10 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions  |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_2.java) & Python|Medium| Conclusion
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_19.java) & Python|Medium| Two Pointer Technique
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_21.java) & Python|Easy| Conclusion
+|135|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_135.java) & Python|Medium| Conclusion
 |141|[Linked List Cycle](https://leetcode.com/problems/number-of-islands/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_141.java) & Python|Easy| Two Pointer Technique
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_142.java) & Python|Medium| Two Pointer Technique
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_160.java) & Python|Easy| Two Pointer Technique
@@ -74,6 +77,7 @@ My LeetCode Solutions!
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_206.java) & Python|Easy| Classic Problems
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_234.java) & Python|Easy| Classic Problems
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_328.java) & Python|Medium| Classic Problems
+|430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_430.java) & Python|Medium| Conclusion
 |707|[Design Linked List](https://leetcode.com/problems/number-of-islands/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_707.java) & Python|Easy| Singly Linked List
 
 

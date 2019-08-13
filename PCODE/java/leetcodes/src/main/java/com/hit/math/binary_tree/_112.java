@@ -1,6 +1,6 @@
 package com.hit.math.binary_tree;
 
-import com.hit.utils.TreeNode;
+import com.hit.common.TreeNode;
 
 /**
  * 112. Path Sum

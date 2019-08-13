@@ -1,6 +1,6 @@
 package com.hit.math.linked_list;
 
-import com.hit.utils.ListNode;
+import com.hit.common.ListNode;
 
 /**
  * 328. Odd Even Linked List

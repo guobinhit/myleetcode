@@ -1,6 +1,6 @@
 package com.hit.math.binary_tree;
 
-import com.hit.utils.Node;
+import com.hit.common.Node;
 
 /**
  * 116. Populating Next Right Pointers in Each Node

@@ -1,6 +1,6 @@
 package com.hit.math.n_ary_tree;
 
-import com.hit.utils.NaryTreeNode;
+import com.hit.common.NaryTreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

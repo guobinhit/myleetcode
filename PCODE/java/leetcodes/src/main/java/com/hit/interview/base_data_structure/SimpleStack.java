@@ -1,6 +1,6 @@
 package com.hit.interview.base_data_structure;
 
-import com.hit.utils.ListNode;
+import com.hit.common.ListNode;
 
 /**
  * author:Charies Gavin
