@@ -15,7 +15,7 @@ My LeetCode Solutions!
 - [Binary Tree](https://github.com/guobinhit/myleetcode#binary-tree)
 - [Binary Search Tree](https://github.com/guobinhit/myleetcode#binary-search-tree)
 - [N-ary Tree](https://github.com/guobinhit/myleetcode#n-ary-tree)
-- [Trie](https://github.com/guobinhit/myleetcode#trie)
+- [Trie (Prefix Tree)](https://github.com/guobinhit/myleetcode#trie-prefix-tree)
 - [Decision Tree](https://github.com/guobinhit/myleetcode#decision-tree)
 - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
 - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
@@ -58,6 +58,7 @@ My LeetCode Solutions!
 |  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_200.java) & Python|Medium| Queue and BFS
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_279.java) & Python|Medium| Queue and BFS
 |622|[Design Circular Queue](https://leetcode.com/problems/longest-common-prefix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_622.java) & Python|Medium| Queue: First-in-first-out Data Structure
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_752.java) & Python|Medium| Queue and BFS
 
@@ -164,7 +165,7 @@ My LeetCode Solutions!
 
 
 
-## Trie
+## Trie (Prefix Tree)
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
@@ -178,14 +179,12 @@ My LeetCode Solutions!
 
 
 
-
-
-
 ## Decision Tree
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
-| ### |[Calculate Entropy](https://leetcode.com/problems/calculate-entropy/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/decision_tree/CalculateEntropy.java) & Python |Easy| Implementation
+| ### |[Calculate Entropy](https://leetcode.com/explore/learn/card/decision-tree/285/implementation/2650/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/decision_tree/CalculateEntropy.java) & Python |Easy| Implementation
+| ### |[Calculate Maximum Information Gain](https://leetcode.com/explore/learn/card/decision-tree/285/implementation/2651/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/decision_tree/CalculateMaxInfoGain.java) & Python |Easy| Implementation
 
 
 
