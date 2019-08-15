@@ -98,6 +98,29 @@ My LeetCode Solutions!
 
 ## Hash Table
 
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_1.java) & Python |Easy| Practical Application - Hash Map
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_3.java) & Python |Medium| Conclusion
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_36.java) & Python |Medium| Practical Application - Design the Key
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_49.java) & Python |Medium| Practical Application - Design the Key
+|136|[Single Number](https://leetcode.com/problems/single-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_136.java) & Python |Easy| Practical Application - Hash Set
+|202|[Happy Number](https://leetcode.com/problems/happy-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_202.java) & Python |Easy| Practical Application - Hash Set
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_205.java) & Python |Easy| Practical Application - Hash Map
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_217.java) & Python |Easy| Practical Application - Hash Set
+|219|[FContains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_219.java) & Python |Easy| Practical Application - Hash Map
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_347.java) & Python |Medium| Conclusion
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_349.java) & Python |Easy| Practical Application - Hash Set
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_350.java) & Python |Easy| Practical Application - Hash Map
+|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_380.java) & Python |Medium| Conclusion
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_387.java) & Python |Easy| Practical Application - Hash Map
+|454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_454.java) & Python |Medium| Conclusion
+|599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_599.java) & Python |Easy| Practical Application - Hash Map
+|652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_652.java) & Python |Medium| Practical Application - Design the Key
+|705|[Design HashSet](https://leetcode.com/problems/design-hashset/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_705.java) & Python |Easy| Design a Hash Table
+|706|[Design HashMap](https://leetcode.com/problems/design-hashmap/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_706.java) & Python |Easy| Design a Hash Table
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/hash_table/_771.java) & Python |Easy| Conclusion
+
 
 
 

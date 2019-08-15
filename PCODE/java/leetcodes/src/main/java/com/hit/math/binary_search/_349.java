@@ -41,7 +41,7 @@ public class _349 {
         return result;
     }
 
-    public boolean binarySearch(int[] nums, int target) {
+    private boolean binarySearch(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;
         while (low <= high) {
