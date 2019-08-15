@@ -17,6 +17,8 @@ My LeetCode Solutions!
 - [N-ary Tree](https://github.com/guobinhit/myleetcode#n-ary-tree)
 - [Trie (Prefix Tree)](https://github.com/guobinhit/myleetcode#trie-prefix-tree)
 - [Decision Tree](https://github.com/guobinhit/myleetcode#decision-tree)
+- [Recursion I](https://github.com/guobinhit/myleetcode#recursion-i)
+- [Recursion II](https://github.com/guobinhit/myleetcode#recursion-ii)
 - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
 - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
 - [Interview Practice](https://github.com/guobinhit/myleetcode#interview-practice)
@@ -50,17 +52,27 @@ My LeetCode Solutions!
 
 
 
-
-
-
 ## Queue & Stack
 
 |  #  |      Title     |   Solutions   |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_20.java) & Python|Easy| Stack: Last-in-first-out Data Structure
+|133|[Clone Graph](https://leetcode.com/problems/clone-graph/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_133.java) & Python|Medium| Stack and DFS
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_150.java) & Python|Medium| Stack: Last-in-first-out Data Structure
+|155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_155.java) & Python|Easy| Stack: Last-in-first-out Data Structure
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_200.java) & Python|Medium| Queue and BFS
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_225.java) & Python|Easy| Conclusion
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_232.java) & Python|Easy| Conclusion
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_279.java) & Python|Medium| Queue and BFS
+|394|[Decode String](https://leetcode.com/problems/decode-string/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_394.java) & Python|Medium| Conclusion
+|494|[Target Sum](https://leetcode.com/problems/target-sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_494.java) & Python|Medium| Stack and DFS
+|542|[01 Matrix](https://leetcode.com/problems/01-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_542.java) & Python|Medium| Conclusion
 |622|[Design Circular Queue](https://leetcode.com/problems/longest-common-prefix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_622.java) & Python|Medium| Queue: First-in-first-out Data Structure
+|733|[Flood Fill](https://leetcode.com/problems/flood-fill/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_733.java) & Python|Easy| Conclusion
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_739.java) & Python|Medium| Stack: Last-in-first-out Data Structure
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_752.java) & Python|Medium| Queue and BFS
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/queue_stack/_841.java) & Python|Medium| Conclusion
+
 
 
 ## Linked List
@@ -81,7 +93,6 @@ My LeetCode Solutions!
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_328.java) & Python|Medium| Classic Problems
 |430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_430.java) & Python|Medium| Conclusion
 |707|[Design Linked List](https://leetcode.com/problems/number-of-islands/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_707.java) & Python|Easy| Singly Linked List
-
 
 
 
@@ -188,6 +199,15 @@ My LeetCode Solutions!
 
 
 
+## Recursion I
+
+
+
+## Recursion II
+
+
+
+
 ## Sort Algorithm
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
@@ -213,8 +233,8 @@ My LeetCode Solutions!
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
 |Question 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) & Python|Easy| Fibonacci Sequence
-|Question 2|[Compare Bin to Hex](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python|Easy| Binary Conversion
-|Question 3|[Sieve of Eratosthenes](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python|Easy| Fast Output Prime
+|Question 2|[Compare Binary and Hexadecimal](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python|Easy| Binary Conversion
+|Question 3|[Fast Output Prime Numbers](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python|Easy| Sieve of Eratosthenes
 
 
 
