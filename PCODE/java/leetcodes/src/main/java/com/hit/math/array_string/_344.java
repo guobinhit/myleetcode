@@ -16,7 +16,7 @@ package com.hit.math.array_string;
  * Output: "amanaP :lanac a ,nalp a ,nam A"
  */
 public class _344 {
-    public static String reverseString(String s) {
+    public String reverseString(String s) {
         /**
          * If s is null or s.length() == 0 is true,
          * we can return s immediately
@@ -47,12 +47,5 @@ public class _344 {
             }
         }
         return new String(sChars);
-    }
-
-    public static void main(String[] args) {
-        String s = "hello";
-        String s2 = "A man, a plan, a canal: Panama";
-        System.out.println(_344.reverseString(s));
-        System.out.println(_344.reverseString(s2));
     }
 }

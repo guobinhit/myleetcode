@@ -225,6 +225,22 @@ My LeetCode Solutions!
 ## Recursion I
 
 
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_21.java) & Python|Easy| Conclusion
+|24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/recursion_i/_24.java) & Python| Medium| Principle of Recursion
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search/_50.java) & Python |Medium| Complexity Analysis
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/array_string/_70.java) & Python| Easy| Memoization
+|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_95.java) & Python|Medium| Conclusion
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_104.java) & Python |Easy| Complexity Analysis
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/array_string/_118.java) & Python| Easy| Recurrence Relation
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/array_string/_119.java) & Python| Easy| Recurrence Relation
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_206.java) & Python|Easy| Recurrence Relation
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/array_string/_344.java) & Python| Easy| Principle of Recursion
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/array_string/_509.java) & Python| Easy| Memoization
+|779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_779.java) & Python|Medium| Conclusion
+
+
 
 ## Recursion II
 

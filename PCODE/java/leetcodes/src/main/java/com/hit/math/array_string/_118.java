@@ -20,7 +20,7 @@ import java.util.List;
  * ]
  */
 public class _118 {
-    public static List<List<Integer>> generate(int numRows) {
+    public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<List<Integer>>();
         if (numRows <= 0) {
             return triangle;
@@ -50,7 +50,7 @@ public class _118 {
         return triangle;
     }
 
-    public static List<List<Integer>> generate2(int numRows) {
+    public List<List<Integer>> generate2(int numRows) {
         List<List<Integer>> allrows = new ArrayList<List<Integer>>();
         if (numRows <= 0) {
             return allrows;
@@ -64,10 +64,5 @@ public class _118 {
             allrows.add(new ArrayList<Integer>(row));
         }
         return allrows;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(_118.generate(5));
-        System.out.println(_118.generate2(5));
     }
 }
