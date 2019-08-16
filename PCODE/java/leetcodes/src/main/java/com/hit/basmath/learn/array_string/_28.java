@@ -21,7 +21,7 @@ package com.hit.basmath.learn.array_string;
  * For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
  */
 public class _28 {
-    public static int strStr(String haystack, String needle) {
+    public int strStr(String haystack, String needle) {
         if (haystack == null || needle == null) {
             return -1;
         }
@@ -59,7 +59,7 @@ public class _28 {
      * @param needle
      * @return
      */
-    public static int strStr2(String haystack, String needle) {
+    public int strStr2(String haystack, String needle) {
         for (int i = 0; ; i++) {
             for (int j = 0; ; j++) {
                 if (j == needle.length()) {
@@ -83,7 +83,7 @@ public class _28 {
      * @param needle
      * @return
      */
-    public static int strStr3(String haystack, String needle) {
+    public int strStr3(String haystack, String needle) {
         int haystackLength = haystack.length(), needleLength = needle.length();
         if (haystackLength < needleLength) {
             return -1;
@@ -106,16 +106,7 @@ public class _28 {
      * @param needle
      * @return
      */
-    public static int strStr4(String haystack, String needle) {
+    public int strStr4(String haystack, String needle) {
         return haystack.indexOf(needle);
-    }
-
-    public static void main(String[] args) {
-        String haystack = "hello";
-        String needle = "lo";
-        System.out.println(_28.strStr(haystack, needle));
-        System.out.println(_28.strStr2(haystack, needle));
-        System.out.println(_28.strStr3(haystack, needle));
-        System.out.println(_28.strStr4(haystack, needle));
     }
 }

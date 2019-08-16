@@ -24,7 +24,7 @@ package com.hit.basmath.learn.array_string;
  * All given inputs are in lowercase letters a-z.
  */
 public class _14 {
-    public static String longestCommonPrefix(String[] strs) {
+    public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";
         }
@@ -66,12 +66,5 @@ public class _14 {
             }
         }
         return aimPrefix;
-    }
-
-    public static void main(String[] args) {
-        String[] strs = {"follow", "a", "fob"};
-        String[] strs2 = {"follow", "fo", "fol"};
-        System.out.println(_14.longestCommonPrefix(strs));
-        System.out.println(_14.longestCommonPrefix(strs2));
     }
 }
