@@ -244,6 +244,24 @@ My LeetCode Solutions!
 
 ## Recursion II
 
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_22.java) & Python |Medium| Recursion to Iteration
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_37.java) & Python |Hard| Backtracking
+|46|[Permutations](https://leetcode.com/problems/permutations/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_46.java) & Python |Medium| Conclusion
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_52.java) & Python |Hard| Backtracking
+|77|[Combinations](https://leetcode.com/problems/combinations/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_77.java) & Python |Medium| Backtracking
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_84.java) & Python |Hard| Conclusion
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_94.java) & Python |Medium| Recursion to Iteration
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_98.java) & Python |Medium| Divide and Conquer
+|100|[Same Tree](https://leetcode.com/problems/same-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_100.java) & Python |Easy| Recursion to Iteration
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_tree/_102.java) & Python |Medium| Recursion to Iteration
+|218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_218.java) & Python |Hard| Conclusion
+|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/binary_search_tree/_240.java) & Python |Medium| Divide and Conquer
+|912|[Sort an Array](https://leetcode.com/problems/sort-an-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/math/linked_list/_912.java) & Python|Medium| Divide and Conquer
+
+
+
 
 
 
