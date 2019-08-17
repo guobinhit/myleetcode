@@ -23,6 +23,9 @@ My LeetCode Solutions!
   - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
   - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
   - [Interview Practice](https://github.com/guobinhit/myleetcode#interview-practice)
+  - [Shell](https://github.com/guobinhit/myleetcode#shell)
+  - [Database](https://github.com/guobinhit/myleetcode#database)
+  - [Concurrency](https://github.com/guobinhit/myleetcode#concurrency)
 - **Interview**
   - [Top Interview Questions](https://github.com/guobinhit/myleetcode#top-interview-questions)
     - [Easy Collection](https://github.com/guobinhit/myleetcode#easy-collection)
@@ -302,6 +305,21 @@ My LeetCode Solutions!
 
 
 
+### Shell
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|192|[Word Frequency](https://leetcode.com/problems/word-frequency/description/)|[bash](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/shell/_192.sh) |Medium| Shell
+|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/description/)|[bash](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/shell/_193.sh) |Easy| Shell
+|194|[Transpose File](https://leetcode.com/problems/transpose-file/description/)|[bash](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/shell/_194.sh) |Medium| Shell
+|195|[Tenth Line](https://leetcode.com/problems/tenth-line/description/)|[bash](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/shell/_195.sh) |Easy| Shell
+
+
+### Database
+
+### Concurrency
+
+
 ## Interview
 ### Top Interview Questions
 #### Easy Collection
@@ -417,19 +435,32 @@ My LeetCode Solutions!
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/binary_search/_4.java) & Python |Hard| Sorting and Searching
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/backtracking/_10.java) & Python |Hard| Backtracking
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/array_and_strings/_11.java) & Python |Medium| Array and Strings
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/linked_list/_23.java) & Python |Hard| Linked List
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/array_and_strings/_41.java) & Python |Hard| Array and Strings
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/others/_42.java) & Python |Hard| Others
+|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/backtracking/_44.java) & Python |Hard| Backtracking
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_54.java) & Python|Medium| Array and Strings
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/array_and_strings/_76.java) & Python |Hard| Array and Strings
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/binary_search_tree/_84.java) & Python |Hard| Others
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/dynamic_programming/_91.java) & Python |Medium| Dynamic Programming
+|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_124.java) & Python |Hard| Trees and Graphs
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_127.java) & Python |Medium| Trees and Graphs
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/array_and_strings/_128.java) & Python |Hard| Array and Strings
+|130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_130.java) & Python |Medium| Trees and Graphs
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/backtracking/_131.java) & Python |Medium| Backtracking
 |135|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/linked_list/_135.java) & Python|Medium| Linked List
+|139|[Word Break](https://leetcode.com/problems/word-break/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/dynamic_programming/_139.java) & Python |Medium| Dynamic Programming
+|140|[Word Break II](https://leetcode.com/problems/word-break-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/dynamic_programming/_140.java) & Python |Hard| Dynamic Programming
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/design/_146.java) & Python |Medium| Design
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/linked_list/_148.java) & Python |Medium| Linked List
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/math/_149.java) & Python |Hard| Math
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/dynamic_programming/_152.java) & Python |Medium| Dynamic Programming
 |179|[Largest Number](https://leetcode.com/problems/largest-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/math/_179.java) & Python |Medium| Math
+|207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_207.java) & Python |Medium| Trees and Graphs
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/trie/_208.java) & Python |Medium| Design
+|210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_210.java) & Python |Medium| Trees and Graphs
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/trie/_212.java) & Python |Hard| Backtracing
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/binary_search_tree/_218.java) & Python |Hard| Others
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/array_and_strings/_227.java) & Python |Medium| Array and Strings
@@ -439,11 +470,18 @@ My LeetCode Solutions!
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/queue_stack/_279.java) & Python|Medium| Dynamic Programming
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/binary_search/_287.java) & Python |Medium| Array and Strings
 |289|[Game of Life](https://leetcode.com/problems/game-of-life/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/array_and_strings/_289.java) & Python |Medium| Array and Strings
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/design/_295.java) & Python |Hard| Design
+|301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/backtracking/_301.java) & Python |Hard| Backtracking
+|309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/dynamic_programming/_309.java) & Python |Medium| Dynamic Programming
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/dynamic_programming/_312.java) & Python |Hard| Dynamic Programming
+|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_315.java) & Python |Hard| Trees and Graphs
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/sorting_and_searching/_324.java) & Python |Medium| Sorting and Searching
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_329.java) & Python |Hard| Trees and Graphs
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/design/_341.java) & Python |Medium| Design
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/sorting_and_searching/_378.java) & Python |Medium| Sorting and Searching
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/others/_406.java) & Python |Medium| Others
 |454|[4Sum II](https://leetcode.com/problems/4sum-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/hash_table/_454.java) & Python |Medium| Array and Strings
-
+|547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_547.java) & Python |Medium| Trees and Graphs
 
 
 
