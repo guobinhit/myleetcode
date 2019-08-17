@@ -22,10 +22,9 @@ My LeetCode Solutions!
   - [Recursion II](https://github.com/guobinhit/myleetcode#recursion-ii)
   - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
   - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
-  - [Interview Practice](https://github.com/guobinhit/myleetcode#interview-practice)
+  - [Concurrency](https://github.com/guobinhit/myleetcode#concurrency)
   - [Shell](https://github.com/guobinhit/myleetcode#shell)
   - [Database](https://github.com/guobinhit/myleetcode#database)
-  - [Concurrency](https://github.com/guobinhit/myleetcode#concurrency)
 - **Interview**
   - [Top Interview Questions](https://github.com/guobinhit/myleetcode#top-interview-questions)
     - [Easy Collection](https://github.com/guobinhit/myleetcode#easy-collection)
@@ -294,14 +293,26 @@ My LeetCode Solutions!
 |Search 2|[Order Search](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) & Python|Easy| Search Algorithm
 
 
-### Interview Practice
 
+### Concurrency
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|1114|[Print in Order](https://leetcode.com/problems/print-in-order/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1114.java) & Python |Easy| Concurrency
+|1115|[Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1115.java) & Python |Medium| Concurrency
+|1116|[Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1116.java) & Python |Medium| Concurrency
+|1117|[Building H2O](https://leetcode.com/problems/building-h2o/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1117.java) & Python |Medium| Concurrency
+
+
+
+### Interview Practice
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
 |Question 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) & Python|Easy| Fibonacci Sequence
 |Question 2|[Compare Binary and Hexadecimal](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python|Easy| Binary Conversion
 |Question 3|[Fast Output Prime Numbers](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python|Easy| Sieve of Eratosthenes
+
 
 
 
@@ -315,9 +326,38 @@ My LeetCode Solutions!
 |195|[Tenth Line](https://leetcode.com/problems/tenth-line/description/)|[bash](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/shell/_195.sh) |Easy| Shell
 
 
+
 ### Database
 
-### Concurrency
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_175.sql) |Easy| Database
+|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_176.sql) |Easy| Database
+|177|[Nth Highest Salary](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_177.sql) |Medium| Database
+|178|[Rank Scores](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_178.sql) |Medium| Database
+|180|[Consecutive Numbers](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_180.sql) |Medium| Database
+|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_181.sql) |Easy| Database
+|182|[Duplicate Emails](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_182.sql) |Easy| Database
+|183|[Customers Who Never Order](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_183.sql) |Easy| Database
+|184|[Department Highest Salary](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_184.sql) |Medium| Database
+|185|[Department Top Three Salaries](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_185.sql) |Hard| Database
+|196|[Delete Duplicate Emails](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_196.sql) |Easy| Database
+|197|[Rising Temperature](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_197.sql) |Easy| Database
+|262|[Trips and Users](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_262.sql) |Hard| Database
+|595|[Big Countries](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_595.sql) |Easy| Database
+|596|[Classes More Than 5 Students](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_596.sql) |Easy| Database
+|601|[Human Traffic of Stadium](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_601.sql) |Hard| Database
+|620|[Not Boring Movies](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_620.sql) |Easy| Database
+|626|[Exchange Seats](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_626.sql) |Medium| Database
+|627|[Swap Salary](https://leetcode.com/problems/word-frequency/description/)|[SQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_627.sql) |Easy| Database
+
+
+
+### Others
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|1114|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1114.java) & Python |Easy| Concurrency
 
 
 ## Interview
