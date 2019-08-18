@@ -13,6 +13,7 @@ package com.hit.basmath.learn.others;
  * C             100
  * D             500
  * M             1000
+ * <p>
  * For example, two is written as II in Roman numeral, just two one's added together. Twelve is written as, XII, which is simply X + II. The number twenty seven is written as XXVII, which is XX + V + II.
  * <p>
  * Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
@@ -51,10 +52,19 @@ package com.hit.basmath.learn.others;
  */
 public class _12 {
     public static String intToRoman(int num) {
+        // represent of none, 1000, 2000, 3000
         String M[] = {"", "M", "MM", "MMM"};
+        // represent of none, 100, 200, 300, 400, 500, 600, 700, 800, 900
         String C[] = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+        // represent of none, 10, 20, 30, 40, 50, 60, 70, 80, 90
         String X[] = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+        // represent of none, 1, 2, 3, 4, 5, 6, 7, 8, 9
         String I[] = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
+
+        /**
+         * default of divide(/) is omit the number after the decimal point
+         * so, if num less than 1000, 100 or 10, after divided result is none
+         */
         return M[num / 1000] + C[(num % 1000) / 100] + X[(num % 100) / 10] + I[num % 10];
     }
 }

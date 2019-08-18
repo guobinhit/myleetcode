@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * author:Charies Gavin
- * date:2018/8/12,18:53
+ * date:2019/8/12,18:53
  * https:github.com/guobinhit
  * description: N-ary tree node
  */

@@ -20,12 +20,12 @@ My LeetCode Solutions!
   - [Decision Tree](https://github.com/guobinhit/myleetcode#decision-tree)
   - [Recursion I](https://github.com/guobinhit/myleetcode#recursion-i)
   - [Recursion II](https://github.com/guobinhit/myleetcode#recursion-ii)
-  - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
-  - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
   - [Concurrency](https://github.com/guobinhit/myleetcode#concurrency)
   - [Others](https://github.com/guobinhit/myleetcode#others)
   - [Shell](https://github.com/guobinhit/myleetcode#shell)
   - [Database](https://github.com/guobinhit/myleetcode#database)
+  - [Sort Algorithm](https://github.com/guobinhit/myleetcode#sort-algorithm)
+  - [Search Algorithm](https://github.com/guobinhit/myleetcode#search-algorithm)
 - **Interview**
   - [Top Interview Questions](https://github.com/guobinhit/myleetcode#top-interview-questions)
     - [Easy Collection](https://github.com/guobinhit/myleetcode#easy-collection)
@@ -275,26 +275,6 @@ My LeetCode Solutions!
 
 
 
-### Sort Algorithm
-
-|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
-|-----|----------------|:---------------:|:--------:|:-------------:
-|Sort 1|[Bubble Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)  & Python|Easy| Sort Algorithm
-|Sort 2|[Insert Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)  & Python|Easy| Sort Algorithm
-|Sort 3|[Quick Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)  & Python|Medium| Sort Algorithm
-|Sort 4|[Select Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java)  & Python|Easy| Sort Algorithm
-
-
-
-### Search Algorithm
-
-|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
-|-----|----------------|:---------------:|:--------:|:-------------:
-|Search 1|[Binary Search](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) & Python|Easy| Search Algorithm
-|Search 2|[Order Search](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) & Python|Easy| Search Algorithm
-
-
-
 ### Concurrency
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
@@ -313,17 +293,8 @@ My LeetCode Solutions!
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_6.java) & Python |Medium| Others
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_9.java) & Python |Easy| Others
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_12.java) & Python |Medium| Others
-
-
-
-### Interview Practice
-
-|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
-|-----|----------------|:---------------:|:--------:|:-------------:
-|Question 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) & Python|Easy| Fibonacci Sequence
-|Question 2|[Compare Binary and Hexadecimal](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python|Easy| Binary Conversion
-|Question 3|[Fast Output Prime Numbers](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python|Easy| Sieve of Eratosthenes
-
+|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_16.java) & Python |Medium| Others
+|18|[4Sum](https://leetcode.com/problems/4sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_18.java) & Python |Medium| Others
 
 
 
@@ -361,6 +332,26 @@ My LeetCode Solutions!
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/description/)|[MySQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_620.sql) |Easy| Database
 |626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/description/)|[MySQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_626.sql) |Medium| Database
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/description/)|[MySQL](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/database/_627.sql) |Easy| Database
+
+
+
+### Sort Algorithm
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|Sort 1|[Bubble Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)  & Python|Easy| Sort Algorithm
+|Sort 2|[Insert Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)  & Python|Easy| Sort Algorithm
+|Sort 3|[Quick Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)  & Python|Medium| Sort Algorithm
+|Sort 4|[Select Sort](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java)  & Python|Easy| Sort Algorithm
+
+
+
+### Search Algorithm
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|Search 1|[Binary Search](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) & Python|Easy| Search Algorithm
+|Search 2|[Order Search](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) & Python|Easy| Search Algorithm
 
 
 
@@ -528,6 +519,14 @@ My LeetCode Solutions!
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/trees_and_graphs/_547.java) & Python |Medium| Trees and Graphs
 
 
+
+### Practice
+
+|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|Question 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) & Python|Easy| Fibonacci Sequence
+|Question 2|[Compare Binary and Hexadecimal](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) & Python|Easy| Binary Conversion
+|Question 3|[Fast Output Prime Numbers](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) & Python|Easy| Sieve of Eratosthenes
 
 
 
