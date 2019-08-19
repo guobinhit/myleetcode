@@ -295,6 +295,25 @@ My LeetCode Solutions!
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_12.java) & Python |Medium| Others
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_16.java) & Python |Medium| Others
 |18|[4Sum](https://leetcode.com/problems/4sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_18.java) & Python |Medium| Others
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_25.java) & Python |Hard| Others
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_30.java) & Python |Hard| Others
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_31.java) & Python |Medium| Others
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_32.java) & Python |Hard| Others
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_35.java) & Python |Easy| Others
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_39.java) & Python |Medium| Others
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_40.java) & Python |Medium| Others
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_43.java) & Python |Medium| Others
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_45.java) & Python |Hard| Others
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_47.java) & Python |Medium| Others
+|51|[N-Queens](https://leetcode.com/problems/n-queens/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_51.java) & Python |Hard| Others
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_57.java) & Python |Hard| Others
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_58.java) & Python |Easy| Others
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_59.java) & Python |Medium| Others
+|60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_60.java) & Python |Medium| Others
+
+
+
+
 
 
 
