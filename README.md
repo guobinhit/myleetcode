@@ -381,7 +381,55 @@ My LeetCode Solutions!
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_290.java) & Python |Easy| Others
 |292|[Nim Game](https://leetcode.com/problems/nim-game/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_292.java) & Python |Easy| Others
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_299.java) & Python |Easy| Others
-
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_303.java) & Python |Easy| Others
+|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_304.java) & Python |Medium| Others
+|306|[Additive Number](https://leetcode.com/problems/additive-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_306.java) & Python |Medium| Others
+|307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_307.java) & Python |Medium| Others
+|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_310.java) & Python |Medium| Others
+|313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_313.java) & Python |Medium| Others
+|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_316.java) & Python |Hard| Others
+|318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_318.java) & Python |Medium| Others
+|319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_319.java) & Python |Medium| Others
+|321|[Create Maximum Number](https://leetcode.com/problems/create-maximum-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_321.java) & Python |Hard| Others
+|327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_327.java) & Python |Hard| Others
+|330|[Patching Array](https://leetcode.com/problems/patching-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_330.java) & Python |Hard| Others
+|331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_331.java) & Python |Medium| Others
+|332|[Reconstruct Itinerary](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_332.java) & Python |Medium| Others
+|335|[Self Crossing](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_335.java) & Python |Hard| Others
+|337|[House Robber III](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_337.java) & Python |Medium| Others
+|338|[Counting Bits](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_338.java) & Python |Medium| Others
+|342|[Power of Four](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_342.java) & Python |Easy| Others
+|343|[Integer Break](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_343.java) & Python |Medium| Others
+|345|[Reverse Vowels of a String](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_345.java) & Python |Easy| Others
+|352|[Data Stream as Disjoint Intervals](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_352.java) & Python |Hard| Others
+|354|[Russian Doll Envelopes](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_354.java) & Python |Hard| Others
+|355|[Design Twitter](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_355.java) & Python |Medium| Others
+|357|[Count Numbers with Unique Digits](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_357.java) & Python |Medium| Others
+|363|[Max Sum of Rectangle No Larger Than K](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_363.java) & Python |Hard| Others
+|365|[Water and Jug Problem](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_365.java) & Python |Medium| Others
+|368|[Largest Divisible Subset](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_368.java) & Python |Medium| Others
+|372|[Super Pow](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_372.java) & Python |Medium| Others
+|373|[Find K Pairs with Smallest Sums](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_373.java) & Python |Medium| Others
+|375|[Guess Number Higher or Lower II](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_375.java) & Python |Medium| Others
+|376|[Wiggle Subsequence](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_376.java) & Python |Medium| Others
+|377|[Combination Sum IV](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_377.java) & Python |Medium| Others
+|381|[Insert Delete GetRandom O(1) - Duplicates allowed](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_381.java) & Python |Hard| Others
+|382|[Linked List Random Node](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_382.java) & Python |Medium| Others
+|383|[Ransom Note](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_383.java) & Python |Easy| Others
+|385|[Mini Parser](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_385.java) & Python |Medium| Others
+|386|[Lexicographical Numbers](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_386.java) & Python |Medium| Others
+|388|[Longest Absolute File Path](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_388.java) & Python |Medium| Others
+|389|[Find the Difference](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_389.java) & Python |Easy| Others
+|390|[Elimination Game](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_390.java) & Python |Medium| Others
+|391|[Perfect Rectangle](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_391.java) & Python |Hard| Others
+|392|[Is Subsequence](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_392.java) & Python |Easy| Others
+|393|[UTF-8 Validation](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_393.java) & Python |Medium| Others
+|395|[Longest Substring with At Least K Repeating Characters](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_395.java) & Python |Medium| Others
+|396|[Rotate Function](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_396.java) & Python |Medium| Others
+|397|[Integer Replacement](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_397.java) & Python |Medium| Others
+|398|[Random Pick Index](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_398.java) & Python |Medium| Others
+|399|[Evaluate Division](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_399.java) & Python |Medium| Others
+|400|[Nth Digit](description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_400.java) & Python |Medium| Others
 
 
 
