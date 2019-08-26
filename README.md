@@ -430,8 +430,20 @@ My LeetCode Solutions!
 |398|[Random Pick Index](https://leetcode.com/problems/random-pick-index/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_398.java) & Python |Medium| Others
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_399.java) & Python |Medium| Others
 |400|[Nth Digit](https://leetcode.com/problems/nth-digit/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_400.java) & Python |Medium| Others
-
-
+|401|[Binary Watch](https://leetcode.com/problems/binary-watch/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_401.java) & Python |Easy| Others
+|402|[Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_402.java) & Python |Medium| Others
+|403|[Frog Jump](https://leetcode.com/problems/frog-jump/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_403.java) & Python |Hard| Others
+|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_404.java) & Python |Easy| Others
+|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_405.java) & Python |Easy| Others
+|407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_407.java) & Python |Hard| Others
+|409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_409.java) & Python |Easy| Others
+|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_413.java) & Python |Medium| Others
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_414.java) & Python |Easy| Others
+|415|[Add Strings](https://leetcode.com/problems/add-strings/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_415.java) & Python |Easy| Others
+|416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_416.java) & Python |Medium| Others
+|417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_417.java) & Python |Medium| Others
+|419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_419.java) & Python |Medium| Others
+|420|[Strong Password Checker](https://leetcode.com/problems/strong-password-checker/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_420.java) & Python |Hard| Others
 
 
 
