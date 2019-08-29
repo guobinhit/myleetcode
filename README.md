@@ -472,6 +472,13 @@ My LeetCode Solutions!
 |458|[Poor Pigs](https://leetcode.com/problems/poor-pigs/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_458.java) & Python |Hard| Others
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_459.java) & Python |Easy| Others
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_460.java) & Python |Hard| Others
+|462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_462.java) & Python |Medium| Others
+|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_463.java) & Python |Easy| Others
+|464|[Can I Win](https://leetcode.com/problems/can-i-win/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_464.java) & Python |Medium| Others
+|466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_466.java) & Python |Hard| Others
+|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_467.java) & Python |Medium| Others
+|468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_468.java) & Python |Medium| Others
+|470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_470.java) & Python |Medium| Others
 
 
 
