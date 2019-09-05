@@ -2,9 +2,9 @@
 <svg version="1.1" 
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="40" height="20"
+     width="65" height="20"
 >
-  <text font-size="16" x="5" y="14">
-    <tspan fill="red">Hard</tspan>
+  <text font-size="16" x="5" y="15">
+    <tspan fill="yellow">Medium</tspan>
   </text>
 </svg>
