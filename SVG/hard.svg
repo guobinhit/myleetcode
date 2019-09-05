@@ -4,7 +4,7 @@
      xmlns:xlink="http://www.w3.org/1999/xlink"
      width="40" height="20"
 >
-  <text font-size="16" x="5" y="15">
+  <text font-size="16" x="5" y="16">
     <tspan fill="red">Hard</tspan>
   </text>
 </svg>
