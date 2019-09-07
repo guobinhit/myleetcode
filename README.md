@@ -540,6 +540,40 @@ My LeetCode Solutions!
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_556.java) & Python |Medium| Others
 |558|[Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_558.java) & Python |Easy| Others
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_560.java) & Python |Medium| Others
+|563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_563.java) & Python |Easy| Others
+|564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_564.java) & Python |Hard| Others
+|565|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_565.java) & Python |Medium| Others
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_566.java) & Python |Easy| Others
+|567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_567.java) & Python |Medium| Others
+|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_572.java) & Python |Easy| Others
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_575.java) & Python |Easy| Others
+|576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_576.java) & Python |Medium| Others
+|581|[Shortest Unsorted Continuous Subarray]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_581.java) & Python |Easy| Others
+|583|[Delete Operation for Two Strings]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_583.java) & Python |Medium| Others
+|587|[Erect the Fence]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_587.java) & Python |Hard| Others
+|591|[Tag Validator]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_591.java) & Python |Hard| Others
+|592|[Fraction Addition and Subtraction]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_592.java) & Python |Medium| Others
+|593|[Valid Square]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_593.java) & Python |Medium| Others
+|594|[Longest Harmonious Subsequence]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_594.java) & Python |Easy| Others
+|598|[Range Addition II]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_598.java) & Python |Easy| Others
+|600|[Non-negative Integers without Consecutive Ones]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_600.java) & Python |Hard| Others
+|605|[Can Place Flowers]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_605.java) & Python |Easy| Others
+|606|[Construct String from Binary Tree]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_606.java) & Python |Easy| Others
+|609|[Find Duplicate File in System]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_609.java) & Python |Medium| Others
+|611|[Valid Triangle Number]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_611.java) & Python |Medium| Others
+|617|[Merge Two Binary Trees]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_617.java) & Python |Easy| Others
+|623|[Add One Row to Tree]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_623.java) & Python |Medium| Others
+|628|[Maximum Product of Three Numbers]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_628.java) & Python |Easy| Others
+|629|[K Inverse Pairs Array]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_629.java) & Python |Hard| Others
+|630|[Course Schedule III]()|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_630.java) & Python |Hard| Others
+
+
+
+
+
+
+
+
 
 
 
