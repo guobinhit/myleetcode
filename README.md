@@ -524,9 +524,22 @@ My LeetCode Solutions!
 |528|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_528.java) & Python |Medium| Others
 |529|[Minesweeper](https://leetcode.com/problems/minesweeper/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_529.java) & Python |Medium| Others
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_530.java) & Python |Easy| Others
-
-
-
+|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_532.java) & Python |Easy| Others
+|535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_535.java) & Python |Medium| Others
+|537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_537.java) & Python |Medium| Others
+|538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_538.java) & Python |Easy| Others
+|539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_539.java) & Python |Medium| Others
+|540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_540.java) & Python |Medium| Others
+|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_541.java) & Python |Easy| Others
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_543.java) & Python |Easy| Others
+|546|[Remove Boxes](https://leetcode.com/problems/remove-boxes/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_546.java) & Python |Hard| Others
+|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_551.java) & Python |Easy| Others
+|552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_552.java) & Python |Hard| Others
+|553|[Optimal Division](https://leetcode.com/problems/optimal-division/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_553.java) & Python |Medium| Others
+|554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_554.java) & Python |Medium| Others
+|556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_556.java) & Python |Medium| Others
+|558|[Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_558.java) & Python |Easy| Others
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_560.java) & Python |Medium| Others
 
 
 
