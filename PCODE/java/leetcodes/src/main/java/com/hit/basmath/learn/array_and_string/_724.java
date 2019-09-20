@@ -9,6 +9,7 @@ package com.hit.basmath.learn.array_and_string;
  * If no such index exists, we should return -1. If there are multiple pivot indexes, you should return the left-most pivot index.
  * <p>
  * Example 1:
+ * <p>
  * Input:
  * nums = [1, 7, 3, 6, 5, 6]
  * Output: 3
@@ -17,6 +18,7 @@ package com.hit.basmath.learn.array_and_string;
  * Also, 3 is the first index where this occurs.
  * <p>
  * Example 2:
+ * <p>
  * Input:
  * nums = [1, 2, 3]
  * Output: -1
@@ -24,26 +26,60 @@ package com.hit.basmath.learn.array_and_string;
  * There is no index that satisfies the conditions in the problem statement.
  * <p>
  * Note:
- * The length of nums will be in the range [0, 10000].
- * Each element nums[i] will be an integer in the range [-1000, 1000].
+ * <p>
+ * 1. The length of nums will be in the range [0, 10000].
+ * 2. Each element nums[i] will be an integer in the range [-1000, 1000].
  */
 public class _724 {
-    /**
-     * Space: O(1)
-     * Time: O(n)
-     */
-    public static int pivotIndex(int[] nums) {
+    public int pivotIndex(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+
+        /**
+         * For example:
+         *
+         * if nums is [1, 7, 3, 6, 5, 6]
+         * then sums is [1, 8, 11, 17, 22, 28]
+         */
+        int[] sums = new int[nums.length];
+        sums[0] = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            sums[i] = sums[i - 1] + nums[i];
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            /**
+             * When nums.length == 1,
+             * the condition of i == 0 && 0 == sums[nums.length - 1] - sums[i]
+             * is established.
+             */
+            if (i == 0 && 0 == sums[nums.length - 1] - sums[i]
+                    || (i > 0 && sums[i - 1] == sums[nums.length - 1] - sums[i])) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public int pivotIndex2(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+
         int total = 0;
+
         /**
          * Get sum of all element
          */
         for (int num : nums) {
             total += num;
         }
-        int sum = 0;
+
         /**
          * Iterate all element of nums
          */
+        int sum = 0;
         for (int i = 0; i < nums.length; sum += nums[i++]) {
             /**
              * If the following conditions are established，
@@ -54,32 +90,5 @@ public class _724 {
             }
         }
         return -1;
-    }
-
-    /**
-     * Space: O(n)
-     * Time: O(n)
-     */
-    public static int pivotIndex2(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return -1;
-        }
-        int[] sums = new int[nums.length];
-        sums[0] = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            sums[i] = sums[i - 1] + nums[i];
-        }
-        for (int i = 0; i < nums.length; i++) {
-            if (i == 0 && 0 == sums[nums.length - 1] - sums[i] || (i > 0 && sums[i - 1] == sums[nums.length - 1] - sums[i])) {
-                return i;
-            }
-        }
-        return -1;
-    }
-
-    public static void main(String[] args) {
-        int[] testArray = {1, 7, 3, 6, 5, 6};
-        System.out.println("Space: O(1), Time: O(n): " + _724.pivotIndex(testArray));
-        System.out.println("Space: O(n), Time: O(n): " + _724.pivotIndex2(testArray));
     }
 }
