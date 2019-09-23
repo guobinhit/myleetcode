@@ -281,7 +281,7 @@ My LeetCode Solutions!
 |1115|[Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1115.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Concurrency
 |1116|[Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1116.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Concurrency
 |1117|[Building H2O](https://leetcode.com/problems/building-h2o/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1117.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Concurrency
-|1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/building-h2o/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1195.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Concurrency
+|1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/PCODE/java/leetcodes/src/main/java/com/hit/basmath/learn/concurrency/_1195.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Concurrency
 
 
 
