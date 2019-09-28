@@ -937,7 +937,7 @@ My LeetCode Solutions!
 ------------
 
 
-- [↑↑↑ RETURN THE TOP ↑↑↑](https://github.com/guobinhit/myleetcode#index)
+- [↑↑↑ RETURN THE TOP ↑↑↑](#index)
 
 
 
