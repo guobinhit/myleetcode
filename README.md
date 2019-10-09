@@ -1,6 +1,6 @@
 # myleetcode 
 
-![author](https://img.shields.io/badge/author-chariesgavin-blueviolet.svg)![lover](https://img.shields.io/badge/lover-xiaoxue-red.svg)[![last commit](https://img.shields.io/github/last-commit/guobinhit/myleetcode.svg)![build status](https://travis-ci.org/guobinhit/myleetcode.svg?branch=master)](https://travis-ci.org/guobinhit/myleetcode)![issues](https://img.shields.io/github/issues/guobinhit/myleetcode.svg)![stars](https://img.shields.io/github/stars/guobinhit/myleetcohttps://github.com/guobinhit/myleetcode/blob/master/codesde.svg)![forks](	https://img.shields.io/github/forks/guobinhit/myleetcode.svg)![license](https://img.shields.io/github/license/guobinhit/myleetcode.svg)
+![author](https://img.shields.io/badge/author-chariesgavin-blueviolet.svg)![lover](https://img.shields.io/badge/lover-xiaoxue-red.svg)[![last commit](https://img.shields.io/github/last-commit/guobinhit/myleetcode.svg)![build status](https://travis-ci.org/guobinhit/myleetcode.svg?branch=master)](https://travis-ci.org/guobinhit/myleetcode)![issues](https://img.shields.io/github/issues/guobinhit/myleetcode.svg)![stars](https://img.shields.io/github/stars/guobinhit/myleetcode.svg)![forks](	https://img.shields.io/github/forks/guobinhit/myleetcode.svg)![license](https://img.shields.io/github/license/guobinhit/myleetcode.svg)
 
 
 My LeetCode Solutions!
