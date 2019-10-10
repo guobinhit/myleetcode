@@ -1,14 +1,10 @@
 package com.hit.basmath.learn.array_and_string;
 
-import java.util.Arrays;
-
 /**
  * 498. Diagonal Traverse
  * <p>
  * Given a matrix of m x N elements (m rows, N columns), return all elements of the matrix in diagonal order
  * as shown in the below image.
- * <p>
- * Example:
  * <p>
  * Input:
  * [
@@ -18,25 +14,21 @@ import java.util.Arrays;
  * ]
  * Output:  [1,2,4,7,5,3,6,8,9]
  * <p>
- * Note:
- * <p>
- * The total number of elements of the given matrix will not exceed 10,000.
+ * Note: The total number of elements of the given matrix will not exceed 10,000.
  */
 public class _498 {
-    public static int[] findDiagonalOrder(int[][] matrix) {
+    public int[] findDiagonalOrder(int[][] matrix) {
         if (matrix.length == 0) {
             return new int[0];
         }
-        /**
-         * Initial variable
-         */
+
+        // Initial variable
         int row = 0, col = 0;
         int m = matrix.length;
         int n = matrix[0].length;
         int[] aimArr = new int[m * n];
-        /**
-         * Execute m * n times circle, in order to fill m * n element into aimArr
-         */
+
+        // Execute m * n times circle, in order to fill m * n element into aimArr
         for (int i = 0; i < aimArr.length; i++) {
             aimArr[i] = matrix[row][col];
             /**
@@ -89,13 +81,5 @@ public class _498 {
             }
         }
         return aimArr;
-    }
-
-    public static void main(String[] args) {
-        int[][] matrix = {{1, 2, 3, 4},
-                {4, 5, 6, 7},
-                {7, 8, 9, 10}};
-
-        System.out.println(Arrays.toString(_498.findDiagonalOrder(matrix)));
     }
 }

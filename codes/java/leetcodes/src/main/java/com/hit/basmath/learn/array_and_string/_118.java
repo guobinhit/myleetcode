@@ -8,8 +8,7 @@ import java.util.List;
  * <p>
  * Given numRows, generate the first numRows of Pascal's triangle.
  * <p>
- * For example, given numRows = 5,
- * Return
+ * For example, given numRows = 5, return
  * <p>
  * [
  * [1],
@@ -25,13 +24,11 @@ public class _118 {
         if (numRows <= 0) {
             return triangle;
         }
+
         for (int i = 0; i < numRows; i++) {
             List<Integer> row = new ArrayList<Integer>();
             for (int j = 0; j < i + 1; j++) {
-                /**
-                 * Besides first row is 1 only,
-                 * others row's first and second element both 1
-                 */
+                // Besides first row is 1 only, others row's first and last element both 1
                 if (j == 0 || j == i) {
                     row.add(1);
                 } else {
@@ -48,21 +45,5 @@ public class _118 {
             triangle.add(row);
         }
         return triangle;
-    }
-
-    public List<List<Integer>> generate2(int numRows) {
-        List<List<Integer>> allrows = new ArrayList<List<Integer>>();
-        if (numRows <= 0) {
-            return allrows;
-        }
-        ArrayList<Integer> row = new ArrayList<Integer>();
-        for (int i = 0; i < numRows; i++) {
-            row.add(0, 1);
-            for (int j = 1; j < row.size() - 1; j++) {
-                row.set(j, row.get(j) + row.get(j + 1));
-            }
-            allrows.add(new ArrayList<Integer>(row));
-        }
-        return allrows;
     }
 }
