@@ -1,4 +1,4 @@
-package com.hit.interview.sort_algorithm;
+package com.hit.basinfo.sort_algorithm;
 
 import java.util.Arrays;
 
@@ -9,13 +9,6 @@ import java.util.Arrays;
  * description: 冒泡排序
  */
 public class BubbleSort {
-    public static void main(String[] args) {
-        int[] nums = {0, -1, 9, -3, 3, 5, 3, 62, 20};
-        System.out.println(Arrays.toString(nums));
-        bubbleSort(nums);
-        System.out.println(Arrays.toString(nums));
-    }
-
     /**
      * 冒泡排序
      * <p>
@@ -25,7 +18,7 @@ public class BubbleSort {
      *
      * @param nums
      */
-    public static void bubbleSort(int[] nums) {
+    public void bubbleSort(int[] nums) {
         // 参数校验
         if (nums != null &&
                 nums.length > 1) {

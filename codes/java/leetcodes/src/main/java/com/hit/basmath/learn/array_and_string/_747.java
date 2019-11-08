@@ -1,9 +1,5 @@
 package com.hit.basmath.learn.array_and_string;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 747. Largest Number Greater Than Twice of Others
  * <p>

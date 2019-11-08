@@ -1,4 +1,4 @@
-package com.hit.interview.sort_algorithm;
+package com.hit.basinfo.sort_algorithm;
 
 import java.util.Arrays;
 

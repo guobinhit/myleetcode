@@ -1,4 +1,4 @@
-package com.hit.interview;
+package com.hit.basinfo.interview;
 
 /**
  * author:Charies Gavin

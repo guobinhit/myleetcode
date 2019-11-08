@@ -817,10 +817,10 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
-|Sort 1|[Bubble Sort](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/BubbleSort.java)  & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Sort Algorithm
-|Sort 2|[Insert Sort](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/InsertSort.java)  & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Sort Algorithm
-|Sort 3|[Quick Sort](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/QuickSort.java)  & Python|![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Sort Algorithm
-|Sort 4|[Select Sort](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/sort_algorithm/SelectSort.java)  & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Sort Algorithm
+|Sort 1|[Bubble Sort](https://github.com/guobinhit/myleetcode#sort-algorithm)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/BubbleSort.java)  & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Sort Algorithm
+|Sort 2|[Insert Sort](https://github.com/guobinhit/myleetcode#sort-algorithm)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/InsertSort.java)  & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Sort Algorithm
+|Sort 3|[Quick Sort](https://github.com/guobinhit/myleetcode#sort-algorithm)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/QuickSort.java)  & Python|![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Sort Algorithm
+|Sort 4|[Select Sort](https://github.com/guobinhit/myleetcode#sort-algorithm) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/SelectSort.java)  & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Sort Algorithm
 
 
 
@@ -828,8 +828,8 @@ My LeetCode Solutions!
 
 |  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
 |-----|----------------|:---------------:|:--------:|:-------------:
-|Search 1|[Binary Search](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/BinarySearch.java) & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Search Algorithm
-|Search 2|[Order Search](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/search_algorithm/OrderSearch.java) & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Search Algorithm
+|Search 1|[Binary Search](https://github.com/guobinhit/myleetcode#search-algorithm) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/search_algorithm/BinarySearch.java) & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Search Algorithm
+|Search 2|[Order Search](https://github.com/guobinhit/myleetcode#search-algorithm) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/search_algorithm/OrderSearch.java) & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Search Algorithm
 
 
 
