@@ -16,6 +16,6 @@ public class BinarySearchTest {
         System.out.println(Arrays.toString(nums));
         new BubbleSort().bubbleSort(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println(new BinarySearch().binarySearch(nums, 0));
+        System.out.println(new BinarySearch().binarySearch(nums, 1));
     }
 }
