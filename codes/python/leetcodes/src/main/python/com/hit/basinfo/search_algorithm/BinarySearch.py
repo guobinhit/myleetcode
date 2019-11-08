@@ -6,6 +6,7 @@
 """
 
 
+# tips nums must be sorted
 def binary_search(nums, target):
     if len(nums) == 0:
         return -1
