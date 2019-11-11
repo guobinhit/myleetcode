@@ -11,8 +11,9 @@ This project now provides a LeetCode solution in two languages, and you can prov
 - myleetcode:
   - `codes`	
   - `images`	
-  - `.gitignore`	
+  - `.gitignore`
   - `.travis.yml`	
+  - `CONTRIBUTING.md`
   - `LICENSE`
   - `README.md`	
   - `_config.yml`
