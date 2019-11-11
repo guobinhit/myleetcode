@@ -1,35 +1,25 @@
 package com.hit.basinfo.sort_algorithm;
 
-import java.util.Arrays;
-
 /**
  * author:Charies Gavin
  * date:2019/1/8,11:36
  * https:github.com/guobinhit
- * description: 插入排序
+ * description: Insert Sort
  */
 public class InsertSort {
-    public static void main(String[] args) {
-        int[] nums = {0, -1, 9, -3, 5, 3, 62, 20};
-        System.out.println(Arrays.toString(nums));
-        insertSort(nums);
-        System.out.println(Arrays.toString(nums));
-    }
-
     /**
-     * 直接插入排序
+     * Direct Insert Sort
      *
-     * @param nums
+     * @param nums pending array
      */
-    public static void insertSort(int[] nums) {
-        // 参数校验
-        if (nums == null ||
-                nums.length < 2) {
+    public void insertSort(int[] nums) {
+        // check parameters
+        if (nums == null || nums.length < 2) {
             return;
         }
 
-        // 核心算法
-        for (int i = 0; i < nums.length - 1; i++) {
+        // core algorithm
+        for (int i = 0; i < nums.length; i++) {
             for (int j = i; j > 0; j--) {
                 if (nums[j] < nums[j - 1]) {
                     int temp = nums[j - 1];
@@ -43,18 +33,17 @@ public class InsertSort {
     }
 
     /**
-     * 二分插入排序
+     * Binary Insert Sort
      *
-     * @param nums
+     * @param nums pending array
      */
-    public static void binaryInsertSort(int[] nums) {
-        // 参数校验
-        if (nums == null ||
-                nums.length < 2) {
+    public void binaryInsertSort(int[] nums) {
+        // check parameters
+        if (nums == null || nums.length < 2) {
             return;
         }
 
-        // 折半排序核心算法
+        // core algorithm
         for (int i = 1; i < nums.length; i++) {
             int temp = nums[i];
             int low = 0;
@@ -77,21 +66,20 @@ public class InsertSort {
     }
 
     /**
-     * 希尔插入排序
+     * Shell Insert Sort
      *
-     * @param nums
+     * @param nums pending array
      */
-    public static void shellInsertSort(int[] nums) {
-        // 参数校验
-        if (nums == null ||
-                nums.length < 2) {
+    public void shellInsertSort(int[] nums) {
+        // check parameters
+        if (nums == null || nums.length < 2) {
             return;
         }
 
         int d = nums.length;
-        // 希尔排序核心算法
-        while (true) {
-            // 设置初始增量为数组长度的一半
+        // core algorithm
+        do {
+            // set the initial increment to half the array length
             d = d / 2;
             for (int x = 0; x < d; x++) {
                 for (int i = x + d; i < nums.length; i = i + d) {
@@ -104,10 +92,7 @@ public class InsertSort {
                 }
             }
 
-            // 增量为 1 时，排序完成
-            if (d == 1) {
-                break;
-            }
-        }
+            // when the increment is 1, the sorting is complete
+        } while (d != 1);
     }
 }
