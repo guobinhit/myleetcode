@@ -23,12 +23,12 @@ All solutions of LeetCode, must be created in package of `codes`.
 
 ### Java
 
-- Class Name: Start with `_`, and spell problem number in LeetCode.
+- Class Name: Start with `_`, then spell problem number of LeetCode.
 - Method Name: Initial in lowercase, then follow hump format.
 
 ### Python
 
-- Class Name: Start with `_`, and spell problem number in LeetCode.
+- Class Name: Start with `_`, then spell problem number of LeetCode.
 - Method Name: Initial in lowercase, then spell with `_`, if method name have more than one word.
 
 
