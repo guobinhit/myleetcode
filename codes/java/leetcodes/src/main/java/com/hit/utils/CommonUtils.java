@@ -18,8 +18,9 @@ public class CommonUtils {
     public static void swapElementInArray(int[] nums, int left, int right) {
         // validate param
         if (nums != null &&
-                nums.length - 1 > left &&
-                nums.length - 1 > right) {
+                nums.length > left &&
+                nums.length > right &&
+                left >= 0 && right >= 0) {
             // swap element of two index
             int temp = nums[right];
             nums[right] = nums[left];

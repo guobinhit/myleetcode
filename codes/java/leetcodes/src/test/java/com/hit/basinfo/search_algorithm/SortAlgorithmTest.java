@@ -1,9 +1,6 @@
 package com.hit.basinfo.search_algorithm;
 
-import com.hit.basinfo.sort_algorithm.BubbleSort;
-import com.hit.basinfo.sort_algorithm.InsertSort;
-import com.hit.basinfo.sort_algorithm.QuickSort;
-import com.hit.basinfo.sort_algorithm.SelectSort;
+import com.hit.basinfo.sort_algorithm.*;
 
 import java.util.Arrays;
 
@@ -28,13 +25,25 @@ public class SortAlgorithmTest {
         int[] nums3 = {0, -1, 9, -3, 5, 3, 62, 20};
         System.out.println("nums3 is " + Arrays.toString(nums3));
         new InsertSort().insertSort(nums3);
-//        new InsertSort().binaryInsertSort(nums3);
-//        new InsertSort().shellInsertSort(nums3);
+        new InsertSort().binaryInsertSort(nums3);
+        new InsertSort().shellInsertSort(nums3);
         System.out.println("after insert sort, nums3 is " + Arrays.toString(nums3));
 
         int[] nums4 = {0, -1, 9, -3, 5, 3, 62, 20};
         System.out.println("nums4 is " + Arrays.toString(nums4));
         new QuickSort().quickSort(nums4);
-        System.out.println("after quick sort, nums3 is " + Arrays.toString(nums4));
+        System.out.println("after quick sort, nums4 is " + Arrays.toString(nums4));
+
+        int[] nums5 = {0, -1, 9, -3, 5, 3, 62, 20};
+        System.out.println("nums5 is " + Arrays.toString(nums5));
+        new MergeSort().mergeSort(nums5);
+        System.out.println("after merge sort, nums5 is " + Arrays.toString(nums5));
+
+        int[] nums6 = {0, -1, 9, -3, 5, 3, 62, 20};
+        System.out.println("nums6 is " + Arrays.toString(nums6));
+        new HeapSort().heapSort(nums6, HeapSort.HeapType.MinHeap);
+        System.out.println("after min heap sort, nums6 is " + Arrays.toString(nums6));
+        new HeapSort().heapSort(nums6, HeapSort.HeapType.MaxHeap);
+        System.out.println("after max heap sort, nums6 is " + Arrays.toString(nums6));
     }
 }

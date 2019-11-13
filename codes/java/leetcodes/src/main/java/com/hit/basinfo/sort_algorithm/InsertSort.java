@@ -76,23 +76,23 @@ public class InsertSort {
             return;
         }
 
-        int d = nums.length;
+        int length = nums.length;
         // core algorithm
         do {
             // set the initial increment to half the array length
-            d = d / 2;
-            for (int x = 0; x < d; x++) {
-                for (int i = x + d; i < nums.length; i = i + d) {
+            length = length / 2;
+            for (int x = 0; x < length; x++) {
+                for (int i = x + length; i < nums.length; i = i + length) {
                     int temp = nums[i];
                     int j;
-                    for (j = i - d; j >= 0 && nums[j] > temp; j = j - d) {
-                        nums[j + d] = nums[j];
+                    for (j = i - length; j >= 0 && nums[j] > temp; j = j - length) {
+                        nums[j + length] = nums[j];
                     }
-                    nums[j + d] = temp;
+                    nums[j + length] = temp;
                 }
             }
 
             // when the increment is 1, the sorting is complete
-        } while (d != 1);
+        } while (length != 1);
     }
 }
