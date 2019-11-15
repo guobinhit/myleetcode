@@ -6,7 +6,7 @@ import com.hit.utils.CommonUtils;
  * author:Charies Gavin
  * date:2019/11/11,19:30
  * https:github.com/guobinhit
- * description: Merge Sort
+ * description: Heap Sort
  */
 public class HeapSort {
 

@@ -19,24 +19,21 @@ Then 4 is the first bad version.
 """
 
 
-class Solution:
-    def firstBadVersion(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
-        left = 1
-        right = n
-        while left < right:
-            mid = left + (right - left) // 2
-            """ wirte as Solution.isBadVersion way is in order to defend error tips """
-            if Solution.isBadVersion(mid):
-                right = mid
-            else:
-                left = mid + 1
-        return left
+def firstBadVersion(n):
+    left = 1
+    right = n
+    while left < right:
+        mid = left + (right - left) // 2
+        """ wirte as Solution.isBadVersion way is in order to defend error tips """
+        if isBadVersion(mid):
+            right = mid
+        else:
+            left = mid + 1
+    return left
 
-    """ Below function is not real isBadVersion """
 
-    def isBadVersion(self, num):
-        return True
+""" Below function is not real isBadVersion """
+
+
+def isBadVersion(num):
+    return True
