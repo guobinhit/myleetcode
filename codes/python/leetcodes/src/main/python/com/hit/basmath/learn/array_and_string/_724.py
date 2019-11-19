@@ -26,8 +26,8 @@ There is no index that satisfies the conditions in the problem statement.
 
 Note:
 
-The length of nums will be in the range [0, 10000].
-Each element nums[i] will be an integer in the range [-1000, 1000].
+1. The length of nums will be in the range [0, 10000].
+2. Each element nums[i] will be an integer in the range [-1000, 1000].
 """
 
 
