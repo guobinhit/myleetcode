@@ -3,8 +3,7 @@ package com.hit.basmath.learn.array_and_string;
 /**
  * 498. Diagonal Traverse
  * <p>
- * Given a matrix of m x N elements (m rows, N columns), return all elements of the matrix in diagonal order
- * as shown in the below image.
+ * Given a matrix of M x N elements (M rows, N columns), return all elements of the matrix in diagonal order as shown in the below image.
  * <p>
  * Input:
  * [
@@ -36,7 +35,8 @@ public class _498 {
              * For example, the sum of all moving up trajectory element can be divided by 2，
              * and the sum of all moving down trajectory element can't be divided by 2
              */
-            if ((row + col) % 2 == 0) { // moving up
+            if ((row + col) % 2 == 0) {
+                // moving up
                 if (col == n - 1) {
                     /**
                      * If col == n - 1, it's mean this position is last column,
@@ -51,13 +51,14 @@ public class _498 {
                     col++;
                 } else {
                     /**
-                     * In this condition, in order to moving down,
+                     * In this condition, in order to moving up,
                      * column index must be increased and row index must be decreased
                      */
                     row--;
                     col++;
                 }
-            } else { // moving down
+            } else {
+                // moving down
                 if (row == m - 1) {
                     /**
                      * If row == m - 1, it's mean this position is last row,

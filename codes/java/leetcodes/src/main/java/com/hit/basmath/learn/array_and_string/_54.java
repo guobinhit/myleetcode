@@ -20,11 +20,11 @@ import java.util.List;
  */
 public class _54 {
     public List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> targetList = new ArrayList<Integer>();
 
-        // If matrix.length == 0, return res immediately
+        // If matrix.length == 0, return targetList immediately
         if (matrix.length == 0) {
-            return res;
+            return targetList;
         }
 
         // Initial variables
@@ -36,8 +36,8 @@ public class _54 {
         // Iterate all element of matrix，condition is rowBegin <= rowEnd && colBegin <= colEnd
         while (rowBegin <= rowEnd && colBegin <= colEnd) {
             // Traverse Right
-            for (int j = colBegin; j <= colEnd; j++) {
-                res.add(matrix[rowBegin][j]);
+            for (int i = colBegin; i <= colEnd; i++) {
+                targetList.add(matrix[rowBegin][i]);
             }
 
             /**
@@ -48,7 +48,7 @@ public class _54 {
 
             // Traverse Down
             for (int j = rowBegin; j <= rowEnd; j++) {
-                res.add(matrix[j][colEnd]);
+                targetList.add(matrix[j][colEnd]);
             }
 
             /**
@@ -59,8 +59,8 @@ public class _54 {
 
             if (rowBegin <= rowEnd) {
                 // Traverse Left
-                for (int j = colEnd; j >= colBegin; j--) {
-                    res.add(matrix[rowEnd][j]);
+                for (int k = colEnd; k >= colBegin; k--) {
+                    targetList.add(matrix[rowEnd][k]);
                 }
             }
 
@@ -72,8 +72,8 @@ public class _54 {
 
             if (colBegin <= colEnd) {
                 // Traver Up
-                for (int j = rowEnd; j >= rowBegin; j--) {
-                    res.add(matrix[j][colBegin]);
+                for (int m = rowEnd; m >= rowBegin; m--) {
+                    targetList.add(matrix[m][colBegin]);
                 }
             }
 
@@ -83,6 +83,6 @@ public class _54 {
              */
             colBegin++;
         }
-        return res;
+        return targetList;
     }
 }
