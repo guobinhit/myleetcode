@@ -803,6 +803,10 @@ You can also ask for problem solving ideas and discuss in GitHub issues directly
 |909|[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_909.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Others
 |910|[Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_910.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Others
 |911|[Online Election](https://leetcode.com/problems/online-election/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_911.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Others
+|913|[Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_913.java) & Python |![hard](https://github.com/guobinhit/myleetcode/blob/master/images/hard.png)| Others
+|914|[X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_914.java) & Python |![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Others
+|915|[Partition Array into Disjoint Intervals ](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_915.java) & Python |![medium](https://github.com/guobinhit/myleetcode/blob/master/images/medium.png)| Others
+
 
 
 
