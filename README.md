@@ -1037,17 +1037,6 @@ You can also ask for problem solving ideas and discuss in GitHub issues directly
 
 
 
-### Practice
-
-|  #  |      Title     |   Solutions    |   Difficulty  | Tag                   
-|-----|----------------|:---------------:|:--------:|:-------------:
-|Question 1|[Fibonacci](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/Fibonacci.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/interview/Fibonacci.java) & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Fibonacci Sequence
-|Question 2|[Compare Binary and Hexadecimal](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/CompareBinToHex.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/interview/CompareBinToHex.java) & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Binary Conversion
-|Question 3|[Fast Output Prime Numbers](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/interview/SieveOfEratosthenes.java) | [Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/interview/SieveOfEratosthenes.java) & Python|![easy](https://github.com/guobinhit/myleetcode/blob/master/images/easy.png)| Sieve of Eratosthenes
-
-
-
-
 
 
 ------------

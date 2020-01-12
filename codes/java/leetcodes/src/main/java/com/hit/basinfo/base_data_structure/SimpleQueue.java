@@ -6,7 +6,7 @@ import com.hit.common.ListNode;
  * author:Charies Gavin
  * date:2019/1/21,11:39
  * https:github.com/guobinhit
- * description: 简单的队列
+ * description: Simple Queue
  */
 public class SimpleQueue {
     ListNode first, last;

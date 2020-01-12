@@ -6,7 +6,7 @@ import com.hit.common.ListNode;
  * author:Charies Gavin
  * date:2019/1/21,11:30
  * https:github.com/guobinhit
- * description: 简单的栈
+ * description: Simple Stack
  */
 public class SimpleStack {
     ListNode top;
