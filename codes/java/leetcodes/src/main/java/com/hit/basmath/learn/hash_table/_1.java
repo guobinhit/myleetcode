@@ -19,17 +19,61 @@ import java.util.Map;
  * return [0, 1].
  */
 public class _1 {
+    /**
+     * Solution 1: Violence method
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap();
         for (int i = 0; i < nums.length; i++) {
-            int a = nums[i];
-            // note that the numbers in the array can be negative as well
-            if (map.get(target - a) != null) {
-                return new int[]{map.get(target - a), i};
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[]{i, j};
+                }
             }
-            // The following should be after the check above,
-            // otherwise it will fail for the case where target = 6 and there's a 3 in the original array.
-            map.put(a, i);
+        }
+        return null;
+    }
+
+    /**
+     * Solution 2: Two pass hash table
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int[] twoSum2(int[] nums, int target) {
+        Map<Integer, Integer> aMap = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            aMap.put(nums[i], i);
+        }
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (aMap.containsKey(complement) &&
+                    aMap.get(complement) != i) {
+                return new int[]{i, aMap.get(complement)};
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Solution 3: One pass hash table
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int[] twoSum3(int[] nums, int target) {
+        Map<Integer, Integer> aMap = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (aMap.containsKey(complement)) {
+                return new int[]{aMap.get(complement), i};
+            }
+            aMap.put(nums[i], i);
         }
         return null;
     }
