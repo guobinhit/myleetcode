@@ -2,6 +2,7 @@ package com.hit.basmath.learn.binary_search;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -31,25 +32,53 @@ import java.util.List;
  * What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
  */
 public class _350 {
+    /**
+     * Solution 1: Using hash map in less array
+     *
+     * @param nums1
+     * @param nums2
+     * @return
+     */
     public int[] intersect(int[] nums1, int[] nums2) {
-        List<Integer> res = new ArrayList<Integer>();
-        Arrays.sort(nums1);
-        Arrays.sort(nums2);
-        for (int i = 0, j = 0; i < nums1.length && j < nums2.length; ) {
-            if (nums1[i] < nums2[j]) {
-                i++;
-            } else if (nums1[i] == nums2[j]) {
-                res.add(nums1[i]);
-                i++;
-                j++;
-            } else {
-                j++;
+        if (nums1.length > nums2.length) {
+            return intersect(nums2, nums1);
+        }
+        HashMap<Integer, Integer> m = new HashMap<>();
+        for (int n : nums1) {
+            m.put(n, m.getOrDefault(n, 0) + 1);
+        }
+        int k = 0;
+        for (int n : nums2) {
+            int cnt = m.getOrDefault(n, 0);
+            if (cnt > 0) {
+                nums1[k++] = n;
+                m.put(n, cnt - 1);
             }
         }
-        int[] result = new int[res.size()];
-        for (int i = 0; i < res.size(); i++) {
-            result[i] = res.get(i);
+        return Arrays.copyOfRange(nums1, 0, k);
+    }
+
+    /**
+     * Solution 2: If nums1 and nums2 are sorted, this way is better
+     *
+     * @param nums1
+     * @param nums2
+     * @return
+     */
+    public int[] intersect2(int[] nums1, int[] nums2) {
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        int i = 0, j = 0, k = 0;
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] < nums2[j]) {
+                ++i;
+            } else if (nums1[i] > nums2[j]) {
+                ++j;
+            } else {
+                nums1[k++] = nums1[i++];
+                ++j;
+            }
         }
-        return result;
+        return Arrays.copyOfRange(nums1, 0, k);
     }
 }

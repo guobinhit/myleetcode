@@ -1,6 +1,7 @@
 package com.hit.basmath.interview.top_interview_questions.medium_collection.math;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 166. Fraction to Recurring Decimal
@@ -29,36 +30,32 @@ public class _166 {
         if (numerator == 0) {
             return "0";
         }
-        StringBuilder res = new StringBuilder();
-        // "+" or "-"
-        res.append(((numerator > 0) ^ (denominator > 0)) ? "-" : "");
-        long num = Math.abs((long) numerator);
-        long den = Math.abs((long) denominator);
-
-        // integral part
-        res.append(num / den);
-        num %= den;
-        if (num == 0) {
-            return res.toString();
+        StringBuilder fraction = new StringBuilder();
+        // If either one is negative (not both)
+        if (numerator < 0 ^ denominator < 0) {
+            fraction.append("-");
         }
-
-        // fractional part
-        res.append(".");
-        HashMap<Long, Integer> map = new HashMap<Long, Integer>();
-        map.put(num, res.length());
-        while (num != 0) {
-            num *= 10;
-            res.append(num / den);
-            num %= den;
-            if (map.containsKey(num)) {
-                int index = map.get(num);
-                res.insert(index, "(");
-                res.append(")");
+        // Convert to Long or else abs(-2147483648) overflows
+        long dividend = Math.abs(Long.valueOf(numerator));
+        long divisor = Math.abs(Long.valueOf(denominator));
+        fraction.append(String.valueOf(dividend / divisor));
+        long remainder = dividend % divisor;
+        if (remainder == 0) {
+            return fraction.toString();
+        }
+        fraction.append(".");
+        Map<Long, Integer> map = new HashMap<>();
+        while (remainder != 0) {
+            if (map.containsKey(remainder)) {
+                fraction.insert(map.get(remainder), "(");
+                fraction.append(")");
                 break;
-            } else {
-                map.put(num, res.length());
             }
+            map.put(remainder, fraction.length());
+            remainder *= 10;
+            fraction.append(String.valueOf(remainder / divisor));
+            remainder %= divisor;
         }
-        return res.toString();
+        return fraction.toString();
     }
 }

@@ -21,11 +21,11 @@ package com.hit.basmath.interview.top_interview_questions.medium_collection.math
  */
 public class _172 {
     public int trailingZeroes(int n) {
-        int r = 0;
+        int ans = 0;
         while (n > 0) {
             n /= 5;
-            r += n;
+            ans += n;
         }
-        return r;
+        return ans;
     }
 }

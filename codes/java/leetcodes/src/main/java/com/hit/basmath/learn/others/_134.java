@@ -52,15 +52,14 @@ package com.hit.basmath.learn.others;
 public class _134 {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int total = 0, tank = 0, index = 0;
-        for (int i = 0; i < cost.length; i++) {
+        for (int i = 0; i < gas.length; i++) {
             int cur = gas[i] - cost[i];
-
             tank += cur;
+            total += cur;
             if (tank < 0) {//if sum < 0, index can only start from i + 1
                 index = i + 1;
                 tank = 0;
             }
-            total += cur;
         }
         return total < 0 ? -1 : index;
     }

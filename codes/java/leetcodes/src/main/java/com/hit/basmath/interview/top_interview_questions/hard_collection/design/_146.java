@@ -1,9 +1,6 @@
 package com.hit.basmath.interview.top_interview_questions.hard_collection.design;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * 146. LRU Cache
@@ -34,50 +31,105 @@ import java.util.PriorityQueue;
  */
 public class _146 {
     class LRUCache {
-        private PriorityQueue<List<Integer>> queue; //list.get(0)=key; list.get(1)=value; list.get(2)=priority;
-        private HashMap<Integer, List<Integer>> map; //map.key=key; map.value=<<List>Integer>([key,value,priority]);
-        private List<Integer> listRetrieved;
-        private List<Integer> listAdded;
+        class DLinkedNode {
+            int key;
+            int value;
+            DLinkedNode prev;
+            DLinkedNode next;
+        }
+
+        private void addNode(DLinkedNode node) {
+            /**
+             * Always add the new node right after head.
+             */
+            node.prev = head;
+            node.next = head.next;
+
+            head.next.prev = node;
+            head.next = node;
+        }
+
+        private void removeNode(DLinkedNode node) {
+            /**
+             * Remove an existing node from the linked list.
+             */
+            DLinkedNode prev = node.prev;
+            DLinkedNode next = node.next;
+
+            prev.next = next;
+            next.prev = prev;
+        }
+
+        private void moveToHead(DLinkedNode node) {
+            /**
+             * Move certain node in between to the head.
+             */
+            removeNode(node);
+            addNode(node);
+        }
+
+        private DLinkedNode popTail() {
+            /**
+             * Pop the current tail.
+             */
+            DLinkedNode res = tail.prev;
+            removeNode(res);
+            return res;
+        }
+
+        private Hashtable<Integer, DLinkedNode> cache = new Hashtable<>();
+        private int size;
         private int capacity;
-        private int priority;
+        private DLinkedNode head, tail;
 
         public LRUCache(int capacity) {
-            queue = new PriorityQueue<>((a, b) -> a.get(2) - b.get(2));
-            map = new HashMap();
+            this.size = 0;
             this.capacity = capacity;
-            priority = 0;
+
+            head = new DLinkedNode();
+            // head.prev = null;
+
+            tail = new DLinkedNode();
+            // tail.next = null;
+
+            head.next = tail;
+            tail.prev = head;
         }
 
         public int get(int key) {
-            if (map.containsKey(key)) {
-                listRetrieved = map.get(key);
-                queue.remove(listRetrieved);
-                listAdded = new ArrayList() {{
-                    add(key);
-                    add(listRetrieved.get(1));
-                    add(++priority);
-                }};
-                queue.add(listAdded);
-                map.put(key, listAdded);
-                return listRetrieved.get(1);
-            }
-            return -1;
+            DLinkedNode node = cache.get(key);
+            if (node == null) return -1;
+
+            // move the accessed node to the head;
+            moveToHead(node);
+
+            return node.value;
         }
 
         public void put(int key, int value) {
-            listAdded = new ArrayList() {{
-                add(key);
-                add(value);
-                add(++priority);
-            }};
-            if (map.containsKey(key)) {
-                queue.remove(map.get(key));
-            } else if (queue.size() >= capacity) {
-                listRetrieved = queue.poll();
-                map.remove(listRetrieved.get(0));
+            DLinkedNode node = cache.get(key);
+
+            if (node == null) {
+                DLinkedNode newNode = new DLinkedNode();
+                newNode.key = key;
+                newNode.value = value;
+
+                cache.put(key, newNode);
+                addNode(newNode);
+
+                ++size;
+
+                if (size > capacity) {
+                    // pop the tail
+                    DLinkedNode tail = popTail();
+                    cache.remove(tail.key);
+                    --size;
+                }
+            } else {
+                // update the value.
+                node.value = value;
+                moveToHead(node);
             }
-            queue.add(listAdded);
-            map.put(key, listAdded);
         }
     }
 }

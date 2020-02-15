@@ -1,6 +1,7 @@
 package com.hit.basmath.learn.linked_list;
 
-import java.util.LinkedList;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 138. Copy List with Random Pointer
@@ -25,44 +26,38 @@ import java.util.LinkedList;
  * You must return the copy of the given head as a reference to the cloned list.
  */
 public class _138 {
+    // HashMap which holds old nodes as keys and new nodes as its values.
+    private Map<Node, Node> visitedHash = new HashMap<>();
+
     public Node copyRandomList(Node head) {
-        if (head == null) return null;
 
-        Node newHead = new Node(head.val, head.next, null);
-
-        LinkedList<Node> newList = new LinkedList<Node>();
-        LinkedList<Node> originalList = new LinkedList<Node>();
-
-        originalList.add(head);
-        newList.add(newHead);
-
-        Node curr = newHead.next;
-        Node last = newHead;
-
-        while (curr != null) {
-            Node newNode = new Node(curr.val, curr.next, null);
-
-            newList.add(newNode);
-            originalList.add(curr);
-
-            last.next = newNode;
-            curr = curr.next;
-            last = last.next;
+        if (head == null) {
+            return null;
         }
 
-
-        //let's build random then..
-        for (int i = 0; i < originalList.size(); i++) {
-            curr = newList.get(i);
-            last = originalList.get(i);
-
-            int k = originalList.indexOf(last.random);
-
-            if (k != -1)
-                curr.random = newList.get(k);
+        // If we have already processed the current node, then we simply return the cloned version of
+        // it.
+        if (this.visitedHash.containsKey(head)) {
+            return this.visitedHash.get(head);
         }
 
-        return newHead;
+        // Create a new node with the value same as old node. (i.e. copy the node)
+        Node node = new Node(head.val, null, null);
+
+        // Save this value in the hash map. This is needed since there might be
+        // loops during traversal due to randomness of random pointers and this would help us avoid
+        // them.
+        this.visitedHash.put(head, node);
+
+        // Recursively copy the remaining linked list starting once from the next pointer and then from
+        // the random pointer.
+        // Thus we have two independent recursive calls.
+        // Finally we update the next and random pointers for the new node created.
+        node.next = this.copyRandomList(head.next);
+        node.random = this.copyRandomList(head.random);
+
+        return node;
+
     }
 
     class Node {
