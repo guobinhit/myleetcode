@@ -56,7 +56,8 @@ public class _134 {
             int cur = gas[i] - cost[i];
             tank += cur;
             total += cur;
-            if (tank < 0) {//if sum < 0, index can only start from i + 1
+            // if tank < 0, index can only start from i + 1
+            if (tank < 0) {
                 index = i + 1;
                 tank = 0;
             }

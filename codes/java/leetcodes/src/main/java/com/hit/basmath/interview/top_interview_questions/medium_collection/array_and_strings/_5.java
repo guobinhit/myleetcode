@@ -18,25 +18,26 @@ package com.hit.basmath.interview.top_interview_questions.medium_collection.arra
  */
 public class _5 {
     public String longestPalindrome(String s) {
-        String res = "";
-        int currLength = 0;
+        if (s == null || s.length() < 1) return "";
+        int start = 0, end = 0;
         for (int i = 0; i < s.length(); i++) {
-            if (isPalindrome(s, i - currLength - 1, i)) {
-                res = s.substring(i - currLength - 1, i + 1);
-                currLength = currLength + 2;
-            } else if (isPalindrome(s, i - currLength, i)) {
-                res = s.substring(i - currLength, i + 1);
-                currLength = currLength + 1;
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
             }
         }
-        return res;
+        return s.substring(start, end + 1);
     }
 
-    private boolean isPalindrome(String s, int begin, int end) {
-        if (begin < 0) return false;
-        while (begin < end) {
-            if (s.charAt(begin++) != s.charAt(end--)) return false;
+    private int expandAroundCenter(String s, int left, int right) {
+        int L = left, R = right;
+        while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
+            L--;
+            R++;
         }
-        return true;
+        return R - L - 1;
     }
 }

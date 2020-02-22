@@ -24,7 +24,7 @@ package com.hit.basmath.learn.binary_search;
  * Output: -1
  */
 public class _33 {
-    public static int search(int[] nums, int target) {
+    public int search(int[] nums, int target) {
         int start = 0, end = nums.length - 1;
         while (start <= end) {
             int mid = (start + end) / 2;

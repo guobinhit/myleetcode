@@ -21,11 +21,14 @@ package com.hit.basmath.learn.others;
  */
 public class _674 {
     public int findLengthOfLCIS(int[] nums) {
-        int res = 0, cnt = 0;
+        int ans = 0, anchor = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (i == 0 || nums[i - 1] < nums[i]) res = Math.max(res, ++cnt);
-            else cnt = 1;
+            if (i == 0 || nums[i - 1] < nums[i]) {
+                ans = Math.max(ans, ++anchor);
+            } else {
+                anchor = 1;
+            }
         }
-        return res;
+        return ans;
     }
 }

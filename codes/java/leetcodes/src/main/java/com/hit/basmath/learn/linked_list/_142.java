@@ -15,26 +15,26 @@ import com.hit.common.ListNode;
  */
 public class _142 {
     public ListNode detectCycle(ListNode head) {
-        ListNode slow = head;
-        ListNode fast = head;
+        ListNode walker = head;
+        ListNode runner = head;
         /**
          * If fast != null or fast.next != null is false,
          * it's mean this linkedlist is no circle
          */
-        while (fast != null && fast.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
+        while (runner != null && runner.next != null) {
+            runner = runner.next.next;
+            walker = walker.next;
             /**
              * If fast == slow is true,
              * it's mean this linkedlist have circle
              */
-            if (fast == slow) {
-                ListNode slow2 = head;
-                while (slow2 != slow) {
-                    slow = slow.next;
-                    slow2 = slow2.next;
+            if (runner == walker) {
+                ListNode walker2 = head;
+                while (walker2 != walker) {
+                    walker = walker.next;
+                    walker2 = walker2.next;
                 }
-                return slow;
+                return walker;
             }
         }
         return null;

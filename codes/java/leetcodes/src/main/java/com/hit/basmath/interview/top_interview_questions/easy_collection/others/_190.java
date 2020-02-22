@@ -29,13 +29,15 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.others
 public class _190 {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
-        int result = 0;
+        int ans = 0;
         for (int i = 0; i < 32; i++) {
-            result += n & 1;
-            n >>>= 1;   // CATCH: must do unsigned shift
-            if (i < 31) // CATCH: for last digit, don't shift!
-                result <<= 1;
+            // handle the lowest bit of binary every time
+            int curr = n & 1;
+            // directly arrange the lowest bit of binary to the final position
+            ans += (curr << (31 - i));
+            // update n
+            n = n >> 1;
         }
-        return result;
+        return ans;
     }
 }

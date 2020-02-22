@@ -33,10 +33,20 @@ package com.hit.basmath.interview.top_interview_questions.medium_collection.math
  */
 public class _171 {
     public int titleToNumber(String s) {
-        int result = 0;
-        for (int i = 0; i < s.length(); i++) {
-            result = result * 26 + (s.charAt(i) - 'A' + 1);
+        // 判空
+        if (s == null || "".equals(s)) {
+            return -1;
         }
-        return result;
+        // 将字符串转换为字符数组
+        char[] strArr = s.toCharArray();
+        // 指数
+        int exp = 0;
+        // 行数
+        int col = 0;
+        for (int i = strArr.length - 1; i >= 0; i--) {
+            col += (strArr[i] - 'A' + 1) * Math.pow(26, exp);
+            exp++;
+        }
+        return col;
     }
 }

@@ -21,12 +21,10 @@ package com.hit.basmath.learn.hash_table;
  */
 public class _136 {
     public int singleNumber(int[] nums) {
-        int ans = 0;
-
-        int len = nums.length;
-        for (int i = 0; i != len; i++)
+        int ans = nums[0];
+        for (int i = 1; i < nums.length; i++) {
             ans ^= nums[i];
-
+        }
         return ans;
     }
 }

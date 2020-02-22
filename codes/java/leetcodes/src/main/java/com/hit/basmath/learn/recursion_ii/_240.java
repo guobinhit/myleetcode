@@ -26,18 +26,54 @@ package com.hit.basmath.learn.recursion_ii;
  */
 public class _240 {
     public boolean searchMatrix(int[][] matrix, int target) {
-        if (matrix == null || matrix.length < 1 || matrix[0].length < 1) {
+        for (int[] aMatrix : matrix) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                if (aMatrix[j] == target) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public boolean searchMatrix2(int[][] matrix, int target) {
+        // an empty matrix obviously does not contain `target`
+        if (matrix == null || matrix.length == 0) {
             return false;
         }
-        int col = matrix[0].length - 1;
-        int row = 0;
-        while (col >= 0 && row <= matrix.length - 1) {
-            if (target == matrix[row][col]) {
+        // iterate over matrix diagonals
+        int shorterDim = Math.min(matrix.length, matrix[0].length);
+        for (int i = 0; i < shorterDim; i++) {
+            boolean verticalFound = binarySearch(matrix, target, i, true);
+            boolean horizontalFound = binarySearch(matrix, target, i, false);
+            if (verticalFound || horizontalFound) {
                 return true;
-            } else if (target < matrix[row][col]) {
-                col--;
-            } else if (target > matrix[row][col]) {
-                row++;
+            }
+        }
+        return false;
+    }
+
+    private boolean binarySearch(int[][] matrix, int target, int start, boolean vertical) {
+        int low = start;
+        int high = vertical ? matrix[0].length - 1 : matrix.length - 1;
+        while (high >= low) {
+            int mid = (low + high) / 2;
+            if (vertical) { // searching a column
+                if (matrix[start][mid] < target) {
+                    low = mid + 1;
+                } else if (matrix[start][mid] > target) {
+                    high = mid - 1;
+                } else {
+                    return true;
+                }
+            } else { // searching a row
+                if (matrix[mid][start] < target) {
+                    low = mid + 1;
+                } else if (matrix[mid][start] > target) {
+                    high = mid - 1;
+                } else {
+                    return true;
+                }
             }
         }
         return false;

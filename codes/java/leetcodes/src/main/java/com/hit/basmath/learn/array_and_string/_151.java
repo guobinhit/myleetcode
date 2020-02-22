@@ -20,23 +20,16 @@ package com.hit.basmath.learn.array_and_string;
  * Follow up: For C programmers, try to solve it in-place in O(1) space.
  */
 public class _151 {
-    public static String reverseWords(String s) {
+    public String reverseWords(String s) {
         String[] parts = s.trim().split("\\s+");
         StringBuilder sb = new StringBuilder("");
-        /**
-         * Iterate i from parts.length - 1 to 1
-         */
-        for (int i = parts.length - 1; i > 0; i--) {
-            sb.append(parts[i] + " ");
+        for (int i = parts.length - 1; i >= 0; i--) {
+            sb.append(parts[i]).append(" ");
         }
-        /**
-         * Because above for loop don't contain parts[0],
-         * so we should add parts[0] before result return
-         */
-        return sb.toString() + parts[0];
+        return sb.toString().trim();
     }
 
-    public static String reverseWords2(String s) {
+    public String reverseWords2(String s) {
         /**
          * reverse the whole string and convert to char array
          */
@@ -69,18 +62,12 @@ public class _151 {
     }
 
     // reverses the part of an array and returns the input array for convenience
-    private static char[] reverse(char[] arr, int i, int j) {
+    private char[] reverse(char[] arr, int i, int j) {
         while (i < j) {
             char tmp = arr[i];
             arr[i++] = arr[j];
             arr[j--] = tmp;
         }
         return arr;
-    }
-
-    public static void main(String[] args) {
-        String s = "the sky is blue";
-        System.out.println(reverseWords(s));
-        System.out.println(reverseWords2(s));
     }
 }

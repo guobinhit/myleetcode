@@ -5,6 +5,7 @@ import com.hit.common.TreeNode;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * 297. Serialize and Deserialize Binary Tree
@@ -30,43 +31,45 @@ import java.util.LinkedList;
  * Note: Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.
  */
 public class _297 {
-    class Codec {
-        private static final String spliter = ",";
-        private static final String NN = "X";
-
+    public class Codec {
         // Encodes a tree to a single string.
         public String serialize(TreeNode root) {
-            StringBuilder sb = new StringBuilder();
-            buildString(root, sb);
-            return sb.toString();
-        }
-
-        private void buildString(TreeNode node, StringBuilder sb) {
-            if (node == null) {
-                sb.append(NN).append(spliter);
-            } else {
-                sb.append(node.val).append(spliter);
-                buildString(node.left, sb);
-                buildString(node.right, sb);
-            }
+            return rserialize(root, "");
         }
 
         // Decodes your encoded data to tree.
         public TreeNode deserialize(String data) {
-            Deque<String> nodes = new LinkedList<>();
-            nodes.addAll(Arrays.asList(data.split(spliter)));
-            return buildTree(nodes);
+            String[] data_array = data.split(",");
+            List<String> data_list = new LinkedList<String>(Arrays.asList(data_array));
+            return rdeserialize(data_list);
         }
 
-        private TreeNode buildTree(Deque<String> nodes) {
-            String val = nodes.remove();
-            if (val.equals(NN)) return null;
-            else {
-                TreeNode node = new TreeNode(Integer.valueOf(val));
-                node.left = buildTree(nodes);
-                node.right = buildTree(nodes);
-                return node;
+        private String rserialize(TreeNode root, String str) {
+            // Recursive serialization.
+            if (root == null) {
+                str += "null,";
+            } else {
+                str += str.valueOf(root.val) + ",";
+                str = rserialize(root.left, str);
+                str = rserialize(root.right, str);
             }
+            return str;
+        }
+
+
+        private TreeNode rdeserialize(List<String> l) {
+            // Recursive deserialization.
+            if (l.get(0).equals("null")) {
+                l.remove(0);
+                return null;
+            }
+
+            TreeNode root = new TreeNode(Integer.valueOf(l.get(0)));
+            l.remove(0);
+            root.left = rdeserialize(l);
+            root.right = rdeserialize(l);
+
+            return root;
         }
     }
 }

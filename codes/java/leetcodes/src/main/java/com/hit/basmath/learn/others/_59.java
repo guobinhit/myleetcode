@@ -18,28 +18,28 @@ package com.hit.basmath.learn.others;
  */
 public class _59 {
     public int[][] generateMatrix(int n) {
-        int[][] ret = new int[n][n];
+        int[][] ans = new int[n][n];
         int left = 0, top = 0;
         int right = n - 1, down = n - 1;
         int count = 1;
         while (left <= right) {
-            for (int j = left; j <= right; j++) {
-                ret[top][j] = count++;
+            for (int i = left; i <= right; i++) {
+                ans[top][i] = count++;
             }
             top++;
-            for (int i = top; i <= down; i++) {
-                ret[i][right] = count++;
+            for (int j = top; j <= down; j++) {
+                ans[j][right] = count++;
             }
             right--;
-            for (int j = right; j >= left; j--) {
-                ret[down][j] = count++;
+            for (int k = right; k >= left; k--) {
+                ans[down][k] = count++;
             }
             down--;
-            for (int i = down; i >= top; i--) {
-                ret[i][left] = count++;
+            for (int m = down; m >= top; m--) {
+                ans[m][left] = count++;
             }
             left++;
         }
-        return ret;
+        return ans;
     }
 }

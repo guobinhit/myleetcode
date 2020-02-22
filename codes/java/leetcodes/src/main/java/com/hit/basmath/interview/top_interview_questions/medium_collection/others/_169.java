@@ -19,15 +19,15 @@ package com.hit.basmath.interview.top_interview_questions.medium_collection.othe
  */
 public class _169 {
     public int majorityElement(int[] nums) {
-        int count = 0, ret = 0;
+        int count = 0, ans = 0;
         for (int num : nums) {
             if (count == 0)
-                ret = num;
-            if (num != ret)
+                ans = num;
+            if (num != ans)
                 count--;
             else
                 count++;
         }
-        return ret;
+        return ans;
     }
 }

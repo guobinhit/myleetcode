@@ -31,22 +31,28 @@ import com.hit.common.ListNode;
  */
 public class _61 {
     public ListNode rotateRight(ListNode head, int k) {
-        if (head == null || head.next == null) return head;
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
-        ListNode fast = dummy, slow = dummy;
+        // base cases
+        if (head == null) return null;
+        if (head.next == null) return head;
 
-        int i;
-        for (i = 0; fast.next != null; i++)//Get the total length
-            fast = fast.next;
+        // close the linked list into the ring
+        ListNode oldTail = head;
+        int n;
+        for (n = 1; oldTail.next != null; n++) {
+            oldTail = oldTail.next;
+        }
+        oldTail.next = head;
 
-        for (int j = i - k % i; j > 0; j--) //Get the i-n%i th node
-            slow = slow.next;
+        // find new tail : (n - k % n - 1)th node
+        // and new head : (n - k % n)th node
+        ListNode newTail = head;
+        for (int i = 0; i < n - k % n - 1; i++) {
+            newTail = newTail.next;
+        }
+        ListNode newHead = newTail.next;
 
-        fast.next = dummy.next; //Do the rotation
-        dummy.next = slow.next;
-        slow.next = null;
-
-        return dummy.next;
+        // break the ring
+        newTail.next = null;
+        return newHead;
     }
 }

@@ -40,25 +40,6 @@ public class _295 {
      * double param_2 = obj.findMedian();
      */
     class MedianFinder {
-
-        @SuppressWarnings("all")
-        private Queue<Long> small = new PriorityQueue(), large = new PriorityQueue();
-
-        public void addNum(int num) {
-            large.add((long) num);
-            small.add(-large.poll());
-            if (large.size() < small.size())
-                large.add(-small.poll());
-        }
-
-        public double findMedian() {
-            return large.size() > small.size()
-                    ? large.peek()
-                    : (large.peek() - small.peek()) / 2.0;
-        }
-    }
-
-    class MedianFinder2 {
         /**
          * 当前大顶堆和小顶堆的元素个数之和
          */
@@ -69,7 +50,7 @@ public class _295 {
         /**
          * initialize your data structure here.
          */
-        public MedianFinder2() {
+        public MedianFinder() {
             count = 0;
             maxheap = new PriorityQueue<>((x, y) -> y - x);
             minheap = new PriorityQueue<>();
@@ -78,15 +59,15 @@ public class _295 {
         public void addNum(int num) {
             count += 1;
             maxheap.offer(num);
-            minheap.add(maxheap.poll());
+            minheap.offer(maxheap.poll());
             // 如果两个堆合起来的元素个数是奇数，小顶堆要拿出堆顶元素给大顶堆
-            if ((count & 1) != 0) {
-                maxheap.add(minheap.poll());
+            if ((count % 2) != 0) {
+                maxheap.offer(minheap.poll());
             }
         }
 
         public double findMedian() {
-            if ((count & 1) == 0) {
+            if ((count % 2) == 0) {
                 // 如果两个堆合起来的元素个数是偶数，数据流的中位数就是各自堆顶元素的平均值
                 return (double) (maxheap.peek() + minheap.peek()) / 2;
             } else {

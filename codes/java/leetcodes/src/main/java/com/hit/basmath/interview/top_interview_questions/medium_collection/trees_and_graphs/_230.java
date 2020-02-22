@@ -2,6 +2,8 @@ package com.hit.basmath.interview.top_interview_questions.medium_collection.tree
 
 import com.hit.common.TreeNode;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 /**
@@ -40,25 +42,35 @@ import java.util.Stack;
  */
 public class _230 {
     public int kthSmallest(TreeNode root, int k) {
-        Stack<TreeNode> st = new Stack<>();
-
+        Stack<TreeNode> stack = new Stack<>();
         while (root != null) {
-            st.push(root);
+            stack.push(root);
             root = root.left;
         }
-
         while (k != 0) {
-            TreeNode n = st.pop();
+            TreeNode n = stack.pop();
             k--;
             if (k == 0) return n.val;
             TreeNode right = n.right;
             while (right != null) {
-                st.push(right);
+                stack.push(right);
                 right = right.left;
             }
         }
-
         // never hit if k is valid
         return -1;
+    }
+
+    public int kthSmallest2(TreeNode root, int k) {
+        List<Integer> list = inorder(root, new ArrayList<>());
+        return list.get(k - 1);
+    }
+
+    private List<Integer> inorder(TreeNode root, List<Integer> list) {
+        if (root == null) return list;
+        inorder(root.left, list);
+        list.add(root.val);
+        inorder(root.right, list);
+        return list;
     }
 }

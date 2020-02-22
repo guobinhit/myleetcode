@@ -35,16 +35,53 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.array;
  */
 public class _122 {
     public int maxProfit(int[] prices) {
-        int profit = 0, i = 0;
-        while (i < prices.length) {
-            // find next local minimum
-            while (i < prices.length - 1 && prices[i + 1] <= prices[i]) i++;
-            // need increment to avoid infinite loop for "[1]"
-            int min = prices[i++];
-            // find next local maximum
-            while (i < prices.length - 1 && prices[i + 1] >= prices[i]) i++;
-            profit += i < prices.length ? prices[i++] - min : 0;
+        return calculate(prices, 0);
+    }
+
+    private int calculate(int prices[], int s) {
+        if (s >= prices.length)
+            return 0;
+        int max = 0;
+        for (int start = s; start < prices.length; start++) {
+            int maxprofit = 0;
+            for (int i = start + 1; i < prices.length; i++) {
+                if (prices[start] < prices[i]) {
+                    int profit = calculate(prices, i + 1) + prices[i] - prices[start];
+                    if (profit > maxprofit)
+                        maxprofit = profit;
+                }
+            }
+            if (maxprofit > max)
+                max = maxprofit;
         }
-        return profit;
+        return max;
+    }
+
+    public int maxProfit2(int[] prices) {
+        if (prices == null || prices.length == 0) return 0;
+        int i = 0;
+        int valley = prices[0];
+        int peak = prices[0];
+        int maxprofit = 0;
+        while (i < prices.length - 1) {
+            while (i < prices.length - 1 && prices[i] >= prices[i + 1])
+                i++;
+            valley = prices[i];
+            while (i < prices.length - 1 && prices[i] <= prices[i + 1])
+                i++;
+            peak = prices[i];
+            maxprofit += peak - valley;
+        }
+        return maxprofit;
+    }
+
+    public int maxProfit3(int[] prices) {
+        int maxProfit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] > prices[i - 1]) {
+                maxProfit += prices[i] - prices[i - 1];
+            }
+        }
+        return maxProfit;
     }
 }

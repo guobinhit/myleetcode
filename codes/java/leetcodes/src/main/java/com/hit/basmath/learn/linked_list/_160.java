@@ -7,17 +7,15 @@ import com.hit.common.ListNode;
  * <p>
  * Write a program to find the node at which the intersection of two singly linked lists begins.
  * <p>
- * <p>
  * For example, the following two linked lists:
  * <p>
  * A:          a1 → a2
- *                     ↘
- *                       c1 → c2 → c3
- *                     ↗
+ * ↘
+ * c1 → c2 → c3
+ * ↗
  * B:     b1 → b2 → b3
  * <p>
  * begin to intersect at node c1.
- * <p>
  * <p>
  * Notes:
  * <p>

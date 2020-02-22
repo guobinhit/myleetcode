@@ -1,4 +1,4 @@
-package com.hit.practice;
+package com.hit.practice.sogou;
 
 /**
  * 十进制数字用A~Z表示成二十六进制
@@ -32,7 +32,7 @@ public class _1 {
      * @param str 列编码
      * @return 行数
      */
-    private int excelColumn2Number(String str) {
+    private int titleToNumber(String str) {
         // 判空
         if (str == null || "".equals(str)) {
             return -1;
@@ -71,7 +71,7 @@ public class _1 {
      * @param col 行数
      * @return 列编码
      */
-    public String excelColumn2String(int col) {
+    public String convertToTitle(int col) {
         StringBuilder builder = new StringBuilder();
         while (col != 0) {
             int temp = col % 26;

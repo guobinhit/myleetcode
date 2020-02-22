@@ -46,14 +46,19 @@ import java.util.*;
  */
 public class _71 {
     public String simplifyPath(String path) {
-        Deque<String> stack = new LinkedList<>();
+        LinkedList<String> stack = new LinkedList<>();
         Set<String> skip = new HashSet<>(Arrays.asList("..", ".", ""));
         for (String dir : path.split("/")) {
-            if (dir.equals("..") && !stack.isEmpty()) stack.pop();
-            else if (!skip.contains(dir)) stack.push(dir);
+            if (dir.equals("..") && !stack.isEmpty()) {
+                stack.pop();
+            } else if (!skip.contains(dir)) {
+                stack.push(dir);
+            }
         }
-        String res = "";
-        for (String dir : stack) res = "/" + dir + res;
-        return res.isEmpty() ? "/" : res;
+        StringBuilder ans = new StringBuilder();
+        for (String dir : stack) {
+            ans.insert(0, "/" + dir);
+        }
+        return (ans.length() == 0) ? "/" : ans.toString();
     }
 }

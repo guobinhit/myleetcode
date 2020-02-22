@@ -27,8 +27,8 @@ import java.util.Stack;
  */
 public class _155 {
     class MinStack {
-        int min = Integer.MAX_VALUE;
-        Stack<Integer> stack = new Stack<Integer>();
+        private int min = Integer.MAX_VALUE;
+        private Stack<Integer> stack = new Stack<Integer>();
 
         public void push(int x) {
             // only push the old minimum value when the current

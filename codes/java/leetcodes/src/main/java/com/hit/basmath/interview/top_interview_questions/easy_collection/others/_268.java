@@ -21,11 +21,10 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.others
  */
 public class _268 {
     public int missingNumber(int[] nums) {
-        int xor = 0, i = 0;
-        for (i = 0; i < nums.length; i++) {
-            xor = xor ^ i ^ nums[i];
+        int missing = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            missing ^= i ^ nums[i];
         }
-
-        return xor ^ i;
+        return missing;
     }
 }

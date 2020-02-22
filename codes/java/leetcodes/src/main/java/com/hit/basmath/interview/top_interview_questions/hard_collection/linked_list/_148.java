@@ -42,8 +42,7 @@ public class _148 {
     }
 
     private ListNode merge(ListNode l1, ListNode l2) {
-        ListNode l = new ListNode(0), p = l;
-
+        ListNode root = new ListNode(0), p = root;
         while (l1 != null && l2 != null) {
             if (l1.val < l2.val) {
                 p.next = l1;
@@ -54,13 +53,12 @@ public class _148 {
             }
             p = p.next;
         }
-
         if (l1 != null)
             p.next = l1;
 
         if (l2 != null)
             p.next = l2;
 
-        return l.next;
+        return root.next;
     }
 }
