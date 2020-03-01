@@ -29,23 +29,17 @@ public class _347 {
         for (int n : nums) {
             count.put(n, count.getOrDefault(n, 0) + 1);
         }
-
         // init heap 'the less frequent element first'
-        PriorityQueue<Integer> heap =
-                new PriorityQueue<Integer>((n1, n2) -> count.get(n1) - count.get(n2));
-
+        PriorityQueue<Integer> heap = new PriorityQueue<>((n1, n2) -> count.get(n1) - count.get(n2));
         // keep k top frequent elements in the heap
         for (int n : count.keySet()) {
             heap.add(n);
-            if (heap.size() > k)
-                heap.poll();
+            if (heap.size() > k) heap.poll();
         }
-
         // build output list
-        List<Integer> top_k = new LinkedList<>();
-        while (!heap.isEmpty())
-            top_k.add(heap.poll());
-        Collections.reverse(top_k);
-        return top_k;
+        List<Integer> topK = new LinkedList<>();
+        while (!heap.isEmpty()) topK.add(heap.poll());
+        Collections.reverse(topK);
+        return topK;
     }
 }

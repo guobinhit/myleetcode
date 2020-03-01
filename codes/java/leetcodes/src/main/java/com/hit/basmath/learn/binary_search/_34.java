@@ -22,10 +22,8 @@ package com.hit.basmath.learn.binary_search;
 public class _34 {
     public int[] searchRange(int[] nums, int target) {
         double left = target - 0.5, right = target + 0.5;
-
         int leftIndex = binarySearch(nums, left);
         int rightIndex = binarySearch(nums, right);
-
         if (leftIndex == rightIndex) {
             return new int[]{-1, -1};
         } else {

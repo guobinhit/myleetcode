@@ -21,32 +21,25 @@ package com.hit.basmath.interview.top_interview_questions.medium_collection.sort
  * Could you come up with a one-pass algorithm using only constant space?
  */
 public class _75 {
+    /**
+     * 荷兰三色旗问题
+     *
+     * @param nums
+     */
     public void sortColors(int[] nums) {
-        if (nums.length == 0 || nums.length == 1) {
-            return;
-        }
-
-        int l = 0;
-        int r = nums.length - 1;
-        int counter = 0;
-
-        while (counter < nums.length && l < r) {
-            if (nums[counter] == 0) {
-                swap(nums, l, counter);
-                l++;
-                counter++;
-            } else if (nums[counter] == 2 && counter < r) {
-                swap(nums, r, counter);
-                r--;
+        int p0 = 0, curr = 0, p2 = nums.length - 1, temp;
+        while (curr <= p2) {
+            if (nums[curr] == 0) {
+                temp = nums[p0];
+                nums[p0++] = nums[curr];
+                nums[curr++] = temp;
+            } else if (nums[curr] == 2) {
+                temp = nums[curr];
+                nums[curr] = nums[p2];
+                nums[p2--] = temp;
             } else {
-                counter++;
+                curr++;
             }
         }
-    }
-
-    private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
     }
 }

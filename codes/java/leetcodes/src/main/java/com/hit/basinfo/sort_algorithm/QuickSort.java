@@ -14,9 +14,7 @@ public class QuickSort {
      */
     public void quickSort(int[] nums) {
         // check parameters
-        if (nums == null || nums.length < 2) {
-            return;
-        }
+        if (nums == null || nums.length < 2) return;
         // initial value
         int left = 0, right = nums.length - 1;
         // call overload method
@@ -32,13 +30,9 @@ public class QuickSort {
      */
     private void quickSort(int[] nums, int left, int right) {
         // check parameters
-        if (nums == null || nums.length < 2) {
-            return;
-        }
-
+        if (nums == null || nums.length < 2) return;
         // obtain the division datum point, which is the left value after the division
         int index = partition(nums, left, right);
-
         // sort left half
         if (left < index - 1) {
             quickSort(nums, left, index - 1);
@@ -60,7 +54,6 @@ public class QuickSort {
     private int partition(int[] nums, int left, int right) {
         // the position in the middle of the default array is the reference point
         int pivot = nums[(left + right) / 2];
-
         /**
          * when left < = right, the cycle condition is satisfied
          * when left > right, it means that the current trip is completed
@@ -74,7 +67,6 @@ public class QuickSort {
             while (nums[right] > pivot) {
                 right--;
             }
-
             // find the elements that meet the conditions and exchange them
             if (left <= right) {
                 // exchange element

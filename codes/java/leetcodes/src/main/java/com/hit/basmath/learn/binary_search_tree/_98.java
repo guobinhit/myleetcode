@@ -11,8 +11,8 @@ import java.util.Stack;
  * <p>
  * Assume a BST is defined as follows:
  * <p>
- * The left subtree of a node contains only nodes with keys less than the node's key.
- * The right subtree of a node contains only nodes with keys greater than the node's key.
+ * The left subtree of a root contains only nodes with keys less than the root's key.
+ * The right subtree of a root contains only nodes with keys greater than the root's key.
  * Both the left and right subtrees must also be binary search trees.
  * <p>
  * Example 1:
@@ -34,28 +34,20 @@ import java.util.Stack;
  * <p>
  * Input: [5,1,4,null,null,3,6]
  * Output: false
- * Explanation: The root node's value is 5 but its right child's value is 4.
+ * Explanation: The root root's value is 5 but its right child's value is 4.
  */
 public class _98 {
     public boolean isValidBST(TreeNode root) {
-        if (root == null)
-            return true;
+        return helper(root, null, null);
+    }
 
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode pre = null;
-        while (root != null || !stack.isEmpty()) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-            root = stack.pop();
-
-            if (pre != null && root.val <= pre.val)
-                return false;
-
-            pre = root;
-            root = root.right;
-        }
+    private boolean helper(TreeNode root, Integer lower, Integer upper) {
+        if (root == null) return true;
+        int val = root.val;
+        if (lower != null && val <= lower) return false;
+        if (upper != null && val >= upper) return false;
+        if (!helper(root.left, lower, val)) return false;
+        if (!helper(root.right, val, upper)) return false;
         return true;
     }
 }

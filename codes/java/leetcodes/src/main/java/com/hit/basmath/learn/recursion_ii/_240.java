@@ -26,17 +26,6 @@ package com.hit.basmath.learn.recursion_ii;
  */
 public class _240 {
     public boolean searchMatrix(int[][] matrix, int target) {
-        for (int[] aMatrix : matrix) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                if (aMatrix[j] == target) {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-
-    public boolean searchMatrix2(int[][] matrix, int target) {
         // an empty matrix obviously does not contain `target`
         if (matrix == null || matrix.length == 0) {
             return false;

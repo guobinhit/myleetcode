@@ -34,41 +34,39 @@ public class _297 {
     public class Codec {
         // Encodes a tree to a single string.
         public String serialize(TreeNode root) {
-            return rserialize(root, "");
+            return serializeHelper(root, "");
         }
 
         // Decodes your encoded data to tree.
         public TreeNode deserialize(String data) {
-            String[] data_array = data.split(",");
-            List<String> data_list = new LinkedList<String>(Arrays.asList(data_array));
-            return rdeserialize(data_list);
+            String[] dataArray = data.split(",");
+            List<String> dataList = new LinkedList<>(Arrays.asList(dataArray));
+            return deserializeHelper(dataList);
         }
 
-        private String rserialize(TreeNode root, String str) {
+        private String serializeHelper(TreeNode root, String str) {
             // Recursive serialization.
             if (root == null) {
                 str += "null,";
             } else {
-                str += str.valueOf(root.val) + ",";
-                str = rserialize(root.left, str);
-                str = rserialize(root.right, str);
+                str += String.valueOf(root.val) + ",";
+                str = serializeHelper(root.left, str);
+                str = serializeHelper(root.right, str);
             }
             return str;
         }
 
 
-        private TreeNode rdeserialize(List<String> l) {
+        private TreeNode deserializeHelper(List<String> dataList) {
             // Recursive deserialization.
-            if (l.get(0).equals("null")) {
-                l.remove(0);
+            if (dataList.get(0).equals("null")) {
+                dataList.remove(0);
                 return null;
             }
-
-            TreeNode root = new TreeNode(Integer.valueOf(l.get(0)));
-            l.remove(0);
-            root.left = rdeserialize(l);
-            root.right = rdeserialize(l);
-
+            TreeNode root = new TreeNode(Integer.valueOf(dataList.get(0)));
+            dataList.remove(0);
+            root.left = deserializeHelper(dataList);
+            root.right = deserializeHelper(dataList);
             return root;
         }
     }

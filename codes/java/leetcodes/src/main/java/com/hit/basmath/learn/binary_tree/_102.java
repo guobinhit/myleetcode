@@ -2,6 +2,7 @@ package com.hit.basmath.learn.binary_tree;
 
 import com.hit.common.TreeNode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -31,29 +32,45 @@ import java.util.Queue;
  */
 public class _102 {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        List<List<Integer>> wrapList = new LinkedList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null) return ans;
+        helper(ans, root, 0);
+        return ans;
+    }
 
-        if (root == null) {
-            return wrapList;
-        }
+    private void helper(List<List<Integer>> ans, TreeNode node, int level) {
+        // start the current level
+        if (ans.size() == level) ans.add(new ArrayList<Integer>());
+        // fulfil the current level
+        ans.get(level).add(node.val);
+        // process child nodes for the next level
+        if (node.left != null) helper(ans, node.left, level + 1);
+        if (node.right != null) helper(ans, node.right, level + 1);
+    }
 
-        queue.offer(root);
-
+    public List<List<Integer>> levelOrder2(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null) return ans;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        int level = 0;
         while (!queue.isEmpty()) {
-            int levelNum = queue.size();
-            List<Integer> subList = new LinkedList<Integer>();
-            for (int i = 0; i < levelNum; i++) {
-                if (queue.peek().left != null) {
-                    queue.offer(queue.peek().left);
-                }
-                if (queue.peek().right != null) {
-                    queue.offer(queue.peek().right);
-                }
-                subList.add(queue.poll().val);
+            // start the current level
+            ans.add(new ArrayList<Integer>());
+            // number of elements in the current level
+            int levelLength = queue.size();
+            for (int i = 0; i < levelLength; ++i) {
+                TreeNode node = queue.remove();
+                // fulfill the current level
+                ans.get(level).add(node.val);
+                // add child nodes of the current level
+                // in the queue for the next level
+                if (node.left != null) queue.add(node.left);
+                if (node.right != null) queue.add(node.right);
             }
-            wrapList.add(subList);
+            // go to next level
+            level++;
         }
-        return wrapList;
+        return ans;
     }
 }
