@@ -17,8 +17,6 @@
 *.ipr
 *.jar
 *.class
-judge-alarm-controller/target/*
-judge-alarm-service/target/*
 
 ### NetBeans ###
 /nbproject/private/
