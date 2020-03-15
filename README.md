@@ -44,6 +44,7 @@
   - [猿题库](#猿题库)
   - [搜狗](#搜狗)
   - [美团点评](#美团点评)
+  - [跟谁学](#跟谁学)
 
 
 
@@ -53,27 +54,27 @@
 
 |  #  |      题名     |   题解  |   难度  | 标签                   
 |-----|----------------|:---------------:|:--------:|:-------------:
-|14|[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_14.java) & Python|简单| Introduction to String
+|14|[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_14.java) & Python|简单| 字符串简介
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_26.java) & Python|简单| 总结
-|27|[Remove Element](https://leetcode-cn.com/problems/implement-strstr/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_27.java) & Python|简单| Two-Pointer Technique
-|28|[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_28.java) & Python|简单| Introduction to String
-|54|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_54.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_54.py)|中等| Introduction to 2D Array
-|66|[加一](https://leetcode-cn.com/problems/plus-one/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_66.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_66.py)|简单| Introduction to Array
-|67|[Add Binary](https://leetcode-cn.com/problems/add-binary/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_67.java) & Python|简单| Introduction to String
-|118|[帕斯卡三角形](https://leetcode-cn.com/problems/pascals-triangle/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_118.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_118.py)| 简单| Introduction to 2D Array
+|27|[Remove Element](https://leetcode-cn.com/problems/implement-strstr/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_27.java) & Python|简单| 双指针技巧
+|28|[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_28.java) & Python|简单| 字符串简介
+|54|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_54.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_54.py)|中等| 二维数组简介
+|66|[加一](https://leetcode-cn.com/problems/plus-one/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_66.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_66.py)|简单| 数组简介
+|67|[二进制求和](https://leetcode-cn.com/problems/add-binary/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_67.java) & Python|简单| 字符串简介
+|118|[帕斯卡三角形](https://leetcode-cn.com/problems/pascals-triangle/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_118.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_118.py)| 简单| 二维数组简介
 |119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_119.java) & Python| 简单| 总结
-|151|[翻转字符串里的单词](https://leetcode-cn.com/problems/pascals-triangle/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_151.java) & Python| 中等| 总结
-|167|[Two Sum II - Input array is sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_167.java) & Python| 简单| Two-Pointer Technique
+|151|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_151.java) & Python| 中等| 总结
+|167|[Two Sum II - Input array is sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_167.java) & Python| 简单| 双指针技巧
 |189|[旋转数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_189.java) & Python| 简单| 总结
-|209|[Minimum Size Subarray Sum](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_209.java) & Python| 中等| Two-Pointer Technique
+|209|[Minimum Size Subarray Sum](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_209.java) & Python| 中等| 双指针技巧
 |283|[移动零](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_283.java) & Python| 简单| 总结
-|344|[反转字符串](https://leetcode-cn.com/problems/reverse-string/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_344.java) & Python| 简单| Two-Pointer Technique
-|485|[Max Consecutive Ones](https://leetcode-cn.com/problems/diagonal-traverse/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_485.java) & Python |简单| Two-Pointer Technique
-|498|[Diagonal Traverse](https://leetcode-cn.com/problems/diagonal-traverse/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_498.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_498.py) |中等| Introduction to 2D Array
+|344|[反转字符串](https://leetcode-cn.com/problems/reverse-string/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_344.java) & Python| 简单| 双指针技巧
+|485|[Max Consecutive Ones](https://leetcode-cn.com/problems/diagonal-traverse/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_485.java) & Python |简单| 双指针技巧
+|498|[对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_498.java) & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_498.py) |中等| 二维数组简介
 |557|[反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_557.java) & Python |简单| 总结
-|561|[Array Partition I](https://leetcode-cn.com/problems/array-partition-i/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_561.java)  & Python|简单| Two-Pointer Technique
-|724|[Find Pivot Index](https://leetcode-cn.com/problems/find-pivot-index/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_724.java)  & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_724.py)| 简单 | Introduction to Array
-|747|[Largest Number Greater Than Twice of 其他](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_747.java)  & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_747.py)| 简单| Introduction to Array
+|561|[Array Partition I](https://leetcode-cn.com/problems/array-partition-i/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_561.java)  & Python|简单| 双指针技巧
+|724|[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_724.java)  & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_724.py)| 简单 | 数组简介
+|747|[至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/array_and_string/_747.java)  & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basmath/learn/array_and_string/_747.py)| 简单| 数组简介
 
 
 
@@ -329,7 +330,7 @@
 |68|[Text Justification](https://leetcode-cn.com/problems/text-justification/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_68.java) & Python |困难| 其他
 |71|[简化路径](https://leetcode-cn.com/problems/simplify-path/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_71.java) & Python |中等| 其他
 |72|[Edit Distance](https://leetcode-cn.com/problems/edit-distance/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_72.java) & Python |困难| 其他
-|74|[Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_74.java) & Python |中等| 其他
+|74|[搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_74.java) & Python |中等| 其他
 |80|[Remove Duplicates from Sorted Array II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_80.java) & Python |中等| 其他
 |81|[Search in Rotated Sorted Array II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_81.java) & Python |中等| 其他
 |82|[Remove Duplicates from Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_82.java) & Python |中等| 其他
@@ -1166,9 +1167,24 @@
 |  #  |      题名     |   题解    |   难度  | 标签                   
 |-----|----------------|:---------------:|:--------:|:-------------:
 |2|[两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/linked_list/_2.java) & Python|中等| 链表
-|108|[将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/binary_search_tree/_108.java) & Python |简单| 二叉树
-|109|[有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_109.java) & Python |中等| 二叉树
-|415|[字符串相加](https://leetcode-cn.com/problems/add-strings/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_415.java) & Python |简单| 数组
+|43|[字符串相乘](https://leetcode-cn.com/problems/multiply-strings/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_43.java) & Python |中等| 字符串
+|74|[搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_74.java) & Python |中等| 数组
+|108|[将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/binary_search_tree/_108.java) & Python |简单| 树
+|109|[有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_109.java) & Python |中等| 树
+|240|[搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/recursion_ii/_240.java) & Python |中等| 数组
+|415|[字符串相加](https://leetcode-cn.com/problems/add-strings/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/learn/others/_415.java) & Python |简单| 字符串
+
+
+### 跟谁学
+
+|  #  |      题名     |   题解  |   难度  | 标签                   
+|-----|----------------|:---------------:|:--------:|:-------------:
+|215|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/medium_collection/sorting_and_searching/_215.java) & Python |中等| 排序和搜索
+|230|[二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/medium_collection/trees_and_graphs/_230.java) & Python |中等| 排序与搜索
+|378|[有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basmath/interview/top_interview_questions/hard_collection/sorting_and_searching/_378.java) & Python |中等| 排序和搜索
+
+
+
 
 
 ------------

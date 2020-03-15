@@ -39,8 +39,7 @@ public class _146 {
         }
 
         private Hashtable<Integer, DLinkedNode> cache = new Hashtable<>();
-        private int size;
-        private int capacity;
+        private int size, capacity;
         private DLinkedNode head, tail;
 
         private void addNode(DLinkedNode node) {
@@ -49,7 +48,6 @@ public class _146 {
              */
             node.prev = head;
             node.next = head.next;
-
             head.next.prev = node;
             head.next = node;
         }
@@ -60,7 +58,6 @@ public class _146 {
              */
             DLinkedNode prev = node.prev;
             DLinkedNode next = node.next;
-
             prev.next = next;
             next.prev = prev;
         }
@@ -77,9 +74,9 @@ public class _146 {
             /**
              * Pop the current tail.
              */
-            DLinkedNode res = tail.prev;
-            removeNode(res);
-            return res;
+            DLinkedNode tailNode = tail.prev;
+            removeNode(tailNode);
+            return tailNode;
         }
 
         public LRUCache(int capacity) {
