@@ -20,7 +20,7 @@ package com.hit.basmath.learn.array_and_string;
  * The length of input array is a positive integer and will not exceed 10,000
  */
 public class _485 {
-    public static int findMaxConsecutiveOnes(int[] nums) {
+    public int findMaxConsecutiveOnes(int[] nums) {
         int maxConsecutiveLength = 0;
         int tempConsecutiveLength = 0;
         /**
@@ -43,12 +43,5 @@ public class _485 {
             }
         }
         return maxConsecutiveLength;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 1, 0, 1, 1, 1};
-        int[] nums2 = {1, 0, 1, 1, 0, 1};
-        System.out.println(_485.findMaxConsecutiveOnes(nums));
-        System.out.println(_485.findMaxConsecutiveOnes(nums2));
     }
 }

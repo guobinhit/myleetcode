@@ -18,10 +18,9 @@ import java.util.Arrays;
  * All the integers in the array will be in the range of [-10000, 10000].
  */
 public class _561 {
-    public static int arrayPairSum(int[] nums) {
+    public int arrayPairSum(int[] nums) {
         /**
          * Use Arrays.sort() method let nums sort from small to big
-
          */
         Arrays.sort(nums);
 
@@ -35,10 +34,5 @@ public class _561 {
             aimSum = aimSum + nums[i];
         }
         return aimSum;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 4, 3, 2};
-        System.out.println(_561.arrayPairSum(nums));
     }
 }

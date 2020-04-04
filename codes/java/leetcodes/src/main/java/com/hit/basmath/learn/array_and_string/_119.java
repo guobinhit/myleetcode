@@ -24,34 +24,17 @@ import java.util.List;
  * Could you optimize your algorithm to use only O(k) extra space?
  */
 public class _119 {
-    public static List<Integer> getRow(int rowIndex) {
-        List<Integer> list = new ArrayList<Integer>();
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> ans = new ArrayList<>();
         for (int i = 0; i < rowIndex + 1; i++) {
             /**
              * Every iteration set 1 at a position that index is 0
              */
-            list.add(0, 1);
-            for (int j = 1; j < list.size() - 1; j++) {
-                list.set(j, list.get(j) + list.get(j + 1));
+            ans.add(0, 1);
+            for (int j = 1; j < ans.size() - 1; j++) {
+                ans.set(j, ans.get(j) + ans.get(j + 1));
             }
         }
-        return list;
-    }
-
-    public static List<Integer> getRow2(int rowIndex) {
-        Integer[] rowArr = new Integer[rowIndex + 1];
-        Arrays.fill(rowArr, 0);
-        rowArr[0] = 1;
-        for (int i = 1; i <= rowIndex; i++) {
-            for (int j = i; j > 0; j--) {
-                rowArr[j] = rowArr[j] + rowArr[j - 1];
-            }
-        }
-        return Arrays.asList(rowArr);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(_119.getRow(3));
-        System.out.println(_119.getRow2(3));
+        return ans;
     }
 }
