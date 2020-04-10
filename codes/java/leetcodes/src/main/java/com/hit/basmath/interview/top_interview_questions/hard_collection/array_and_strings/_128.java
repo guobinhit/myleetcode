@@ -1,9 +1,6 @@
 package com.hit.basmath.interview.top_interview_questions.hard_collection.array_and_strings;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * 128. Longest Consecutive Sequence
@@ -20,61 +17,29 @@ import java.util.Set;
  */
 public class _128 {
     public int longestConsecutive(int[] nums) {
-        int longestStreak = 0;
-        for (int num : nums) {
-            int currentNum = num;
-            int currentStreak = 1;
-            while (arrayContains(nums, currentNum + 1)) {
-                currentNum += 1;
-                currentStreak += 1;
-            }
-            longestStreak = Math.max(longestStreak, currentStreak);
-        }
-        return longestStreak;
-    }
+        int res = 0;
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int n : nums) {
+            if (!map.containsKey(n)) {
+                int left = map.getOrDefault(n - 1, 0);
+                int right = map.getOrDefault(n + 1, 0);
+                // sum: length of the sequence n is in
+                int sum = left + right + 1;
+                map.put(n, sum);
 
-    private boolean arrayContains(int[] arr, int num) {
-        for (int anArr : arr) {
-            if (anArr == num) {
-                return true;
-            }
-        }
-        return false;
-    }
+                // keep track of the max length
+                res = Math.max(res, sum);
 
-    public int longestConsecutive2(int[] nums) {
-        if (nums.length == 0) return 0;
-        Arrays.sort(nums);
-        int longestStreak = 1;
-        int currentStreak = 1;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] != nums[i - 1]) {
-                if (nums[i] == nums[i - 1] + 1) {
-                    currentStreak += 1;
-                } else {
-                    longestStreak = Math.max(longestStreak, currentStreak);
-                    currentStreak = 1;
-                }
+                // extend the length to the boundary(s)
+                // of the sequence
+                // will do nothing if n has no neighbors
+                map.put(n - left, sum);
+                map.put(n + right, sum);
+            } else {
+                // duplicates
+                continue;
             }
         }
-        return Math.max(longestStreak, currentStreak);
-    }
-
-    public int longestConsecutive3(int[] nums) {
-        Set<Integer> numSet = new HashSet<Integer>();
-        for (int num : nums) numSet.add(num);
-        int longestStreak = 0;
-        for (int num : numSet) {
-            if (!numSet.contains(num - 1)) {
-                int currentNum = num;
-                int currentStreak = 1;
-                while (numSet.contains(currentNum + 1)) {
-                    currentNum += 1;
-                    currentStreak += 1;
-                }
-                longestStreak = Math.max(longestStreak, currentStreak);
-            }
-        }
-        return longestStreak;
+        return res;
     }
 }

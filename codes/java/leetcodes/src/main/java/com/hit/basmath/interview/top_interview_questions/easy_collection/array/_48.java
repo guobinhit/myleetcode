@@ -51,14 +51,15 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.array;
  */
 public class _48 {
     public void rotate(int[][] matrix) {
-        int start = 0, end = matrix.length - 1;
-        while (start < end) {
-            int[] temp = matrix[start];
-            matrix[start] = matrix[end];
-            matrix[end] = temp;
-            start++;
-            end--;
+        int s = 0, e = matrix.length - 1;
+        while (s < e) {
+            int[] temp = matrix[s];
+            matrix[s] = matrix[e];
+            matrix[e] = temp;
+            s++;
+            e--;
         }
+
         for (int i = 0; i < matrix.length; i++) {
             for (int j = i + 1; j < matrix[i].length; j++) {
                 int temp = matrix[i][j];

@@ -1,9 +1,0 @@
-@startuml
-TutorTaskProcessTimer.process -> processTutorTask: 调用服务层方法，处理状态为进行中的任务
-processTutorTask -> getTaskStatus: 从U群获取任务列表及对应的状态
-getTaskStatus -> processTutorTask: 返回任务状态列表
-processTutorTask -> pushTaskStatus: 推送任务状态
-pushTaskStatus -> sendMessage: 根据任务类型发送指定信息
-processTutorTask -> pushContact: 仅处理备注类型消息
-processTutorTask -> batchUpdateStatus: 批量更新任务状态
-@enduml

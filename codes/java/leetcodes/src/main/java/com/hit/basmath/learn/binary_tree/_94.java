@@ -45,9 +45,9 @@ public class _94 {
      * @return result list
      */
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
-        helper(root, ans);
-        return ans;
+        List<Integer> res = new ArrayList<>();
+        helper(root, res);
+        return res;
     }
 
     private void helper(TreeNode root, List<Integer> res) {

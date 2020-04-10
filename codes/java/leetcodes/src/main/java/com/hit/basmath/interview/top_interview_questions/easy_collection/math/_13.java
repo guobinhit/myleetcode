@@ -52,7 +52,7 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.math;
  */
 public class _13 {
     public int romanToInt(String s) {
-        int[] nums = new int[s.length()];
+        int nums[] = new int[s.length()];
         for (int i = 0; i < s.length(); i++) {
             switch (s.charAt(i)) {
                 case 'M':
@@ -80,11 +80,10 @@ public class _13 {
         }
         int sum = 0;
         for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] < nums[i + 1]) {
+            if (nums[i] < nums[i + 1])
                 sum -= nums[i];
-            } else {
+            else
                 sum += nums[i];
-            }
         }
         return sum + nums[nums.length - 1];
     }

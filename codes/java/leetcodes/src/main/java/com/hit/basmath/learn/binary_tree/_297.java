@@ -5,7 +5,6 @@ import com.hit.common.TreeNode;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * 297. Serialize and Deserialize Binary Tree
@@ -31,43 +30,43 @@ import java.util.List;
  * Note: Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.
  */
 public class _297 {
-    public class Codec {
+    class Codec {
+        private static final String spliter = ",";
+        private static final String NN = "X";
+
         // Encodes a tree to a single string.
         public String serialize(TreeNode root) {
-            return serializeHelper(root, "");
+            StringBuilder sb = new StringBuilder();
+            buildString(root, sb);
+            return sb.toString();
+        }
+
+        private void buildString(TreeNode node, StringBuilder sb) {
+            if (node == null) {
+                sb.append(NN).append(spliter);
+            } else {
+                sb.append(node.val).append(spliter);
+                buildString(node.left, sb);
+                buildString(node.right, sb);
+            }
         }
 
         // Decodes your encoded data to tree.
         public TreeNode deserialize(String data) {
-            String[] dataArray = data.split(",");
-            List<String> dataList = new LinkedList<>(Arrays.asList(dataArray));
-            return deserializeHelper(dataList);
+            Deque<String> nodes = new LinkedList<>();
+            nodes.addAll(Arrays.asList(data.split(spliter)));
+            return buildTree(nodes);
         }
 
-        private String serializeHelper(TreeNode root, String str) {
-            // Recursive serialization.
-            if (root == null) {
-                str += "null,";
-            } else {
-                str += String.valueOf(root.val) + ",";
-                str = serializeHelper(root.left, str);
-                str = serializeHelper(root.right, str);
+        private TreeNode buildTree(Deque<String> nodes) {
+            String val = nodes.remove();
+            if (val.equals(NN)) return null;
+            else {
+                TreeNode node = new TreeNode(Integer.valueOf(val));
+                node.left = buildTree(nodes);
+                node.right = buildTree(nodes);
+                return node;
             }
-            return str;
-        }
-
-
-        private TreeNode deserializeHelper(List<String> dataList) {
-            // Recursive deserialization.
-            if (dataList.get(0).equals("null")) {
-                dataList.remove(0);
-                return null;
-            }
-            TreeNode root = new TreeNode(Integer.valueOf(dataList.get(0)));
-            dataList.remove(0);
-            root.left = deserializeHelper(dataList);
-            root.right = deserializeHelper(dataList);
-            return root;
         }
     }
 }

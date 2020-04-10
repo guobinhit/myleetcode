@@ -31,24 +31,24 @@ import java.util.List;
  */
 public class _103 {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> ans = new ArrayList<>();
-        helper(root, ans, 0);
-        return ans;
+        List<List<Integer>> sol = new ArrayList<>();
+        travel(root, sol, 0);
+        return sol;
     }
 
-    private void helper(TreeNode curr, List<List<Integer>> ans, int level) {
+    private void travel(TreeNode curr, List<List<Integer>> sol, int level) {
         if (curr == null) return;
-        if (ans.size() <= level) {
+
+        if (sol.size() <= level) {
             List<Integer> newLevel = new LinkedList<>();
-            ans.add(newLevel);
+            sol.add(newLevel);
         }
-        List<Integer> collection = ans.get(level);
-        if (level % 2 == 0) {
-            collection.add(curr.val);
-        } else {
-            collection.add(0, curr.val);
-        }
-        helper(curr.left, ans, level + 1);
-        helper(curr.right, ans, level + 1);
+
+        List<Integer> collection = sol.get(level);
+        if (level % 2 == 0) collection.add(curr.val);
+        else collection.add(0, curr.val);
+
+        travel(curr.left, sol, level + 1);
+        travel(curr.right, sol, level + 1);
     }
 }

@@ -26,15 +26,11 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.dynami
  */
 public class _121 {
     public int maxProfit(int[] prices) {
-        int minPrice = Integer.MAX_VALUE;
-        int maxProfit = 0;
-        for (int price : prices) {
-            if (price < minPrice) {
-                minPrice = price;
-            } else if (price - minPrice > maxProfit) {
-                maxProfit = price - minPrice;
-            }
+        int maxCur = 0, maxSoFar = 0;
+        for (int i = 1; i < prices.length; i++) {
+            maxCur = Math.max(0, maxCur += prices[i] - prices[i - 1]);
+            maxSoFar = Math.max(maxCur, maxSoFar);
         }
-        return maxProfit;
+        return maxSoFar;
     }
 }

@@ -23,11 +23,15 @@ public class _54 {
         List<Integer> targetList = new ArrayList<Integer>();
 
         // If matrix.length == 0, return targetList immediately
-        if (matrix.length == 0) return targetList;
+        if (matrix.length == 0) {
+            return targetList;
+        }
 
         // Initial variables
-        int rowBegin = 0, rowEnd = matrix.length - 1;
-        int colBegin = 0, colEnd = matrix[0].length - 1;
+        int rowBegin = 0;
+        int rowEnd = matrix.length - 1;
+        int colBegin = 0;
+        int colEnd = matrix[0].length - 1;
 
         // Iterate all element of matrix，condition is rowBegin <= rowEnd && colBegin <= colEnd
         while (rowBegin <= rowEnd && colBegin <= colEnd) {

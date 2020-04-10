@@ -22,20 +22,16 @@ import java.util.Arrays;
  */
 public class _300 {
     public int lengthOfLIS(int[] nums) {
-        if (nums.length == 0) return 0;
         int[] dp = new int[nums.length];
-        dp[0] = 1;
-        int ans = 1;
-        for (int i = 1; i < dp.length; i++) {
-            int val = 0;
-            for (int j = 0; j < i; j++) {
-                if (nums[i] > nums[j]) {
-                    val = Math.max(val, dp[j]);
-                }
-            }
-            dp[i] = val + 1;
-            ans = Math.max(ans, dp[i]);
+        int len = 0;
+
+        for (int x : nums) {
+            int i = Arrays.binarySearch(dp, 0, len, x);
+            if (i < 0) i = -(i + 1);
+            dp[i] = x;
+            if (i == len) len++;
         }
-        return ans;
+
+        return len;
     }
 }

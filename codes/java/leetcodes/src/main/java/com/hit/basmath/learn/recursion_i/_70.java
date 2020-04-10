@@ -29,55 +29,21 @@ package com.hit.basmath.learn.recursion_i;
  * 3. 2 steps + 1 step
  */
 public class _70 {
-    /**
-     * 递归
-     *
-     * @param n
-     * @return
-     */
     public int climbStairs(int n) {
-        return climb_Stairs(0, n);
-    }
-
-    private int climb_Stairs(int i, int n) {
-        if (i > n) return 0;
-        if (i == n) return 1;
-        return climb_Stairs(i + 1, n) + climb_Stairs(i + 2, n);
-    }
-
-    /**
-     * 记忆化递归
-     *
-     * @param n
-     * @return
-     */
-    public int climbStairs2(int n) {
-        int[] memo = new int[n + 1];
-        return climb_Stairs(0, n, memo);
-    }
-
-    private int climb_Stairs(int i, int n, int[] memo) {
-        if (i > n) return 0;
-        if (i == n) return 1;
-        if (memo[i] > 0) return memo[i];
-        memo[i] = climb_Stairs(i + 1, n, memo) + climb_Stairs(i + 2, n, memo);
-        return memo[i];
-    }
-
-    /**
-     * 动态规划
-     *
-     * @param n
-     * @return
-     */
-    public int climbStairs3(int n) {
+        // base cases
+        if (n <= 0) return 0;
         if (n == 1) return 1;
-        int[] dp = new int[n + 1];
-        dp[1] = 1;
-        dp[2] = 2;
-        for (int i = 3; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
+        if (n == 2) return 2;
+
+        int one_step_before = 2;
+        int two_steps_before = 1;
+        int all_ways = 0;
+
+        for (int i = 2; i < n; i++) {
+            all_ways = one_step_before + two_steps_before;
+            two_steps_before = one_step_before;
+            one_step_before = all_ways;
         }
-        return dp[n];
+        return all_ways;
     }
 }

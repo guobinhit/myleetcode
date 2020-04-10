@@ -31,8 +31,13 @@ package com.hit.basmath.learn.binary_search;
 public class _50 {
     public double myPow(double x, int n) {
         double temp;
-        if (n == 0) return 1;
+
+        if (n == 0) {
+            return 1;
+        }
+
         temp = myPow(x, n / 2);
+
         if (n % 2 == 0) {
             return temp * temp;
         } else {

@@ -31,14 +31,14 @@ public class _17 {
      * backtracking algorithm discards it by making some changes on the previous step,
      * i.e. backtracks and then try again.
      * <p>
-     * Here is a backtrack function backtrack(combination, nextDigits)
+     * Here is a backtrack function backtrack(combination, next_digits)
      * which takes as arguments an ongoing letter combination and the next digits to check.
      * <p>
      * If there is no more digits to check that means that the current combination is done.
      * If there are still digits to check :
      * -- Iterate over the letters mapping the next available digit.
      * -- -- Append the current letter to the current combination combination = combination + letter.
-     * -- -- Proceed to check next digits : backtrack(combination + letter, nextDigits[1:]).
+     * -- -- Proceed to check next digits : backtrack(combination + letter, next_digits[1:]).
      * <p>
      * Complexity Analysis
      * <p>
@@ -65,14 +65,9 @@ public class _17 {
 
     private List<String> output = new ArrayList<String>();
 
-    public List<String> letterCombinations(String digits) {
-        if (digits.length() != 0) backtrack("", digits);
-        return output;
-    }
-
-    private void backtrack(String combination, String nextDigits) {
+    public void backtrack(String combination, String next_digits) {
         // if there is no more digits to check
-        if (nextDigits.length() == 0) {
+        if (next_digits.length() == 0) {
             // the combination is done
             output.add(combination);
         }
@@ -80,14 +75,20 @@ public class _17 {
         else {
             // iterate over all letters which map
             // the next available digit
-            String digit = nextDigits.substring(0, 1);
+            String digit = next_digits.substring(0, 1);
             String letters = phone.get(digit);
             for (int i = 0; i < letters.length(); i++) {
                 String letter = phone.get(digit).substring(i, i + 1);
                 // append the current letter to the combination
                 // and proceed to the next digits
-                backtrack(combination + letter, nextDigits.substring(1));
+                backtrack(combination + letter, next_digits.substring(1));
             }
         }
+    }
+
+    private List<String> letterCombinations(String digits) {
+        if (digits.length() != 0)
+            backtrack("", digits);
+        return output;
     }
 }

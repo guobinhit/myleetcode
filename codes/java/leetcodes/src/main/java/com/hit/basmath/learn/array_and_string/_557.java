@@ -14,7 +14,7 @@ package com.hit.basmath.learn.array_and_string;
  * Note: In the string, each word is separated by single space and there will not be any extra space in the string.
  */
 public class _557 {
-    public String reverseWords(String s) {
+    public static String reverseWords(String s) {
         char[] sChar = s.toCharArray();
         for (int i = 0; i < sChar.length; i++) {
             if (sChar[i] != ' ') {
@@ -40,7 +40,7 @@ public class _557 {
         return new String(sChar);
     }
 
-    private void reverse(char[] sChar, int i, int j) {
+    private static void reverse(char[] sChar, int i, int j) {
         while (i < j) {
             char tmp = sChar[i];
             sChar[i] = sChar[j];
@@ -48,5 +48,10 @@ public class _557 {
             i++;
             j--;
         }
+    }
+
+    public static void main(String[] args) {
+        String s = "Let's take LeetCode contest";
+        System.out.println(reverseWords(s));
     }
 }

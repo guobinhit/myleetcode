@@ -28,8 +28,10 @@ public class _69 {
      * @param x
      * @return
      */
-    public int mySqrt(int x) {
-        if (x == 0) return 0;
+    public static int mySqrt(int x) {
+        if (x == 0) {
+            return 0;
+        }
         int left = 1, right = Integer.MAX_VALUE;
         while (true) {
             int mid = left + (right - left) / 2;
@@ -51,15 +53,15 @@ public class _69 {
      * @param x
      * @return
      */
-    public int mySqrt2(int x) {
-        if (x < 2) return x;
-        double x0 = x;
-        double x1 = (x0 + x / x0) / 2.0;
-        while (Math.abs(x0 - x1) >= 1) {
-            x0 = x1;
-            x1 = (x0 + x / x0) / 2.0;
+    public static int mySqrt2(int x) {
+        if (x == 0) {
+            return 0;
         }
-        return (int) x1;
+        long i = x;
+        while (i > x / i) {
+            i = (i + x / i) / 2;
+        }
+        return (int) i;
     }
 
     /**
@@ -68,7 +70,7 @@ public class _69 {
      * @param x
      * @return
      */
-    public int mySqrt3(int x) {
+    public static int mySqrt3(int x) {
         if (x == 0) {
             return 0;
         }

@@ -27,7 +27,9 @@ import java.util.Map;
  */
 public class _166 {
     public String fractionToDecimal(int numerator, int denominator) {
-        if (numerator == 0) return "0";
+        if (numerator == 0) {
+            return "0";
+        }
         StringBuilder fraction = new StringBuilder();
         // If either one is negative (not both)
         if (numerator < 0 ^ denominator < 0) {

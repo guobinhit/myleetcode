@@ -1,4 +1,4 @@
-package com.hit.basmath.interview.top_interview_questions.easy_collection.others;
+    package com.hit.basmath.interview.top_interview_questions.easy_collection.others;
 
 /**
  * 191. Number of 1 Bits
@@ -37,15 +37,11 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.others
 public class _191 {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
-        int sum = 0;
+        int ones = 0;
         while (n != 0) {
-            sum++;
-            /**
-             * n & (n - 1) always change the lowest 1 in n to 0
-             * and keep the other bits unchanged
-             */
-            n &= (n - 1);
+            ones = ones + (n & 1);
+            n = n >>> 1;
         }
-        return sum;
+        return ones;
     }
 }

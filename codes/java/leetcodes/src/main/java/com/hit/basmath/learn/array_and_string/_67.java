@@ -20,7 +20,7 @@ import java.math.BigInteger;
  * Output: "10101"
  */
 public class _67 {
-    public String addBinary(String a, String b) {
+    public static String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();
         /**
          * Let String to CharArray can improve efficiency
@@ -56,7 +56,7 @@ public class _67 {
         return sb.reverse().toString();
     }
 
-    public String addBinary2(String a, String b) {
+    public static String addBinary2(String a, String b) {
         StringBuilder sb = new StringBuilder();
         int i = a.length() - 1, j = b.length() - 1, carry = 0;
         while (i >= 0 || j >= 0) {
@@ -74,5 +74,29 @@ public class _67 {
             sb.append(carry);
         }
         return sb.reverse().toString();
+    }
+
+    /**
+     * This is the simplest way, but it can't show our logical ability
+     *
+     * @param a
+     * @param b
+     * @return
+     */
+    public static String addBinary3(String a, String b) {
+        return new BigInteger(a, 2).add(new BigInteger(b, 2)).toString(2);
+    }
+
+    public static void main(String[] args) {
+        String s1 = "11";
+        String s2 = "1";
+        String s3 = "1010";
+        String s4 = "1011";
+        System.out.println(_67.addBinary(s1, s2));
+        System.out.println(_67.addBinary2(s1, s2));
+        System.out.println(_67.addBinary3(s1, s2));
+        System.out.println(_67.addBinary(s3, s4));
+        System.out.println(_67.addBinary2(s3, s4));
+        System.out.println(_67.addBinary3(s3, s4));
     }
 }

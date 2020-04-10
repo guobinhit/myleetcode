@@ -14,22 +14,14 @@ package com.hit.basmath.learn.others;
  */
 public class _415 {
     public String addStrings(String num1, String num2) {
-        if (num1 == null || num1.length() == 0) return num2;
-        if (num2 == null || num2.length() == 0) return num1;
-        StringBuilder ans = new StringBuilder();
-        int num1Length = num1.length() - 1;
-        int num2Length = num2.length() - 1;
+        StringBuilder sb = new StringBuilder();
         int carry = 0;
-        while (num1Length >= 0 || num2Length >= 0) {
-            int x = num1Length >= 0 ? num1.charAt(num1Length) - '0' : 0;
-            int y = num2Length >= 0 ? num2.charAt(num2Length) - '0' : 0;
-            int sum = x + y + carry;
-            carry = sum / 10;
-            ans.append(sum % 10);
-            num1Length--;
-            num2Length--;
+        for (int i = num1.length() - 1, j = num2.length() - 1; i >= 0 || j >= 0 || carry == 1; i--, j--) {
+            int x = i < 0 ? 0 : num1.charAt(i) - '0';
+            int y = j < 0 ? 0 : num2.charAt(j) - '0';
+            sb.append((x + y + carry) % 10);
+            carry = (x + y + carry) / 10;
         }
-        if (carry == 1) ans.append(1);
-        return ans.reverse().toString();
+        return sb.reverse().toString();
     }
 }

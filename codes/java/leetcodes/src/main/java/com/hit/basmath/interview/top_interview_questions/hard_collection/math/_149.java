@@ -42,9 +42,10 @@ import java.util.HashMap;
  */
 public class _149 {
     public int maxPoints(int[][] points) {
-        if (points.length <= 2) return points.length;
-        int max = 0;
-        int localMax;
+        if(points.length<=2) return points.length;
+        int max=0;
+        int localMax=0;
+
         for (int[] point : points) {
             HashMap<String, Integer> map = new HashMap<>();
             int overlap = 0;
@@ -66,11 +67,13 @@ public class _149 {
             localMax += overlap;
             max = Math.max(localMax, max);
         }
+
         return max;
     }
 
-    private int gcd(int x, int y) {
-        if (y == 0) return x;
-        return gcd(y, x % y);
+    private int gcd(int x, int y){
+        if(y==0) return x;
+
+        return gcd(y,x%y);
     }
 }

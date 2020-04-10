@@ -38,16 +38,13 @@ public class _146 {
             DLinkedNode next;
         }
 
-        private Hashtable<Integer, DLinkedNode> cache = new Hashtable<>();
-        private int size, capacity;
-        private DLinkedNode head, tail;
-
         private void addNode(DLinkedNode node) {
             /**
              * Always add the new node right after head.
              */
             node.prev = head;
             node.next = head.next;
+
             head.next.prev = node;
             head.next = node;
         }
@@ -58,6 +55,7 @@ public class _146 {
              */
             DLinkedNode prev = node.prev;
             DLinkedNode next = node.next;
+
             prev.next = next;
             next.prev = prev;
         }
@@ -74,18 +72,26 @@ public class _146 {
             /**
              * Pop the current tail.
              */
-            DLinkedNode tailNode = tail.prev;
-            removeNode(tailNode);
-            return tailNode;
+            DLinkedNode res = tail.prev;
+            removeNode(res);
+            return res;
         }
+
+        private Hashtable<Integer, DLinkedNode> cache = new Hashtable<>();
+        private int size;
+        private int capacity;
+        private DLinkedNode head, tail;
 
         public LRUCache(int capacity) {
             this.size = 0;
             this.capacity = capacity;
+
             head = new DLinkedNode();
             // head.prev = null;
+
             tail = new DLinkedNode();
             // tail.next = null;
+
             head.next = tail;
             tail.prev = head;
         }
@@ -93,20 +99,26 @@ public class _146 {
         public int get(int key) {
             DLinkedNode node = cache.get(key);
             if (node == null) return -1;
+
             // move the accessed node to the head;
             moveToHead(node);
+
             return node.value;
         }
 
         public void put(int key, int value) {
             DLinkedNode node = cache.get(key);
+
             if (node == null) {
                 DLinkedNode newNode = new DLinkedNode();
                 newNode.key = key;
                 newNode.value = value;
+
                 cache.put(key, newNode);
                 addNode(newNode);
+
                 ++size;
+
                 if (size > capacity) {
                     // pop the tail
                     DLinkedNode tail = popTail();

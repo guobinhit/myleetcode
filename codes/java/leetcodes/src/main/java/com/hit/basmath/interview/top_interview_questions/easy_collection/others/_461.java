@@ -26,10 +26,9 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.others
  */
 public class _461 {
     public int hammingDistance(int x, int y) {
-        int curr = x ^ y, count = 0;
-        while (curr != 0) {
-            count++;
-            curr = curr & (curr - 1);
+        int xor = x ^ y, count = 0;
+        for (int i = 0; i < 32; i++) {
+            count += (xor >> i) & 1;
         }
         return count;
     }

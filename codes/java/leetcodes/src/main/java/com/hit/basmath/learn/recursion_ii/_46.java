@@ -1,8 +1,6 @@
 package com.hit.basmath.learn.recursion_ii;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -26,28 +24,23 @@ import java.util.List;
  * ]
  */
 public class _46 {
-    public List<List<Integer>> permute(int[] nums) {
-        // init output list
-        List<List<Integer>> output = new LinkedList<>();
-        // convert nums into list since the output is a list of lists
-        List<Integer> numsList = new ArrayList<>();
-        for (int num : nums) numsList.add(num);
-        int n = nums.length;
-        backtrack(n, numsList, output, 0);
-        return output;
-    }
-
-    private void backtrack(int n, List<Integer> nums, List<List<Integer>> output, int first) {
-        // if all integers are used up
-        if (first == n) output.add(new ArrayList<>(nums));
-        for (int i = first; i < n; i++) {
-            // place i-th integer first 
-            // in the current permutation
-            Collections.swap(nums, first, i);
-            // use next integers to complete the permutations
-            backtrack(n, nums, output, first + 1);
-            // backtrack
-            Collections.swap(nums, first, i);
+    public List<List<Integer>> permute(int[] num) {
+        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        if (num.length == 0) return ans;
+        List<Integer> l0 = new ArrayList<Integer>();
+        l0.add(num[0]);
+        ans.add(l0);
+        for (int i = 1; i < num.length; ++i) {
+            List<List<Integer>> new_ans = new ArrayList<List<Integer>>();
+            for (int j = 0; j <= i; ++j) {
+                for (List<Integer> l : ans) {
+                    List<Integer> new_l = new ArrayList<Integer>(l);
+                    new_l.add(j, num[i]);
+                    new_ans.add(new_l);
+                }
+            }
+            ans = new_ans;
         }
+        return ans;
     }
 }

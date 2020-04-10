@@ -17,12 +17,16 @@ package com.hit.basmath.learn.array_and_string;
  */
 public class _498 {
     public int[] findDiagonalOrder(int[][] matrix) {
-        if (matrix.length == 0) return new int[0];
+        if (matrix.length == 0) {
+            return new int[0];
+        }
+
         // Initial variable
         int row = 0, col = 0;
         int m = matrix.length;
         int n = matrix[0].length;
         int[] aimArr = new int[m * n];
+
         // Execute m * n times circle, in order to fill m * n element into aimArr
         for (int i = 0; i < aimArr.length; i++) {
             aimArr[i] = matrix[row][col];

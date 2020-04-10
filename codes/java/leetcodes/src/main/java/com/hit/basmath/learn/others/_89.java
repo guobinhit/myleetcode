@@ -1,6 +1,6 @@
 package com.hit.basmath.learn.others;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -41,16 +41,8 @@ import java.util.List;
  */
 public class _89 {
     public List<Integer> grayCode(int n) {
-        List<Integer> gray = new ArrayList<Integer>();
-        //初始化 n = 0 的解
-        gray.add(0);
-        for (int i = 0; i < n; i++) {
-            int add = 1 << i; //要加的数
-            //倒序遍历，并且将上一个值添加到结果中
-            for (int j = gray.size() - 1; j >= 0; j--) {
-                gray.add(gray.get(j) + add);
-            }
-        }
-        return gray;
+        List<Integer> result = new LinkedList<>();
+        for (int i = 0; i < 1 << n; i++) result.add(i ^ i >> 1);
+        return result;
     }
 }

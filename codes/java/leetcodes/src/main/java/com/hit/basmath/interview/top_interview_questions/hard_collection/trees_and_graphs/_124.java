@@ -32,9 +32,10 @@ import com.hit.common.TreeNode;
  * Output: 42
  */
 public class _124 {
-    private int maxValue = Integer.MIN_VALUE;
+    private int maxValue;
 
     public int maxPathSum(TreeNode root) {
+        maxValue = Integer.MIN_VALUE;
         maxPathDown(root);
         return maxValue;
     }

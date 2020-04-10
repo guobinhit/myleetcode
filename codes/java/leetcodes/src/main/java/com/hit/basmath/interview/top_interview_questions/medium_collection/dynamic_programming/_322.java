@@ -1,7 +1,5 @@
 package com.hit.basmath.interview.top_interview_questions.medium_collection.dynamic_programming;
 
-import java.util.Arrays;
-
 /**
  * 322. Coin Change
  * <p>
@@ -24,17 +22,20 @@ import java.util.Arrays;
  */
 public class _322 {
     public int coinChange(int[] coins, int amount) {
-        int max = amount + 1;
+        if (amount < 1) return 0;
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, max);
-        dp[0] = 0;
-        for (int i = 1; i <= amount; i++) {
+        int sum = 0;
+
+        while (++sum <= amount) {
+            int min = -1;
             for (int coin : coins) {
-                if (coin <= i) {
-                    dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+                if (sum >= coin && dp[sum - coin] != -1) {
+                    int temp = dp[sum - coin] + 1;
+                    min = min < 0 ? temp : (temp < min ? temp : min);
                 }
             }
+            dp[sum] = min;
         }
-        return dp[amount] > amount ? -1 : dp[amount];
+        return dp[amount];
     }
 }

@@ -32,13 +32,14 @@ public class _109 {
         ListNode slow = head;
         ListNode fast = head;
         if (head == tail) return null;
+
         while (fast != tail && fast.next != tail) {
             fast = fast.next.next;
             slow = slow.next;
         }
-        TreeNode root = new TreeNode(slow.val);
-        root.left = toBST(head, slow);
-        root.right = toBST(slow.next, tail);
-        return root;
+        TreeNode thead = new TreeNode(slow.val);
+        thead.left = toBST(head, slow);
+        thead.right = toBST(slow.next, tail);
+        return thead;
     }
 }

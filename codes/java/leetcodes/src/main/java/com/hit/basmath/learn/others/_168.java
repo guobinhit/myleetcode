@@ -33,16 +33,14 @@ package com.hit.basmath.learn.others;
  */
 public class _168 {
     public String convertToTitle(int n) {
-        StringBuilder builder = new StringBuilder();
-        while (n != 0) {
-            int temp = n % 26;
-            n = n / 26;
-            if (temp == 0) {
-                temp = 26;
-                n = n - 1;
-            }
-            builder.append((char) ('A' + temp - 1));
+        StringBuilder result = new StringBuilder();
+
+        while (n > 0) {
+            n--;
+            result.insert(0, (char) ('A' + n % 26));
+            n /= 26;
         }
-        return builder.reverse().toString();
+
+        return result.toString();
     }
 }

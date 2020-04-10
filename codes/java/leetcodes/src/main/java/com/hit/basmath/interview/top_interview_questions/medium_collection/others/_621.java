@@ -1,7 +1,5 @@
 package com.hit.basmath.interview.top_interview_questions.medium_collection.others;
 
-import java.util.Arrays;
-
 /**
  * 621. Task Scheduler
  * <p>
@@ -24,13 +22,25 @@ import java.util.Arrays;
  */
 public class _621 {
     public int leastInterval(char[] tasks, int n) {
-        int[] map = new int[26];
-        for (char c : tasks) map[c - 'A']++;
-        Arrays.sort(map);
-        int maxVal = map[25] - 1, idleSlots = maxVal * n;
-        for (int i = 24; i >= 0 && map[i] > 0; i--) {
-            idleSlots -= Math.min(map[i], maxVal);
+        int[] counter = new int[26];
+        int max = 0;
+        int maxCount = 0;
+        for (char task : tasks) {
+            counter[task - 'A']++;
+            if (max == counter[task - 'A']) {
+                maxCount++;
+            } else if (max < counter[task - 'A']) {
+                max = counter[task - 'A'];
+                maxCount = 1;
+            }
         }
-        return idleSlots > 0 ? idleSlots + tasks.length : tasks.length;
+
+        int partCount = max - 1;
+        int partLength = n - (maxCount - 1);
+        int emptySlots = partCount * partLength;
+        int availableTasks = tasks.length - max * maxCount;
+        int idles = Math.max(0, emptySlots - availableTasks);
+
+        return tasks.length + idles;
     }
 }

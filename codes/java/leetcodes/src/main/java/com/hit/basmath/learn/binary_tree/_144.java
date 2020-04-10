@@ -2,7 +2,7 @@ package com.hit.basmath.learn.binary_tree;
 
 import com.hit.common.TreeNode;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -26,34 +26,18 @@ import java.util.Stack;
  */
 public class _144 {
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        if (root == null) return ans;
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            TreeNode curr = stack.pop();
-            ans.add(curr.val);
-            if (curr.right != null) {
-                stack.push(curr.right);
+        List<Integer> list = new LinkedList<Integer>();
+        Stack<TreeNode> rights = new Stack<TreeNode>();
+        while (root != null) {
+            list.add(root.val);
+            if (root.right != null) {
+                rights.push(root.right);
             }
-            if (curr.left != null) {
-                stack.push(curr.left);
+            root = root.left;
+            if (root == null && !rights.isEmpty()) {
+                root = rights.pop();
             }
         }
-        return ans;
-    }
-
-    public List<Integer> preorderTraversal2(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
-        helper(root, ans);
-        return ans;
-    }
-
-    private void helper(TreeNode root, List<Integer> ans) {
-        if (root != null) {
-            ans.add(root.val);
-            if (root.left != null) helper(root.left, ans);
-            if (root.right != null) helper(root.right, ans);
-        }
+        return list;
     }
 }

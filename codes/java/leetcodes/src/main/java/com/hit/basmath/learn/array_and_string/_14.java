@@ -25,7 +25,9 @@ package com.hit.basmath.learn.array_and_string;
  */
 public class _14 {
     public String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0) return "";
+        if (strs == null || strs.length == 0) {
+            return "";
+        }
 
         /**
          * Let first element of strs as a initial aim longest common prefix

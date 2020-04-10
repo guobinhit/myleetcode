@@ -91,17 +91,16 @@ public class _22 {
         return ans;
     }
 
-    private void backtrack(List<String> ans, String curr, int open, int close, int max) {
-        if (curr.length() == max * 2) {
-            ans.add(curr);
+    private void backtrack(List<String> ans, String cur, int open, int close, int max) {
+        if (cur.length() == max * 2) {
+            ans.add(cur);
             return;
         }
-        if (open < max) {
-            backtrack(ans, curr + "(", open + 1, close, max);
-        }
-        if (close < open) {
-            backtrack(ans, curr + ")", open, close + 1, max);
-        }
+
+        if (open < max)
+            backtrack(ans, cur + "(", open + 1, close, max);
+        if (close < open)
+            backtrack(ans, cur + ")", open, close + 1, max);
     }
 
 

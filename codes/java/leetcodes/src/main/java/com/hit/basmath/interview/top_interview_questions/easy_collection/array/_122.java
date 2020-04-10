@@ -35,12 +35,16 @@ package com.hit.basmath.interview.top_interview_questions.easy_collection.array;
  */
 public class _122 {
     public int maxProfit(int[] prices) {
-        int maxProfit = 0;
-        for (int i = 1; i < prices.length; i++) {
-            if (prices[i] > prices[i - 1]) {
-                maxProfit += prices[i] - prices[i - 1];
-            }
+        int profit = 0, i = 0;
+        while (i < prices.length) {
+            // find next local minimum
+            while (i < prices.length - 1 && prices[i + 1] <= prices[i]) i++;
+            // need increment to avoid infinite loop for "[1]"
+            int min = prices[i++];
+            // find next local maximum
+            while (i < prices.length - 1 && prices[i + 1] >= prices[i]) i++;
+            profit += i < prices.length ? prices[i++] - min : 0;
         }
-        return maxProfit;
+        return profit;
     }
 }

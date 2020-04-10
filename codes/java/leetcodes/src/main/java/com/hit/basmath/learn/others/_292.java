@@ -17,6 +17,9 @@ package com.hit.basmath.learn.others;
  */
 public class _292 {
     public boolean canWinNim(int n) {
-        return n > 0 && n % 4 != 0;
+        if (n <= 0) {
+            return false;
+        }
+        return n % 4 != 0;
     }
 }

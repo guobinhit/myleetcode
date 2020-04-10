@@ -1,4 +1,4 @@
-package com.hit.basinfo.data_structure;
+package com.hit.basinfo.base_data_structure;
 
 import com.hit.common.ListNode;
 

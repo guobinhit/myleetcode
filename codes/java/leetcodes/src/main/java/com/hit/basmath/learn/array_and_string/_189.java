@@ -38,7 +38,9 @@ import java.util.Arrays;
  */
 public class _189 {
     public void rotate(int[] nums, int k) {
-        if (nums == null || nums.length < 2) return;
+        if (nums == null || nums.length < 2) {
+            return;
+        }
         /**
          * When k is larger than nums.length,
          * mode operation can let us get smallest step number
@@ -69,7 +71,7 @@ public class _189 {
         System.out.println(Arrays.toString(nums));
     }
 
-    private void reverse(int[] nums, int start, int end) {
+    public static void reverse(int[] nums, int start, int end) {
         while (start < end) {
             int temp = nums[start];
             nums[start] = nums[end];
@@ -79,6 +81,29 @@ public class _189 {
              */
             start++;
             end--;
+        }
+    }
+
+    /**
+     * Another method can be reference
+     *
+     * @param nums
+     * @param k
+     */
+    static void rotate2(int[] nums, int k) {
+        if (nums.length == 0) {
+            return;
+        }
+        int n = nums.length;
+        while ((k %= n) > 0 && n > 1) {
+            int range = n - k;
+            for (int i = 1; i <= range; i++) {
+                int val = nums[n - i];
+                nums[n - i] = nums[n - i - k];
+                nums[n - i - k] = val;
+            }
+            n = k;
+            k = n - (range % k);
         }
     }
 }

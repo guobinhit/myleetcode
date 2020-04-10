@@ -42,30 +42,24 @@ import java.util.Stack;
 public class _150 {
     public int evalRPN(String[] tokens) {
         int a, b;
-        Stack<Integer> stack = new Stack<Integer>();
-        for (String token : tokens) {
-            switch (token) {
-                case "+":
-                    stack.add(stack.pop() + stack.pop());
-                    break;
-                case "/":
-                    b = stack.pop();
-                    a = stack.pop();
-                    stack.add(a / b);
-                    break;
-                case "*":
-                    stack.add(stack.pop() * stack.pop());
-                    break;
-                case "-":
-                    b = stack.pop();
-                    a = stack.pop();
-                    stack.add(a - b);
-                    break;
-                default:
-                    stack.add(Integer.parseInt(token));
-                    break;
+        Stack<Integer> S = new Stack<Integer>();
+        for (String s : tokens) {
+            if (s.equals("+")) {
+                S.add(S.pop() + S.pop());
+            } else if (s.equals("/")) {
+                b = S.pop();
+                a = S.pop();
+                S.add(a / b);
+            } else if (s.equals("*")) {
+                S.add(S.pop() * S.pop());
+            } else if (s.equals("-")) {
+                b = S.pop();
+                a = S.pop();
+                S.add(a - b);
+            } else {
+                S.add(Integer.parseInt(s));
             }
         }
-        return stack.pop();
+        return S.pop();
     }
 }

@@ -57,17 +57,16 @@ public class _8 {
             start = 1;
             neg = str.charAt(0) == '-' ? -1 : 1;
         }
+
         if (start >= str.length() || !isNumber(str.charAt(start))) return 0;
-        int ans = 0, i = start;
+        int res = 0, i = start;
         while (i < str.length() && isNumber(str.charAt(i))) {
             int digit = str.charAt(i++) - '0';
-            if (ans > Integer.MAX_VALUE / 10
-                    || (ans == Integer.MAX_VALUE / 10 && digit > 7)) {
+            if (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE / 10 && digit > 7))
                 return neg == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-            }
-            ans = ans * 10 + digit;
+            res = res * 10 + digit;
         }
-        return ans * neg;
+        return res * neg;
     }
 
     private boolean isNumber(char c) {

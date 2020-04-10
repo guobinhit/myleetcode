@@ -38,7 +38,7 @@ public class _341 {
      * while (i.hasNext()) v[f()] = i.next();
      */
     public class NestedIterator implements Iterator<Integer> {
-        private Stack<NestedInteger> stack = new Stack<>();
+        Stack<NestedInteger> stack = new Stack<>();
 
         public NestedIterator(List<NestedInteger> nestedList) {
             for (int i = nestedList.size() - 1; i >= 0; i--) {

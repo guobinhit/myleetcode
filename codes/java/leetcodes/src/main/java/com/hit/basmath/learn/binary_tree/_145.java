@@ -26,30 +26,21 @@ import java.util.Stack;
  */
 public class _145 {
     public List<Integer> postorderTraversal(TreeNode root) {
-        LinkedList<Integer> ans = new LinkedList<>();
+        LinkedList<Integer> result = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();
-        if (root == null) return ans;
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            TreeNode curr = stack.pop();
-            ans.addFirst(curr.val);
-            if (curr.left != null) stack.push(curr.left);
-            if (curr.right != null) stack.push(curr.right);
+        while (!stack.isEmpty() || root != null) {
+            if (root != null) {
+                stack.push(root);
+                // Reverse the process of preorder
+                result.addFirst(root.val);
+                // Reverse the process of preorder
+                root = root.right;
+            } else {
+                TreeNode node = stack.pop();
+                // Reverse the process of preorder
+                root = node.left;
+            }
         }
-        return ans;
-    }
-
-    public List<Integer> postorderTraversal2(TreeNode root) {
-        LinkedList<Integer> ans = new LinkedList<>();
-        helper(root, ans);
-        return ans;
-    }
-
-    private void helper(TreeNode root, List<Integer> ans) {
-        if (root != null) {
-            if (root.left != null) helper(root.left, ans);
-            if (root.right != null) helper(root.right, ans);
-            ans.add(root.val);
-        }
+        return result;
     }
 }

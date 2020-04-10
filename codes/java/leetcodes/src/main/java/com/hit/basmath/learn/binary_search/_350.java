@@ -1,6 +1,9 @@
 package com.hit.basmath.learn.binary_search;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * 350. Intersection of Two Arrays II
@@ -40,19 +43,19 @@ public class _350 {
         if (nums1.length > nums2.length) {
             return intersect(nums2, nums1);
         }
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int num : nums1) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+        HashMap<Integer, Integer> m = new HashMap<>();
+        for (int n : nums1) {
+            m.put(n, m.getOrDefault(n, 0) + 1);
         }
-        int index = 0;
-        for (int num : nums2) {
-            int cnt = map.getOrDefault(num, 0);
+        int k = 0;
+        for (int n : nums2) {
+            int cnt = m.getOrDefault(n, 0);
             if (cnt > 0) {
-                nums1[index++] = num;
-                map.put(num, cnt - 1);
+                nums1[k++] = n;
+                m.put(n, cnt - 1);
             }
         }
-        return Arrays.copyOfRange(nums1, 0, index);
+        return Arrays.copyOfRange(nums1, 0, k);
     }
 
     /**
