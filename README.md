@@ -859,6 +859,7 @@ You can also ask for problem solving ideas and discuss in GitHub issues directly
 |Sort 4|[Quick Sort](https://github.com/guobinhit/myleetcode#sort-algorithm)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/QuickSort.java)  & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basinfo/sort_algorithm/QuickSort.py)|Easy| Sort Algorithm
 |Sort 5|[Merge Sort](https://github.com/guobinhit/myleetcode#sort-algorithm)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/MergeSort.java)  & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basinfo/sort_algorithm/MergeSort.py)|Medium| Sort Algorithm
 |Sort 6|[Heap Sort](https://github.com/guobinhit/myleetcode#sort-algorithm)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/HeapSort.java)  & [Python](https://github.com/guobinhit/myleetcode/blob/master/codes/python/leetcodes/src/main/python/com/hit/basinfo/sort_algorithm/HeapSort.py)|Medium| Sort Algorithm
+|Sort 7|[Bucket Sort](https://github.com/guobinhit/myleetcode#sort-algorithm)|[Java](https://github.com/guobinhit/myleetcode/blob/master/codes/java/leetcodes/src/main/java/com/hit/basinfo/sort_algorithm/BucketSort.java)  & Python|Medium| Sort Algorithm
 
 
 
