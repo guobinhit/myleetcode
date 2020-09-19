@@ -51,8 +51,7 @@ public class _1 {
         }
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if (aMap.containsKey(complement) &&
-                    aMap.get(complement) != i) {
+            if (aMap.containsKey(complement) && aMap.get(complement) != i) {
                 return new int[]{i, aMap.get(complement)};
             }
         }
