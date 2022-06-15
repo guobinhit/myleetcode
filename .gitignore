@@ -26,3 +26,16 @@
 /nbdist/
 /.nb-gradle/
 **/target/
+
+### .DS_Store ###
+../../../.DS_Store
+../../.DS_Store
+../
+../../java/.DS_Store
+../../java/leetcodes/.DS_Store
+../../java/leetcodes/src/.DS_Store
+.DS_Store
+codes/.DS_Store
+codes/java/.DS_Store
+codes/java/leetcodes/.DS_Store
+codes/java/leetcodes/src/.DS_Store
