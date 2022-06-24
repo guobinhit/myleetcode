@@ -32,6 +32,14 @@ All solutions of LeetCode, must be created in package of `codes`.
 - Class Name: Start with `_`, then spell problem number of LeetCode.
 - Method Name: Initial in lowercase, then spell with `_`, if method name have more than one word.
 
+### Go
+
+- Class Name: Start with `_`, then spell problem number of LeetCode.
+- Method Name: Initial in lowercase, then follow hump format.
+
+
+
+
 
 
 
