@@ -29,13 +29,17 @@ All solutions of LeetCode, must be created in package of `codes`.
 
 ### Python
 
-- Class Name: Start with `_`, then spell problem number of LeetCode.
+- Python File Name: Start with `_`, then spell problem number of LeetCode.
 - Method Name: Initial in lowercase, then spell with `_`, if method name have more than one word.
 
 ### Go
 
-- Class Name: Start with `_`, then spell problem number of LeetCode.
+- Go File Name: Start with `_`, then spell problem number of LeetCode.
 - Method Name: Initial in lowercase, then follow hump format.
+
+## Commit style
+
+- Specify commit prefix based on language, such as `java:`、`python:` and `go:`.
 
 
 
