@@ -29,21 +29,21 @@ package easy_collection
  */
 
 func plusOne(digits []int) []int {
-	digits = reverse(digits)
+	digits = reverseDigits(digits)
 	for i, n := range digits {
 		if n+1 <= 9 {
 			digits[i] = n + 1
-			digits = reverse(digits)
+			digits = reverseDigits(digits)
 			return digits
 		}
 		digits[i] = 0
 	}
 	digits = append(digits, 1)
-	digits = reverse(digits)
+	digits = reverseDigits(digits)
 	return digits
 }
 
-func reverse(digits []int) []int {
+func reverseDigits(digits []int) []int {
 	newDigits := make([]int, 0)
 	digitsLen := len(digits)
 	for digitsLen > 0 {

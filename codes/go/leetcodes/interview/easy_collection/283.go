@@ -18,12 +18,10 @@ package easy_collection
  * Minimize the total number of operations.
  */
 
-func moveZeroes(nums []int) {
+func moveZeroes(nums []int) []int {
 	if len(nums) == 0 {
 		return nums
 	}
-
-	// move non zero number
 	nonZeroLength := 0
 	for _, n := range nums {
 		if n != 0 {
@@ -31,8 +29,6 @@ func moveZeroes(nums []int) {
 			nonZeroLength++
 		}
 	}
-
-	// fill zero number
 	for ; nonZeroLength < len(nums); nonZeroLength++ {
 		nums[nonZeroLength] = 0
 	}
