@@ -1,6 +1,8 @@
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/guobinhit/sylph v1.3.3 h1:EUflyQ3MvrufyrGRC5sSo5ND94eeeASHw22zBMpUyrM=
 github.com/guobinhit/sylph v1.3.3/go.mod h1:nvTaI9mV07YK//oYVLGG9MGqX7oy5xid/DDxp1eT3YE=
+github.com/guobinhit/sylph v1.4.0 h1:UDnKH3hp3ejHgnSXFyRA6DUSuTRP0ya4KNbGF5oDhPk=
+github.com/guobinhit/sylph v1.4.0/go.mod h1:nvTaI9mV07YK//oYVLGG9MGqX7oy5xid/DDxp1eT3YE=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
