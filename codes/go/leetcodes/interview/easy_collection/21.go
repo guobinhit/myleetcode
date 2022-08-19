@@ -11,6 +11,7 @@ package easy_collection
  * Output: 1->1->2->3->4->4
  */
 
+// ListNode Definition for singly-linked list.
 type ListNode struct {
 	Val  int
 	Next *ListNode

@@ -34,7 +34,7 @@ package easy_collection
  * Explanation: In this case, no transaction is done, i.e. max profit = 0.
  */
 
-func maxProfit2(prices []int) int {
+func maxProfit122(prices []int) int {
 	target := 0
 	for i, p := range prices {
 		if i > 0 {
