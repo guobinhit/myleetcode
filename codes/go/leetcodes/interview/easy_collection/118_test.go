@@ -1,7 +1,7 @@
 package easy_collection
 
 import (
-	"github.com/guobinhit/sylph/common/utils"
+	"github.com/guobinhit/sylph/utils"
 	"reflect"
 	"testing"
 )
